@@ -1,0 +1,67 @@
+# Arctic Linux repository index
+# format	2
+# generated	2026-07-31 17:48:32
+# fields	name version release arch dlsize isize sha256 deps desc
+alsa-lib	1.2.15	1	x86_64	520904	2408448	37aee026cb761b51d0bc1d3cfcb9d76d1006cee7af9b23c4b7587c5c06888d98	glibc	ALSA library
+aom	3.14.1	1	x86_64	5547676	21315584	22a0e99237d8af7a621d039e055ba8fc13ae81af3bfce24fbfe4e4f8c0383af3	glibc	AV1 codec
+cairo	1.18.4	1	x86_64	605972	1843200	4bfda6c372139b074516b7289e566d813a19e4efea8ba63c7c9aa1f10d1323a9	glibc pixman freetype fontconfig libpng glib	2D graphics library
+dash	0.5.13	1	x86_64	77680	204800	f0793f6a13ba51a1c1fd32eed0e95bfd61cf8588d39ab23dbc0429296235b8f5	glibc	POSIX-compliant minimal shell
+dmenu	5.4	1	x86_64	15976	73728	c2765145fe6bb5632e4d7b6c5f97a8b5e52f8c5a21cc8aaf7bad8f79fbbc3c33	libx11 libxft libxinerama freetype fontconfig	Dynamic menu for X
+dnsmasq	2.92	1	x86_64	230584	585728	e0745132192cb4a15aa7fd97de4eda9a163e3c912aa0d9db4a1f97d41ed25927	glibc libnetfilter_conntrack	Lightweight DNS and DHCP server
+dunst	1.13.0	1	x86_64	108572	421888	bddd3daa39898b7bb1d2f5882d4c79cefd9aafb8ec9d24e6287289aebd308c5c	libx11 pango cairo libxinerama libxrandr dbus	Notification daemon for X
+dwl	0.8	1	x86_64	28044	102400	b0f9c6820ed265a4137b531873b35107a901a7632222246bdfc0e50cc5c50cf8	glibc wayland wlroots libinput libxkbcommon	Dynamic window manager for Wayland, in the spirit of dwm
+fribidi	1.0.16	1	x86_64	42204	421888	94d16de3e7803c60b2698305e6392fb33fe8c464edc50c9e35894ba469fbe704	glibc	Bidirectional text algorithm
+glibmm	2.84.0	1	x86_64	1036460	7700480	c9c49977f68b15c2e5bcc9259592e0e9bb4a5709f549c2005d5edfc8c67d0747	glib libsigcplusplus	C++ bindings for glib
+gnupg	2.5.14	1	x86_64	1820000	7868416	ff4003eebb5e55866cb130d4a80ed18dcb422bbead92995fbd9e3263906f093b	glibc libgcrypt libassuan libksba npth zlib	Encryption and signing
+gsl	2.8	1	x86_64	1581804	12206080	043c391412a87f725f6aea4b879737c27d44a236208498088572f641f47ccc13	glibc	GNU scientific library, for inkscape
+iptables-nft	1.8.11	1	x86_64	352232	3076096	b10f03b7e7093d49a9d8a4b7576ba17db157f0b0acfa0e37d3f2cc0e450cde29	glibc libmnl libnftnl	iptables compatibility over nftables
+lcms2	2.17	1	x86_64	174440	593920	756a07f74a30d58a2e104affe9bd79c20f52894dcc7638acc06328ffd825a8f4	glibc libjpeg-turbo libtiff	Colour management engine
+libassuan	3.0.2	1	x86_64	41512	139264	761a4cda6a503f1b59903ee7fda4663bbe671a4afa5fb9317d8f3e21dde3b637	glibc libgpg-error	IPC library for GnuPG
+libdrm	2.4.130	1	x86_64	284176	1363968	1afe4b8bcf9a75935e723109963d27e3404c2f079de54ce5e541eeb3daa09cf6	glibc libpciaccess	Direct Rendering Manager library
+libfontenc	1.1.8	1	x86_64	17076	102400	2a9c92d55ab28ee9fbd323aaf968ffbe872f9ee1c6abeb4af41a2537a8aedc19	glibc zlib	X font encoding library
+libgcrypt	1.11.2	1	x86_64	578884	1908736	7d86f4721948b624b77e2a2a5225a56f4ae37a437dec593844624b7530923f37	glibc libgpg-error	Cryptographic library
+libgpg-error	1.55	1	x86_64	126608	569344	d9c8ea4ac524b3ea3df5eb6adeec8efdc4cdebedbba0b6ca7afe242311b73780	glibc	Error codes for GnuPG
+libgudev	238	1	x86_64	22236	217088	0d618dc6bec1cf433639423cab0bb7d9d60e61f6c8f0599a3ef4ef305794b1e3	glib libudev-zero	GObject bindings for libudev
+libksba	1.6.7	1	x86_64	111732	344064	95eab1636aad0b455236b02d82aa74636ee4f098d4e1305cabdd673cbcc1e15b	glibc libgpg-error	X.509 and CMS library
+libnfnetlink	1.0.2	1	x86_64	14656	69632	02d4256ae1539fdbdf944bf9bd832a45e05ebb05c65e9f091047b7c98018cd08	glibc	Low-level netfilter netlink library
+libogg	1.3.6	1	x86_64	196076	696320	d47d28536590a97c414accb557e5030338fccc10f81e83c69c8065a73aaafd97	glibc	Ogg container library
+libostree	2026.1	1	x86_64	574816	2961408	058bcb4199a59721d93e0c5f60ee479105bfa0aac84a9b363a7e29b048e85b49	glib libressl curl fuse3 zlib	Git-like filesystem trees
+libpciaccess	0.18.1	1	x86_64	18076	73728	bea7862a413af29120e85389478b6eececef8df8928002ac41a9f1141953e62c	glibc	PCI access library
+libraw	0.21.4	1	x86_64	568296	6475776	58ac4e3d205c2f5576258c0e49de2ae8668fea567fe2a042c4a0878c7e2dd2ca	glibc libjpeg-turbo lcms2	Raw image decoder
+libsigcplusplus	3.6.0	1	x86_64	45812	360448	8f78a665269b10624f5a351752935ad98612e40cb0e3337faca4af39c6c7e369	glibc	Typesafe callback framework
+libvdpau	1.5	1	x86_64	58980	327680	f30bb42ef0b748b78c8cba37e200dc5d05ea615f622d234207c53946453e157a	glibc libx11	Video Decode and Presentation API
+libx11	1.8.13	1	x86_64	1456168	17211392	0e1fc640abd79f57ac6684e519ab1ec9351823c8c35d5a808ac90a64861dbc17	glibc libxcb	X11 client library
+libxau	1.0.12	1	x86_64	10040	98304	0d294000b1818c98076328cce40baba76fb79405e6eb3409906d08016505cfdd	glibc	X authorisation library
+libxaw	1.0.16	1	x86_64	447488	3403776	e1d8a506bbc0c6e6610921a182df8a0ad3679cedb6dde84e361066aa5907abf0	glibc libx11 libxext libxmu	X Athena widget set
+libxcursor	1.2.3	1	x86_64	35964	417792	deaf3b152f591f36897dff3b98bd4646169f77485755661f4e325b5ecd7797f1	glibc libx11 libxrender libxfixes	X cursor management
+libxdmcp	1.1.5	1	x86_64	27540	188416	2521d48896e771f38f5c5bd5446d5222485d6404a20c03a27f8d398bbc8639cd	glibc	X Display Manager Control Protocol
+libxext	1.3.7	1	x86_64	76484	733184	e8e1579a613cf0924b8952d5feb8dd91c62834c33071b8296f99642f1e4db93f	glibc libx11	X miscellaneous extensions
+libxfixes	6.0.2	1	x86_64	13232	90112	5da4308a86d18da51cebb14c3ecf3a6735a3471c0849dd864c6c65f64a2c8ac0	glibc libx11	X Fixes extension
+libxfont2	2.0.7	1	x86_64	148664	692224	3a552a173d4a5d9ae55d007888b1a8172c45a53377be77ddded3f8b32c41f2d7	glibc freetype libfontenc	X font library
+libxft	2.3.9	1	x86_64	69424	659456	29dad2c148be2ccc56496fa79f4847f0b5e0cb80830e809f97ae25a46a28c2d2	glibc libx11 freetype fontconfig libxrender	X FreeType interface
+libxi	1.8.3	1	x86_64	106228	1105920	d290437b58c53a5f594249943bac8ef119ed315a9e757830ba2f9e5bd79a75e1	glibc libx11 libxext	X Input extension library
+libxinerama	1.1.6	1	x86_64	7516	69632	123ad804493d76bf60b16eb9f679175985c5c8e49c7b26e77aebf5890a7a4b5b	glibc libx11 libxext	Xinerama extension library
+libxmu	1.2.1	1	x86_64	96548	679936	914c7bd40d82c0ec26e4ef49d69d587bfe48ab75e003687d66b4e251f2504fe8	glibc libx11 libxext	X miscellaneous utility library
+libxrandr	1.5.5	1	x86_64	28536	233472	bc25fc2c0c1176b70014a8fcecc649612887c989323431bbf310c65fb1489c94	glibc libx11 libxrender libxext	X Resize and Rotate extension
+libxrender	0.9.12	1	x86_64	30480	184320	dfcf31f575f6534cadda8e1bb58ac091286d22825bcf72b687c3b1d4aeb9a575	glibc libx11	X Render extension library
+libxres	1.2.3	1	x86_64	8448	73728	80b5319237225e6bb09928239ee5aab6431a808e61d3f480f73092e1e9fc85e5	libx11 libxext	X Resource extension library
+libxshmfence	1.3.3	1	x86_64	4436	40960	a026acc073eda95d4d481a32bd82a9e7872b6572722e66d844fab25d693deeee	glibc	Shared-memory fences
+mako	1.11.0	1	x86_64	48000	176128	23d945f07a5f3968a4f625db2e7d7bd8f514c4aeb70563baafb1e89a81e977eb	wayland pango cairo libxkbcommon dbus	Notification daemon for Wayland
+mtdev	1.1.7	1	x86_64	17280	106496	784874554f0d7f21bd6027b47bed93eca77e33c24077eac7f3469e4ee0ffa3f2	glibc	Multitouch protocol translation
+npth	1.8	1	x86_64	11752	65536	c0fad482c88a2a9cb30cb0340d07bd6b573ca184a985a35ddc42135cb15e05ae	glibc	New portable threads library
+openexr	3.4.0	1	x86_64	1281988	6836224	e40bf57fa63a80718c01de04fd72df3198969ccc483e51a28d62dca58fa0b86e	glibc imath zlib	High dynamic range image format
+opus	1.6.1	1	x86_64	312416	847872	226059d3a9c4e4112b253c1d2e9305e11d6905dc0e8e0bf337bcc271e3ac170f	glibc	Opus audio codec
+pango	1.58.0	1	x86_64	290768	1245184	60790241b652ca0c6a85978fcea001f68f8caefeed843e05d1c202402efa7f0c	glibc cairo harfbuzz fribidi glib	Text layout and rendering
+pixman	0.46.4	1	x86_64	268140	823296	02c58ed32fb84a5a881152dcd252c587a31d5ad326e5ba1756bce172c5f5fc36	glibc	Low-level pixel manipulation
+rofi	2.0.0	1	x86_64	558912	1331200	8e636f3bdede05e28b189fa0e0e5a8513e813c57438f92d62ce7679679b37aac	libx11 pango cairo librsvg libxkbcommon	Window switcher and application launcher
+slock	1.5	1	x86_64	6092	32768	8fedcafcac1857676ff28e8aca79d0f6994b63e7f68750b12a70686fbbe4a0c9	libx11 libxext libxrandr libxcrypt	Simple X screen locker
+slstatus	1.1	1	x86_64	12092	45056	3c4751fbc794987f74c337eddc85b2df27a7c27331af7be0998758be3dc3d9d8	libx11	Status monitor for dwm
+slurp	1.5.0	1	x86_64	15008	57344	f46196505abd321f7c438bf285b568a5df406275fc58ce2740ca7c86397c6f47	wayland cairo	Select a region on Wayland
+sway	1.11	1	x86_64	5133656	6098944	8f93cecb17ba9282bdf827259d9ebb4089fa76ae3144b531f1d1f9196f8274c5	wlroots wayland libxkbcommon pango cairo json-c	i3-compatible Wayland compositor
+swaylock	1.8.4	1	x86_64	25380	106496	1ed739ef5175b420e757478d58353c01a44dea23be74e7f02e2c915c8de086f4	wayland libxkbcommon cairo libxcrypt	Screen locker for Wayland
+wayland-protocols	1.48	1	x86_64	128084	1331200	b19013927a9cc460fbfb0bcaff70dc6ee42f2b60769476fcff5b4a09e6c188e0	wayland	Wayland protocol extensions
+wl-clipboard	2.2.1	1	x86_64	27336	159744	a6b998f3375c7f56703fe0143982a8e6fd06f5761372cc7c124bf4571246d813	wayland	Clipboard tools for Wayland
+wlroots	0.20.0	1	x86_64	490380	2121728	7138079ce4198f3b48b76d6f05a97863004930de604894cbeb2dd2a75a4ebcb0	wayland mesa libinput libxkbcommon pixman seatd libdrm	Wayland compositor library
+xdm	1.1.17	1	x86_64	95000	409600	d73c6f9fbde6d7eb4ad4df898cf5ca54fc2d640a4718bef7c0acd33c77053dd3	glibc libx11 libxaw libxmu libxft xorg-server	X display manager
+xkeyboard-config	2.47	1	x86_64	810252	11628544	13ba704308cb62b9fe710288ff0451b85092e3864cf73795253615582d86822e	-	Keyboard layout database
+xorg-xwayland	24.1.9	1	x86_64	933164	2469888	849bcfaaa4b678416e644fd8c54a477ece9f061ad87f1a4aa421d454e5167d7c	glibc mesa wayland libdrm pixman libxkbcommon	X server running on Wayland

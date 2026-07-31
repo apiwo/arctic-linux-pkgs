@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arctic Linux packages</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="topbar">
+  <div class="wrap" style="padding:0;">
+    <a href="/">pkg-arctic</a>
+    <a href="/ALL/">browse</a>
+    <a href="https://ports-arctic.apiwow.net">ports</a>
+    <a href="https://github.com/apiwo/arctic-linux">github</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <header class="hero">
+    <h1>Arctic Linux</h1>
+    <span class="tagline">binary package mirror</span>
+  </header>
+
+  <div class="top-grid">
+    <div class="pages">
+      <p>Browse</p>
+      <ul>
+        <li><a href="/ALL/">all packages</a></li>
+        <li><a href="/yo.txt">read this first</a></li>
+        <li><a href="https://ports-arctic.apiwow.net">source recipes</a></li>
+      </ul>
+    </div>
+    <div class="art">
+      <pre>
+                   .xx
+                   xxxx
+                  xxxxxx
+                 xxxxxxx
+                xxxxxxxxx
+               .xx ;xxxxxx
+               xx   xxxxxxx
+              xx+    xxxxxx+
+             xxx      xxxxxx
+            xxx        xxxxxx
+           .xx         ;xxxxxx
+           xx           xxxxxxx
+          xx+            xxxxxx;
+         xxxxxxxxxxxxxxxxxxxxxxx
+        xxx                xxxxxx
+       .xx                 +xxxxxx
+       xx                   xxxxxxx
+      xx+                    xxxxxx:
+     xxx                      xxxxxx
+    xxxx                      xxxxxxx
+ xxxxxxxxx;:              :xxxxxxxxxxxxx:
+      </pre>
+    </div>
+  </div>
+
+  <section>
+    <h2>Using this mirror</h2>
+    <p>Point a repo entry in <code>/etc/alpm/repos.d/</code> at a folder
+    under <a href="/ALL/">/ALL/</a> and <code>alpm fetch</code> will pick it
+    up. Kernel and firmware packages are too large for this mirror — get
+    those from the ISO or a
+    <a href="https://github.com/apiwo/arctic-linux/releases">GitHub release</a>.</p>
+    <p>Not everything here is compiled. See <a href="/yo.txt">yo.txt</a>.</p>
+  </section>
+
+  <footer>
+    <p>Arctic Linux — <a href="https://github.com/apiwo/arctic-linux">source on GitHub</a></p>
+  </footer>
+</div>
+</body>
+</html>
