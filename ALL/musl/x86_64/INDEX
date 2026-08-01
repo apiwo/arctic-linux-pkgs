@@ -1,5 +1,5 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-07-31 21:31:29
+# generated	2026-08-01 13:08:14
 # fields	name version release arch dlsize isize sha256 deps desc
 busybox-musl	1.38.0	1	x86_64	39104	81920	f97e5d4292208d96ab6a8c30192dcaaf95977faa554731748bfb60386a92b3a2	musl	Init, getty, device manager and network tools - built against musl

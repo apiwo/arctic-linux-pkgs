@@ -1,0 +1,8 @@
+# Arctic Linux repository index
+# format	2
+# generated	2026-08-01 13:08:08
+# fields	name version release arch dlsize isize sha256 deps desc
+Arctic-base-kernel	7.1.3	1	x86_64	100164572	598478848	250a38dfda3303e387af6daa283fb7dbd5d67f4189e559872a4b0ed715c3fad5	glibc	Arctic Linux kernel, broad hardware support
+Arctic-kernel	6.12.100	1	x86_64	91405336	538689536	927100ba8fb0b482450085bc0e07b42aedda770d7074666d80bb38f48520c68f	glibc	ZEN patchset on the 6.12 LTS line - PDS/BMQ, ACS override, ntsync, vhba
+linux-firmware	20260622	1	x86_64	169958912	410079232	62e0aa8c3bc369773efb49a542f6c8b6ec94b1d9af429b2415c1e6967906fa28	-	Wireless and device firmware
+linux-headers	7.1.3	1	x86_64	1475652	9846784	0c367eba6d0cc8508b19c55ae0f94b9b0cca2171042869f8df7ca1fa94e5266e	-	Kernel headers for userspace

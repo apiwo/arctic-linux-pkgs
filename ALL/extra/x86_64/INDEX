@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-07-31 21:31:17
+# generated	2026-08-01 13:08:02
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility
@@ -9,6 +9,7 @@ btop	1.4.7	1	x86_64	1001588	4153344	7684936b5a9480af5fa6a16f52aa630e9e2814537e21
 difftastic	0.65.0	1	x86_64	6594360	112205824	ebb402b7227e12cb123b3ed8bd9cc980666e039aa4a2ab20d2468c0fa161f1bc	glibc	A diff that understands syntax
 dkms	3.4.2	1	x86_64	42824	196608	df6ae92e738adcecfae12ac394bc8160720b169d28defad1e1b4074b222e81c6	glibc kmod bmake	Rebuild kernel modules when the kernel changes
 eza	0.23.5	1	x86_64	657444	1925120	e2f75dc8ab315330a5c88df9638534bb7ff41eca41250d8eb304ca220340d37f	glibc	A modern ls
+fastfetch	2.55.0	1	x86_64	724340	3125248	517ad10b811efdb4f67be470958f6be067254cf10ca0978b749764ca707f4303	glibc	System information tool, configured with the Arctic logo
 fd	10.4.2	1	x86_64	1235576	4046848	bda4d05e6c7529cf8ec986891a490e9bda81bcd43cfe385c927b0e703d063cdf	glibc	A simpler, faster find
 fontconfig	2.16.0	1	x86_64	173540	970752	7182b8048e8957ec4a3e32d60bdfdd8ea1b8d72f078a4008561c9ffc4ecf619a	glibc freetype expat	Font configuration and matching
 freetype	2.14.1	1	x86_64	488048	1839104	7f9988d710949b5d9e62eb5991a491f048134fd228527c2b8d7e811e70d62915	glibc zlib bzip2 libpng brotli	Font rendering engine
@@ -27,7 +28,9 @@ libusb	1.0.30	1	x86_64	66900	237568	a60a2e954da826da730fa9c9ee73c93615426758d97f
 libuv	1.52.0	1	x86_64	149008	880640	51f1a3c3fffe51f711e353e84e3da5868b71a4d9c8e7bf9d2f3e9cca13fc1bfb	glibc	Asynchronous I/O library
 libwebp	1.6.0	1	x86_64	386464	2035712	1ffe02de9dd10de4d94aabb8c5d9f6d1137d94d02a518e088bdba45953934197	glibc libpng libjpeg-turbo libtiff	WebP codec
 lzo	2.10	1	x86_64	84524	552960	5ea784446cd9648d1433c63649934990ec74ae6474206ace9484fc83f6726bd6	glibc	Real-time compression library
+nano	9.2	1	x86_64	222340	884736	ab57756cab446048b59af5e46a3388ff774b8dcbd3905fb1a2b56a30c14829d3	glibc netbsd-curses	Simple console editor
 nasm	2.16.03	1	x86_64	378904	3420160	e2f0516f92c0256eb94a77e5108d0676953d4758de6447da6912f4e52a6a9925	glibc	Netwide assembler
+neofetch	7.1.0	1	x86_64	76292	356352	29b321787440822d58922cb9cbf5503e35ba5f7838d4ca03f846cefad0080bc2	glibc	System information script
 neovim	0.12.2	1	x86_64	6876872	33931264	8ecc99fbfb698c181c1ba563c21c6b023410a010018de3b636defd49895103df	glibc libuv msgpack-c libvterm luajit unibilium tree-sitter	Hyperextensible Vim-based editor
 nmap	7.99	1	x86_64	5192644	28667904	06ebd98f0ce1570852b6b846793041211b889865fb437947c808bc6837d057d0	glibc libressl pcre2 libpcap lua	Network exploration and security auditing
 numactl	2.0.19	1	x86_64	88932	430080	d7a04da83c6cf2a56ac197e8da08591b5153fdb021e4a9b0d5c833cff23612c9	glibc	NUMA policy control
@@ -42,9 +45,12 @@ tcpdump	4.99.6	1	x86_64	426844	2625536	79f1630d2a1829d481a87fdaeacb847ba625cd478
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
 tig	2.5.12	1	x86_64	178188	753664	75f08daf8e5a514644d4b7f7bde5cfacaeb93c9247c031a88b0ef1c996764b05	glibc netbsd-curses git	Text-mode interface for git
 tree-sitter	0.26.1	1	x86_64	125532	602112	6c61d2605fdb2ae752d47efbb8ac75fbba9fb20e1fcc73ae6aa222f4e5dd16b8	glibc	Incremental parsing library
+ttf-jetbrains-mono	2.304	1	x86_64	869824	8482816	fec4624246ce34f428eee68741c79a47a8844cc518411ce44b061668a5197725	-	JetBrains Mono, the Arctic terminal font
+ttf-nerd-fonts-symbols	3.4.0	1	x86_64	2259336	5009408	9bd2795174686a9a224fbff748e56d3123bd6de8fc34c729d096f0ac51a91b77	-	Nerd Font icon glyphs
 unibilium	2.1.2	1	x86_64	23292	102400	8bf7cf924e3e66d53869e94f11ed9fece2c6e8cb726b1983ccea9630d2fe02a5	glibc	Terminfo parsing library
 usbutils	019	1	x86_64	72332	311296	aef8547bb056b0f71bbc0b0357e5b15b650db46083321f7feb1c23d35b7b5ebd	glibc libusb	lsusb
 utf8proc	2.11.0	1	x86_64	61420	425984	d0794060d144dc5e0daea69a667a893a546015346b283b0ae1603e6d33c08a11	glibc	Unicode processing library
+vim	9.2.0100	1	x86_64	7579100	38588416	b56ed69c8426f4aa03708f9b0f3bf35cd13bdc80b47c3b81570cb9ade74f0da0	glibc netbsd-curses libxcrypt	Vi improved
 wget	1.25.0	1	x86_64	219008	598016	62d067c92ba852e2ffca72e64e7462bb4f13884fbf1b406f5b207f25e5e4594e	glibc libressl zlib pcre2 libpsl	Network downloader
 xdg-utils	1.1.3	1	x86_64	37912	360448	a23c84321415a562d92a5358b112431a1445306db1331969447ef673423ed78c	glibc	Desktop integration helpers
 zellij	0.44.0	1	x86_64	9727940	49606656	c9f2294fb12c89b3e865cd696dc582d58f83044fb933a70d370778248c1fdb13	glibc	Terminal workspace multiplexer
