@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 12:47:54
+# generated	2026-08-15 13:05:55
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.1.1	1	x86_64	38100	172032	9a010f5a4317b4521996d1b4559bd26f32061f1e460859b36096bbd7ff833ee6	busybox	Arctic Linux Package Manager
-arctic-base	1.1.1	1	x86_64	49652	331776	4dd5442843860c2ec1bcccf0b3abfcf401806403a2198455a8530c4bd093bdb3	busybox	Arctic base configuration, init scripts and branding
+alpm	1.1.2	1	x86_64	39244	172032	2969cda379842d185e354d0a83eb1a31893d9b3dc8da2b839e4b055f94ca2457	busybox	Arctic Linux Package Manager
+arctic-base	1.1.2	1	x86_64	50960	356352	74a5fbfd3401368ac9742debe083159e00a718c83f1244609aa230b64de7f438	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
@@ -19,7 +19,7 @@ bzip2	1.0.8	1	x86_64	61324	503808	52721b8dd0460ca483b82789a96a5b40078bfb2617e607
 c-ares	1.34.8	1	x86_64	176552	1245184	10deda85bc525865c713a7b8d43d465d531587723eaf34507a813def24b2cf25	glibc	Asynchronous DNS resolver
 ca-certificates	20260601	1	x86_64	103896	196608	3ef5d12aff4955a851d6dde898b59a8e79ad58ef48cbc812b862db1dc8eb1dd1	-	Trusted certificate authority bundle
 cryptsetup	2.8.1	1	x86_64	387400	1552384	ab109dd27e4bd2f3a6a05e058226c2849be26827866283bed9b4fef9af75d4ba	glibc libressl util-linux-libs json-c argon2 popt	LUKS disk encryption
-curl	8.19.0	1	x86_64	996960	6262784	76568ab1d7e2b7a1b43d4aad3fd438dae56551c036d05a1ddcb59f94e42ecca7	glibc libressl zlib nghttp2 brotli zstd	Transfer data over any protocol
+curl	8.19.0	2	x86_64	988844	6221824	16aa007d1ff4a4152ba6a480407e2e6174270467cf90898068b07b400a8f07d0	glibc libressl zlib nghttp2 brotli zstd	Transfer data over any protocol
 dbus	1.16.2	1	x86_64	441064	1794048	5bd983a6e62381f228fee05cd9c4045c28238bdb8969c387763865c18a10d35d	glibc expat	Desktop message bus
 dinit	0.19.4	1	x86_64	174352	614400	6ae7f9b4fc87524e0b3decffd56c28f8494e332fe3341d1403e411de8f85eb5b	glibc	Service manager and init with dependency handling
 doas	6.8.2	1	x86_64	17284	65536	1cd8e727c0fd7d67f67de2046831f3601f48e2a187f51d3c9fe08a09054506c0	glibc libxcrypt	Execute commands as another user
