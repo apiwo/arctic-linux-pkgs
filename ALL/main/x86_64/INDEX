@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 11:41:32
+# generated	2026-08-15 12:24:04
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.0.0	1	x86_64	22596	122880	2bcdc2e3e34d6cfa09976024a5c2f1ae8d185e5d2ece001400c37ca3140e20c8	busybox	Arctic Linux Package Manager
-arctic-base	1.0.0	1	x86_64	1067816	1978368	d2d21be09864de0e95c83d3cbeb1fea395a4ed57d3f2852e1e032d7768f99aa1	busybox toybox zsh doas alpm libxcrypt	Arctic base configuration, init scripts and branding
+alpm	1.1.0	1	x86_64	34168	159744	7ca98269faac19989d5962bf23a72a722ad45d1b7017e4292f6466ab52e2d90f	busybox	Arctic Linux Package Manager
+arctic-base	1.1.0	1	x86_64	49652	331776	8ab275ed9caaf9664339be629108554d4dfb073ccc29ca4d045158d724744988	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
@@ -39,12 +39,14 @@ iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac
 inih	60	1	x86_64	15380	86016	050112ef8000b5b4c562261cf43d9938966d23e7b61b48babc93678fff422d28	glibc	Simple INI file parser
 iproute2	6.19.0	1	x86_64	1004820	5001216	65271e489d27ecb045208f3fb8ea24813a32e06dfbd337e82cdbcf47d6c02cf0	glibc libcap libmnl util-linux-libs	ip, ss, tc and the netlink tools
 iwd	3.12	1	x86_64	507076	2068480	9116e87664cc88dd3c23e60703a4fc937dccd619e2795ead98ff630731760a16	glibc ell dbus	iNet wireless daemon - this is what provides iwctl
+jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
 json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b2b8052dbd73924665e	glibc	JSON parsing library
 kmod	34.2	1	x86_64	99912	479232	3ef08dfccb48f95fbde2e3595b17f02dc2e4fa3ef8650f537b93582028bc7ed7	glibc zlib xz zstd	Kernel module tools
 libarchive	3.8.9	1	x86_64	792700	5779456	9624f335d902ae5ebfeeb464353ad2f952324edfd5621af4fd97ee5f77a6a68e	glibc zlib xz zstd libmd	Archive library, provides bsdtar
 libedit	20260512	1	x86_64	98448	503808	0fca74b30827dbc3b95dcfa46a8a2edc1b0b1946f35c6c637f4f82af04123016	glibc netbsd-curses	BSD line editing, replacing readline
 libffi	3.5.2	1	x86_64	26104	114688	b1ad8e360b791153cdfa6692e0bc06fe275901a6704e4bb8de4259c97012cc0b	glibc	Foreign function interface
 libglvnd	1.7.0	1	x86_64	102200	1105920	edbd823688dd54e1cb7ce051f9bb5ca1480f9025eed17f1bbaa9d792d88cdab4	glibc	GL vendor dispatch, so mesa and NVIDIA can both provide GL
+libidn2	2.3.7	1	x86_64	102736	802816	079db5c3c119cfa0f7e70b7c20d240d00628c6bd0cb44557c30bc48208c978fc	glibc libunistring	Internationalised domain names, which curl resolves hostnames with
 libmd	1.1.0	1	x86_64	34092	475136	da69112a6d5b08d4681be43f603e179c9cdacaadfa7ae356dc937376ab40e1ef	glibc	BSD message digest functions
 libmnl	1.0.5	1	x86_64	8908	49152	bda92b7d9f254a2b420b60544f441a4cbe44adb4502c9fe5293ba15ad406f05c	glibc	Minimal netlink library
 libndp	1.9	1	x86_64	22576	135168	decb02e0c75a2d331421badfddc09122a19fbcba2c7508cd9cb868fb92679c21	glibc	IPv6 Neighbor Discovery Protocol library
@@ -54,6 +56,7 @@ libpsl	0.21.5	1	x86_64	63200	151552	4c406296200133723ea4e13a2f8126e4ab00f4e58db3
 libressl	4.2.0	1	x86_64	2052688	25120768	73330bd9004b74f2c09312d3824ce6345bf54cb610f9386136efbfc590537a17	glibc	OpenBSD TLS, Arctic's default
 libseccomp	2.6.0	1	x86_64	87888	839680	0163d0e1350b10fe470279c23420e57d15973f0127c8159e6cb1b30299930d3b	glibc	Syscall filtering library
 libudev-zero	1.0.3	1	x86_64	15424	98304	4a90feb2a408444770aa910cd34a9178bfae300eca1fab6e0f8d58254095de21	glibc	libudev without systemd, paired with mdev
+libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
 libxcrypt	4.5.2	1	x86_64	88496	311296	071654e2d0cd3ab24b46b30fc0fc0958d908378866cb76ec4dc24a9987768bd7	glibc	crypt(), which glibc no longer provides
 libxml2	2.15.2	1	x86_64	571352	1929216	54118a06761f5f965ab92b04c2e674055726065f7fd9da1434bc20a06bd72bc1	glibc zlib xz libressl	XML parsing library
 libyaml	0.2.5	1	x86_64	54512	208896	33f4b790cf1393a5b34955e7e96f8c43869345e710bbe3b7f4fc4c306473a094	glibc	YAML parser
