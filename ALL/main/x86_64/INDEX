@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 17:12:11
+# generated	2026-08-15 17:21:50
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.2.2	1	x86_64	42228	188416	9a2cc1adcac11fbe8a776480ac4d374443906b4c8d82f4a96df40477146e6714	busybox	Arctic Linux Package Manager
-arctic-base	1.2.2	1	x86_64	52456	364544	91f1438b82c2da8db166a41fc01e9ce3b569bb1224d5e1360e5503f437c0d6d4	busybox	Arctic base configuration, init scripts and branding
+alpm	1.2.3	1	x86_64	42552	192512	e523a9debb472942f02221dcc4dcf4756180e8f5fe2714b84ffa3111ce573a25	busybox	Arctic Linux Package Manager
+arctic-base	1.2.3	1	x86_64	52552	364544	e25af1af7c6e837f3b5564d26c508b073d4ac2e1d0f4b503ceaf0079b9eab16e	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
@@ -15,7 +15,7 @@ brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a6
 btrfs-progs	6.19	1	x86_64	982568	6811648	124b5498a384c841dc0b701227a5cbe41ae6e47ece5b6adff4911059d43ded75	glibc zlib zstd lz4 util-linux-libs	Btrfs filesystem tools
 busybox	1.38.0	1	x86_64	1074672	4980736	14f36af82e6f80a82d999016066420b8e8bc64dd3d98d02005c607dbc7f979c0	glibc	Init, getty, device manager and network tools
 byacc	20260426	1	x86_64	72060	208896	74346cff65ef2293114ff4f983a8ac4a80e87ef757565ab582a63698c583352f	glibc	Berkeley yacc, replacing bison
-bzip2	1.0.8	1	x86_64	61324	503808	52721b8dd0460ca483b82789a96a5b40078bfb2617e6074e7368ac864ae8dfbf	glibc	Block-sorting file compressor
+bzip2	1.0.8	2	x86_64	61400	503808	fcbff866e0ab2c2d27d6bc97ee7741e56121687acbff1056d172d8d06a8608bd	glibc	Block-sorting file compressor
 c-ares	1.34.8	1	x86_64	176552	1245184	10deda85bc525865c713a7b8d43d465d531587723eaf34507a813def24b2cf25	glibc	Asynchronous DNS resolver
 ca-certificates	20260601	1	x86_64	103896	196608	3ef5d12aff4955a851d6dde898b59a8e79ad58ef48cbc812b862db1dc8eb1dd1	-	Trusted certificate authority bundle
 cryptsetup	2.8.1	1	x86_64	387400	1552384	ab109dd27e4bd2f3a6a05e058226c2849be26827866283bed9b4fef9af75d4ba	glibc libressl util-linux-libs json-c argon2 popt	LUKS disk encryption
@@ -89,7 +89,7 @@ sysvinit	3.14	1	x86_64	93420	557056	f2989f3750c682427161f6204adbb56b514fe2024289
 toybox	0.8.14	1	x86_64	695340	2514944	7804b6e6a51d25e27e59337a55e905c7d5d3db0414544b433bb4abe1aa65fa94	glibc	The classic Unix commands, 0BSD licensed
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 util-linux	2.41.5	1	x86_64	673684	3039232	c6131ba51208d9c1441077f08bb82788dc944bb592a45d014d7b3433e26d9064	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
-util-linux-libs	2.42.1	1	x86_64	2181640	16343040	023a0eff833ff89fb8fbebb099627ee6c6dcfde4a86578868101700d38b6a26a	glibc	libblkid, libmount and libuuid only
+util-linux-libs	2.42.1	2	x86_64	2196208	16343040	cb72dbd20aeca56551de2e3be2c7ec2963479f5c3ce39520fbb5a3797eaf4931	glibc	libblkid, libmount and libuuid only
 wpa_supplicant	2.11	1	x86_64	521276	1556480	7eb012a7aee8195e6c2e2ffa27a48012a2df7add962b00baaee17b857605e10a	glibc openssl libnl dbus	WPA client, NetworkManager's wifi backend
 xz	5.8.3	1	x86_64	210452	958464	bbce3d0fdab2aacf51a9c035e970d1e45191661dfadb2d5a40184de4f885fcf7	glibc	liblzma and the xz tools
 zlib	1.3.1	1	x86_64	85788	389120	5224789fc90ab524360b718cf174d471d3fb663076824f0810d0d9e89bd72c0d	glibc	Compression library
