@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 13:06:02
+# generated	2026-08-15 16:10:49
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility
@@ -31,7 +31,7 @@ libusb	1.0.30	1	x86_64	66900	237568	a60a2e954da826da730fa9c9ee73c93615426758d97f
 libuv	1.52.0	1	x86_64	149008	880640	51f1a3c3fffe51f711e353e84e3da5868b71a4d9c8e7bf9d2f3e9cca13fc1bfb	glibc	Asynchronous I/O library
 libwebp	1.6.0	1	x86_64	386464	2035712	1ffe02de9dd10de4d94aabb8c5d9f6d1137d94d02a518e088bdba45953934197	glibc libpng libjpeg-turbo libtiff	WebP codec
 lua	5.5.0	1	x86_64	201696	1163264	9496c378f603afd137a9ba17c34ded3540d7128e93b4727cbbbe08796266931f	glibc libedit	The Lua interpreter
-lzo	2.10	1	x86_64	84524	552960	5ea784446cd9648d1433c63649934990ec74ae6474206ace9484fc83f6726bd6	glibc	Real-time compression library
+lzo	2.10	2	x86_64	89796	720896	9a4e0664460e15505ae39e06d8816ea5f1307ca7cef523848c60dd5b73a3e8ef	glibc	Real-time compression library
 nano	9.2	1	x86_64	219548	880640	9f68bd3f7c10d16622536011bfabf039d7a025f49f5d6499e12d25443563c49b	glibc netbsd-curses	Simple console editor
 nasm	2.16.03	1	x86_64	378904	3420160	e2f0516f92c0256eb94a77e5108d0676953d4758de6447da6912f4e52a6a9925	glibc	Netwide assembler
 neofetch	7.1.0	1	x86_64	76292	356352	29b321787440822d58922cb9cbf5503e35ba5f7838d4ca03f846cefad0080bc2	glibc	System information script
