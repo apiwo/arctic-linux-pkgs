@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 17:22:05
+# generated	2026-08-15 17:31:13
 # fields	name version release arch dlsize isize sha256 deps desc
-alpm	1.2.3	1	x86_64	42552	192512	e523a9debb472942f02221dcc4dcf4756180e8f5fe2714b84ffa3111ce573a25	busybox	Arctic Linux Package Manager
-arctic-base	1.2.3	1	x86_64	52552	364544	e25af1af7c6e837f3b5564d26c508b073d4ac2e1d0f4b503ceaf0079b9eab16e	busybox	Arctic base configuration, init scripts and branding
+alpm	1.2.4	1	x86_64	42540	192512	4c3d0880bf7ad2ba5360c86a3bf238ef5ce9099c04bd725dc6c63abb76de109e	busybox	Arctic Linux Package Manager
+arctic-base	1.2.4	1	x86_64	52896	364544	a9efe296cf40f1a2eabdf55e2f8702debf1497e94c09350557bb41caceaee842	busybox	Arctic base configuration, init scripts and branding
