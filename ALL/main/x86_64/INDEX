@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-14 21:34:41
+# generated	2026-08-14 21:49:36
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.0.0	1	x86_64	22596	122880	2bcdc2e3e34d6cfa09976024a5c2f1ae8d185e5d2ece001400c37ca3140e20c8	busybox	Arctic Linux Package Manager
@@ -67,6 +67,7 @@ networkmanager	1.50.0	1	x86_64	3324324	16842752	7587e4e88d3a349979cd1d3a284db490
 newt	0.52.24	1	x86_64	94944	782336	43b8d2fc6fdb4183855a93b8bb529b0a08d820e9237edc326dc126f8949fe464	glibc slang	Text-mode windowing library, used by nmtui
 nghttp2	1.68.0	1	x86_64	169956	798720	b679e5b9ae544343ad1b0b83cc859198efd75ff6d9ccfcaf088f302da2a0a6f9	glibc	HTTP/2 library
 ninja	1.13.2	1	x86_64	508476	2215936	cb7901bf359be605bef05119fb85d2e8299d1b3a6a2bdd1b941f70c1dc555214	glibc	Small, fast build system
+nitro	0.8.1	1	x86_64	25092	86016	e3652c468d9ebf4b59658fbc565449751841a633f51439df6f33495d2bed3b58	glibc	Tiny init system and process supervisor
 onetrueawk	20260426	1	x86_64	66252	200704	6c06313fdbdb013869cacc24126c1e6812b93940741e38c04149c75c62d82ccc	glibc	The one true awk
 openrc	0.63.2	1	x86_64	203208	2555904	88b1ea66f8c420ae4251a71131aeae082b8db377d68ca6173d10f77b64c27705	glibc util-linux-libs	Dependency-based init system from Gentoo
 openssh	10.3p1	1	x86_64	1081504	7540736	1c73639d7a50ab41439277d3bd87ccc2d19ec2ffcf9fd6858ea6c72f2b4f1976	glibc libressl zlib libedit	OpenBSD secure shell
