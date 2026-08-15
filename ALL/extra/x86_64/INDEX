@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-14 21:49:42
+# generated	2026-08-15 11:41:38
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility
@@ -10,10 +10,13 @@ difftastic	0.65.0	1	x86_64	6594360	112205824	ebb402b7227e12cb123b3ed8bd9cc980666
 dkms	3.4.2	1	x86_64	42824	196608	df6ae92e738adcecfae12ac394bc8160720b169d28defad1e1b4074b222e81c6	glibc kmod bmake	Rebuild kernel modules when the kernel changes
 eza	0.23.5	1	x86_64	657444	1925120	e2f75dc8ab315330a5c88df9638534bb7ff41eca41250d8eb304ca220340d37f	glibc	A modern ls
 fastfetch	2.55.0	1	x86_64	724340	3125248	517ad10b811efdb4f67be470958f6be067254cf10ca0978b749764ca707f4303	glibc	System information tool, configured with the Arctic logo
+fcft	3.3.1	1	x86_64	70064	282624	f2b34b2c7f75b243832386cd4b21f0fe85e5c66990d366cd1259cbaa6097db00	glibc freetype fontconfig pixman harfbuzz utf8proc	Font loading and glyph rasterisation
 fd	10.4.2	1	x86_64	1235576	4046848	bda4d05e6c7529cf8ec986891a490e9bda81bcd43cfe385c927b0e703d063cdf	glibc	A simpler, faster find
 fontconfig	2.16.0	1	x86_64	173540	970752	7182b8048e8957ec4a3e32d60bdfdd8ea1b8d72f078a4008561c9ffc4ecf619a	glibc freetype expat	Font configuration and matching
+foot	1.24.0	1	x86_64	302820	1306624	b248059ee285d638d60839f2ce72c8e9c4ac016849e26643cff61c779e66b550	glibc wayland fontconfig freetype pixman libxkbcommon fcft	A fast, lightweight Wayland terminal emulator
 freetype	2.14.1	1	x86_64	488048	1839104	7f9988d710949b5d9e62eb5991a491f048134fd228527c2b8d7e811e70d62915	glibc zlib bzip2 libpng brotli	Font rendering engine
 git	2.53.0	1	x86_64	5681284	40423424	8d5b82af46222e714086f39be111acade54d25248ced6e0567964314f8c246f2	glibc zlib openssl curl expat	Distributed version control system
+harfbuzz	12.2.0	1	x86_64	1352104	9076736	897fcdcba4c22c57cd4f33242c5964b1ef62beb305601f750a1ac94e71d236f0	glibc freetype glib cairo	Text shaping engine
 htop	3.5.0	1	x86_64	147544	430080	225e689d51d43308fef1c7aae557d7e952d06b9fc807346b1269e4e556564758	glibc netbsd-curses	Interactive process viewer
 hyperfine	1.20.0	1	x86_64	497244	1306624	135802d41d5e0c1d36105b72a964ef730d364f38b4610f9f71e26a653f612c42	glibc	Command-line benchmarking tool
 jq	1.8.1	1	x86_64	294320	1368064	25110b5944603e92efc79e502f23f68add3eca7e9a6f7977a1485406321d985a	glibc oniguruma	Command-line JSON processor
@@ -41,6 +44,7 @@ pciutils	3.14.0	1	x86_64	469332	815104	9aa53eb4ad834c4c92b9ea44f0d1d318371a6c94a
 ripgrep	15.1.0	1	x86_64	1321940	4943872	81e1cf23902bdd528183e86890b97377722cede173fac4bf0c58411e2c5274e3	glibc pcre2	Very fast recursive grep
 rsync	3.4.4	1	x86_64	337280	921600	77d41577c0c957e3a39fedccdfc898c0b2690d0445588a5a886fd910e88e5cad	glibc zstd xz lz4 libressl	Fast incremental file transfer
 slang	2.3.3	1	x86_64	803040	4235264	958d8b34df0663eb6624af896c42807105b6330a6887f4cf7f280166500f9dbc	glibc pcre2 zlib	Screen and interpreter library
+st	0.9.3	1	x86_64	40660	155648	9ff7c6b1f47ba4c7b3042335dfc63e9a886353fe149c7a432cdc3f1ceb420e6b	glibc libx11 libxft freetype fontconfig	The suckless simple terminal
 starship	1.24.0	1	x86_64	3411208	11710464	232867f91201e63d9a21385ef8ae5334ae7251e615d5f0ccf0cc929a5bd6dea7	glibc	Cross-shell prompt
 tcpdump	4.99.6	1	x86_64	426844	2625536	79f1630d2a1829d481a87fdaeacb847ba625cd478c28fc54268a6e8961f230b1	glibc libpcap libressl	Command-line packet analyser
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
