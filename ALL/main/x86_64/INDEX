@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 12:24:04
+# generated	2026-08-15 12:47:54
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.1.0	1	x86_64	34168	159744	7ca98269faac19989d5962bf23a72a722ad45d1b7017e4292f6466ab52e2d90f	busybox	Arctic Linux Package Manager
-arctic-base	1.1.0	1	x86_64	49652	331776	8ab275ed9caaf9664339be629108554d4dfb073ccc29ca4d045158d724744988	busybox	Arctic base configuration, init scripts and branding
+alpm	1.1.1	1	x86_64	38100	172032	9a010f5a4317b4521996d1b4559bd26f32061f1e460859b36096bbd7ff833ee6	busybox	Arctic Linux Package Manager
+arctic-base	1.1.1	1	x86_64	49652	331776	4dd5442843860c2ec1bcccf0b3abfcf401806403a2198455a8530c4bd093bdb3	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
@@ -53,7 +53,7 @@ libndp	1.9	1	x86_64	22576	135168	decb02e0c75a2d331421badfddc09122a19fbcba2c7508c
 libnftnl	1.3.0	1	x86_64	66444	307200	dde4fdae106027322611dcde4e148bc15f90a57c2f05afab17c4b6c77f1b5d0d	glibc libmnl	Low-level nftables library
 libnl	3.12.0	1	x86_64	600192	5070848	4eb1ea477c5e0864d7c68a4e21d545824a22781e2807b518f23f44b6bb1606f2	glibc	Netlink protocol library
 libpsl	0.21.5	1	x86_64	63200	151552	4c406296200133723ea4e13a2f8126e4ab00f4e58db30bf18bf6489fd7f02941	glibc	Public suffix list library
-libressl	4.2.0	1	x86_64	2052688	25120768	73330bd9004b74f2c09312d3824ce6345bf54cb610f9386136efbfc590537a17	glibc	OpenBSD TLS, Arctic's default
+libressl	4.2.0	2	x86_64	2338596	29446144	be527372a26228063b6705b7ac971ee00df2708eb9d4c1ad9b57b53209c6b203	glibc	OpenBSD TLS, Arctic's default
 libseccomp	2.6.0	1	x86_64	87888	839680	0163d0e1350b10fe470279c23420e57d15973f0127c8159e6cb1b30299930d3b	glibc	Syscall filtering library
 libudev-zero	1.0.3	1	x86_64	15424	98304	4a90feb2a408444770aa910cd34a9178bfae300eca1fab6e0f8d58254095de21	glibc	libudev without systemd, paired with mdev
 libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
