@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 14:46:11
+# generated	2026-08-16 15:09:01
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility

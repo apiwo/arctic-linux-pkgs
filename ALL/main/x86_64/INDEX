@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 14:46:04
+# generated	2026-08-16 15:08:54
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.3.2	1	x86_64	45692	200704	a444d0aaa2f3447684dd1ae0136a81179306d5d6441355b95317a707f4292956	busybox	Arctic Linux Package Manager
-arctic-base	1.3.2	1	x86_64	57472	389120	dde6066caefc4a0b6b4fceedd7ffa8cd912e495da746c9695375835d0b7ac82e	busybox	Arctic base configuration, init scripts and branding
+alpm	1.4.0	1	x86_64	45832	200704	738a898563da33068ec3649508f4dcb75e36ee28ac0f809a74301ea9767a8d55	busybox	Arctic Linux Package Manager
+arctic-base	1.4.0	1	x86_64	57436	389120	0b7fdf5318947717ff94894f78da900c2978875e3f022cc798feda2e8ec3a802	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
@@ -24,7 +24,7 @@ dbus	1.16.2	1	x86_64	441064	1794048	5bd983a6e62381f228fee05cd9c4045c28238bdb8969
 dinit	0.19.4	1	x86_64	174352	614400	6ae7f9b4fc87524e0b3decffd56c28f8494e332fe3341d1403e411de8f85eb5b	glibc	Service manager and init with dependency handling
 doas	6.8.2	1	x86_64	17284	65536	1cd8e727c0fd7d67f67de2046831f3601f48e2a187f51d3c9fe08a09054506c0	glibc libxcrypt	Execute commands as another user
 dosfstools	4.2	1	x86_64	56320	229376	6436a8de3177c04d158fec87c5a2a577c2f0ea2f42aebd2f6e89887950f84ea0	glibc	FAT filesystem tools, for the EFI partition
-e2fsprogs	1.47.4	2	x86_64	827636	10452992	ab37d6007261f8e2466be4629e05022cb6c46a5eb5a875400a0fc3dd7dd7dcaf	glibc util-linux-libs	ext2/3/4 filesystem tools
+e2fsprogs	1.47.4	3	x86_64	827660	10452992	5dc2a5552526c403401a6335f652afe2c2e75f4fe8770ac8b308bfac9d28ffaa	glibc util-linux-libs	ext2/3/4 filesystem tools
 ell	0.83	1	x86_64	216820	593920	a319be68a07b6c036794afaff11332f527ae1e240d6611ddb68c6389f2ac27d3	glibc	Embedded Linux library, used by iwd
 eudev	3.2.14	1	x86_64	1242368	10194944	fbd6a0f28c6129f8a1d8721892a19cfc759f606722310a565a66e3c41fbd773e	glibc libcap	Standalone udev, for desktops that need it
 execline	2.9.7.0	1	x86_64	62172	942080	c4518479e9cc261c666fe4e183f639c67b1b1296aef754e6a6395c3a5e902005	glibc skalibs	Non-interactive scripting language for s6
