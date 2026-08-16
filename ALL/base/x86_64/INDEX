@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 12:07:38
+# generated	2026-08-16 12:29:26
 # fields	name version release arch dlsize isize sha256 deps desc
 alsa-lib	1.2.15	1	x86_64	520904	2408448	37aee026cb761b51d0bc1d3cfcb9d76d1006cee7af9b23c4b7587c5c06888d98	glibc	ALSA library
 aom	3.14.1	1	x86_64	5547676	21315584	22a0e99237d8af7a621d039e055ba8fc13ae81af3bfce24fbfe4e4f8c0383af3	glibc	AV1 codec
@@ -68,7 +68,7 @@ libxshmfence	1.3.3	1	x86_64	4436	40960	a026acc073eda95d4d481a32bd82a9e7872b65727
 lightdm	1.32.0	1	x86_64	192820	1429504	ac01fc760da31370b062842a367b038a9278f969c9a55a567e19548e21ab8362	glib libxcb libxcrypt	Cross-desktop display manager
 lightdm-gtk-greeter	2.0.9	1	x86_64	53864	278528	5facea250ff6d49cd9a043c0d877fc9382c716b10691d780cbfea6cae6418708	glibc lightdm gtk3	The GTK greeter for LightDM
 mako	1.11.0	1	x86_64	48000	176128	23d945f07a5f3968a4f625db2e7d7bd8f514c4aeb70563baafb1e89a81e977eb	wayland pango cairo libxkbcommon dbus	Notification daemon for Wayland
-mesa	26.0.2	1	x86_64	18684104	113270784	5da6d95af32b11e037ddb805ba096960ea89f035c37694e3d1dfa8df1b587049	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
+mesa	26.0.2	2	x86_64	18686204	113270784	4a460db021a2989c641b0fb610a6498115b89b607b38d9d870ab4d930d9be241	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
 mtdev	1.1.7	1	x86_64	17280	106496	784874554f0d7f21bd6027b47bed93eca77e33c24077eac7f3469e4ee0ffa3f2	glibc	Multitouch protocol translation
 npth	1.8	1	x86_64	11752	65536	c0fad482c88a2a9cb30cb0340d07bd6b573ca184a985a35ddc42135cb15e05ae	glibc	New portable threads library
 openbox	3.6.1	1	x86_64	286344	1499136	1f75d51a477cdca8c54dcd2601a0e82b70ba5a674b00eae7bfed3aefd133809c	glibc libx11 libxml2 pango glib libxrandr libxinerama libxcursor imlib2 startup-notification	A highly configurable stacking window manager
@@ -87,6 +87,7 @@ sway	1.11	1	x86_64	5133656	6098944	8f93cecb17ba9282bdf827259d9ebb4089fa76ae3144b
 swaylock	1.8.4	1	x86_64	25380	106496	1ed739ef5175b420e757478d58353c01a44dea23be74e7f02e2c915c8de086f4	wayland libxkbcommon cairo libxcrypt	Screen locker for Wayland
 thunar	4.20.9	1	x86_64	668588	4485120	827fd6b1f09dbe275a5e0580dc1119aa564c61acac37501a46f44282ae0e3758	gtk3 libxfce4ui exo libgudev	The Xfce file manager
 tumbler	4.20.2	1	x86_64	117908	823296	cebd337ea54220c820c21e33a8c9502360e3358d32589a941e8320f0cf585bed	glib gdk-pixbuf libpng freetype	Thumbnail service
+vulkan-loader	1.4.330	1	x86_64	134356	598016	3a10f2d9797584a835727e09267b873be9e68c1ed27f88bfb8420f6b042783fe	glibc wayland libx11	Vulkan ICD loader
 wayland	1.25.0	1	x86_64	139416	1011712	039dea36f3d86fdb0322e403e5c6eda119471607cdbeb5afd89018bfcd9901be	glibc expat libffi libxml2	Wayland core protocol
 wayland-protocols	1.48	1	x86_64	128084	1331200	b19013927a9cc460fbfb0bcaff70dc6ee42f2b60769476fcff5b4a09e6c188e0	wayland	Wayland protocol extensions
 wl-clipboard	2.2.1	1	x86_64	27336	159744	a6b998f3375c7f56703fe0143982a8e6fd06f5761372cc7c124bf4571246d813	wayland	Clipboard tools for Wayland

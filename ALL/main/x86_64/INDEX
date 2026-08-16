@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 12:07:26
+# generated	2026-08-16 12:29:13
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.2.9	1	x86_64	45260	200704	56a3c4d5b830136e38dca916e55ecce3a1fc285fcc532ebcbe20fdcd680cd04b	busybox	Arctic Linux Package Manager
-arctic-base	1.2.9	1	x86_64	56556	389120	1fa063e10e151291236803f1d9dc9587e68fa7b8028410806508ed831b605dae	busybox	Arctic base configuration, init scripts and branding
+alpm	1.3.0	1	x86_64	45580	200704	0d27a09bf2ef5405986db38e195a061ef797fe4a5604bbfe0a2b772cceb0b318	busybox	Arctic Linux Package Manager
+arctic-base	1.3.0	1	x86_64	56576	389120	36836426620c1f89e74fe6f86c61d6ef92bbbcce302f7957ba7dea3ee9adf725	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
