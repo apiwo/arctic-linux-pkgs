@@ -1,9 +1,9 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 21:15:58
+# generated	2026-08-15 21:29:57
 # fields	name version release arch dlsize isize sha256 deps desc
 alpm	1.2.4	1	x86_64	42540	192512	4c3d0880bf7ad2ba5360c86a3bf238ef5ce9099c04bd725dc6c63abb76de109e	busybox	Arctic Linux Package Manager
 arctic-base	1.2.4	1	x86_64	52896	364544	a9efe296cf40f1a2eabdf55e2f8702debf1497e94c09350557bb41caceaee842	busybox	Arctic base configuration, init scripts and branding
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
 libressl	4.2.0	3	x86_64	2335088	29446144	4df4327fce86d950b661dfb091ab8270d0084c02cc4888b19a37cd446993d69b	glibc	OpenBSD TLS, Arctic's default
-toybox	0.8.14	2	x86_64	258904	1507328	3cf0258704c8ed428ba5383de69050c56f189daf4fd98caf171eb10d11f11f45	glibc	The classic Unix commands, 0BSD licensed
+toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed

@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 21:15:37
+# generated	2026-08-15 21:29:22
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.2.4	1	x86_64	42540	192512	4c3d0880bf7ad2ba5360c86a3bf238ef5ce9099c04bd725dc6c63abb76de109e	busybox	Arctic Linux Package Manager
@@ -86,7 +86,7 @@ seatd	0.9.1	1	x86_64	32616	135168	86b8117c7d8470d9c396968146978532311eec190231ea
 skalibs	2.14.4.0	1	x86_64	104308	704512	dbdcbb7fac055a4cb83afc3ab319eeb3a778548c9332a0ce3879f15fd7b8a805	glibc	skarnet base library, needed by s6
 sqlite	3.52.0	1	x86_64	1164772	3649536	004a22c09e3b98abd1e65806e2eaa7eb5cc4aa85be06a22af9e7ffcf77a06679	glibc netbsd-curses libedit	Embedded SQL database
 sysvinit	3.14	1	x86_64	93420	557056	f2989f3750c682427161f6204adbb56b514fe2024289890841c0e2cecc23a46f	glibc	The traditional System V init
-toybox	0.8.14	2	x86_64	258904	1507328	3cf0258704c8ed428ba5383de69050c56f189daf4fd98caf171eb10d11f11f45	glibc	The classic Unix commands, 0BSD licensed
+toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 util-linux	2.41.5	1	x86_64	673684	3039232	c6131ba51208d9c1441077f08bb82788dc944bb592a45d014d7b3433e26d9064	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
 util-linux-libs	2.42.1	2	x86_64	2196208	16343040	cb72dbd20aeca56551de2e3be2c7ec2963479f5c3ce39520fbb5a3797eaf4931	glibc	libblkid, libmount and libuuid only
