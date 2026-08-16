@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 22:30:36
+# generated	2026-08-15 22:40:52
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.2.5	1	x86_64	44796	200704	a76507d5ca9a0d731137233c3067bbc00abbdd724b834dd1e36c289da810e4a4	busybox	Arctic Linux Package Manager
@@ -24,7 +24,7 @@ dbus	1.16.2	1	x86_64	441064	1794048	5bd983a6e62381f228fee05cd9c4045c28238bdb8969
 dinit	0.19.4	1	x86_64	174352	614400	6ae7f9b4fc87524e0b3decffd56c28f8494e332fe3341d1403e411de8f85eb5b	glibc	Service manager and init with dependency handling
 doas	6.8.2	1	x86_64	17284	65536	1cd8e727c0fd7d67f67de2046831f3601f48e2a187f51d3c9fe08a09054506c0	glibc libxcrypt	Execute commands as another user
 dosfstools	4.2	1	x86_64	56320	229376	6436a8de3177c04d158fec87c5a2a577c2f0ea2f42aebd2f6e89887950f84ea0	glibc	FAT filesystem tools, for the EFI partition
-e2fsprogs	1.47.4	1	x86_64	434684	3055616	dffc5c2910e64b425ba0000905fe2a7a2733a996d7cda3af48b878f00380ccb1	glibc util-linux	ext2/3/4 filesystem tools, a real mkfs.ext4
+e2fsprogs	1.47.4	2	x86_64	827636	10452992	ab37d6007261f8e2466be4629e05022cb6c46a5eb5a875400a0fc3dd7dd7dcaf	glibc util-linux-libs	ext2/3/4 filesystem tools
 ell	0.83	1	x86_64	216820	593920	a319be68a07b6c036794afaff11332f527ae1e240d6611ddb68c6389f2ac27d3	glibc	Embedded Linux library, used by iwd
 eudev	3.2.14	1	x86_64	1242368	10194944	fbd6a0f28c6129f8a1d8721892a19cfc759f606722310a565a66e3c41fbd773e	glibc libcap	Standalone udev, for desktops that need it
 execline	2.9.7.0	1	x86_64	62172	942080	c4518479e9cc261c666fe4e183f639c67b1b1296aef754e6a6395c3a5e902005	glibc skalibs	Non-interactive scripting language for s6
@@ -69,7 +69,7 @@ netbsd-curses	0.3.2	1	x86_64	184952	847872	97d3db710a7e20817721778fba96862925e40
 networkmanager	1.50.0	1	x86_64	3324324	16842752	7587e4e88d3a349979cd1d3a284db49057f04a5740aa564bdedfc81282c6dfca	glibc glib dbus libnl wpa_supplicant newt curl libudev-zero libndp	Network configuration daemon, provides nmtui
 newt	0.52.24	1	x86_64	94944	782336	43b8d2fc6fdb4183855a93b8bb529b0a08d820e9237edc326dc126f8949fe464	glibc slang	Text-mode windowing library, used by nmtui
 nghttp2	1.68.0	1	x86_64	169956	798720	b679e5b9ae544343ad1b0b83cc859198efd75ff6d9ccfcaf088f302da2a0a6f9	glibc	HTTP/2 library
-ninja	1.13.2	1	x86_64	508476	2215936	cb7901bf359be605bef05119fb85d2e8299d1b3a6a2bdd1b941f70c1dc555214	glibc	Small, fast build system
+ninja	1.13.2	2	x86_64	301584	983040	8564a1448db029553987221091e29904ee9d7e5fff889772295d9a094fa28ef4	glibc	Small, fast build system
 nitro	0.8.1	1	x86_64	25092	86016	e3652c468d9ebf4b59658fbc565449751841a633f51439df6f33495d2bed3b58	glibc	Tiny init system and process supervisor
 onetrueawk	20260426	1	x86_64	66252	200704	6c06313fdbdb013869cacc24126c1e6812b93940741e38c04149c75c62d82ccc	glibc	The one true awk
 openrc	0.63.2	1	x86_64	203208	2555904	88b1ea66f8c420ae4251a71131aeae082b8db377d68ca6173d10f77b64c27705	glibc util-linux-libs	Dependency-based init system from Gentoo
@@ -86,10 +86,9 @@ seatd	0.9.1	1	x86_64	32616	135168	86b8117c7d8470d9c396968146978532311eec190231ea
 signify	33	1	x86_64	59848	196608	852e3968bee177417a9a2e1680283e70d2a6a46cf7ac82f50a5f65535d73a217	glibc	Cryptographically sign and verify files (Ed25519)
 skalibs	2.14.4.0	1	x86_64	104308	704512	dbdcbb7fac055a4cb83afc3ab319eeb3a778548c9332a0ce3879f15fd7b8a805	glibc	skarnet base library, needed by s6
 sqlite	3.52.0	1	x86_64	1164772	3649536	004a22c09e3b98abd1e65806e2eaa7eb5cc4aa85be06a22af9e7ffcf77a06679	glibc netbsd-curses libedit	Embedded SQL database
-sysvinit	3.14	1	x86_64	93420	557056	f2989f3750c682427161f6204adbb56b514fe2024289890841c0e2cecc23a46f	glibc	The traditional System V init
+sysvinit	3.14	2	x86_64	70860	331776	48a60f12bb78486c7b25c7536697bac10d30d6d32391e71a556eb34ba50152d4	glibc	The traditional System V init
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
-util-linux	2.41.5	1	x86_64	673684	3039232	c6131ba51208d9c1441077f08bb82788dc944bb592a45d014d7b3433e26d9064	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
 util-linux-libs	2.42.1	2	x86_64	2196208	16343040	cb72dbd20aeca56551de2e3be2c7ec2963479f5c3ce39520fbb5a3797eaf4931	glibc	libblkid, libmount and libuuid only
 wpa_supplicant	2.11	2	x86_64	492884	1486848	7458720e3c52ff285eae405d73285589f69bafebf5b5a20ae31b660f8375be29	glibc libressl libnl dbus	WPA client, NetworkManager's wifi backend
 xz	5.8.3	1	x86_64	210452	958464	bbce3d0fdab2aacf51a9c035e970d1e45191661dfadb2d5a40184de4f885fcf7	glibc	liblzma and the xz tools
