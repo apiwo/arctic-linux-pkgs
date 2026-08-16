@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 11:32:12
+# generated	2026-08-16 11:37:53
 # fields	name version release arch dlsize isize sha256 deps desc
 alsa-lib	1.2.15	1	x86_64	520904	2408448	37aee026cb761b51d0bc1d3cfcb9d76d1006cee7af9b23c4b7587c5c06888d98	glibc	ALSA library
 aom	3.14.1	1	x86_64	5547676	21315584	22a0e99237d8af7a621d039e055ba8fc13ae81af3bfce24fbfe4e4f8c0383af3	glibc	AV1 codec
