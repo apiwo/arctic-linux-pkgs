@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 11:49:26
+# generated	2026-08-16 11:59:00
 # fields	name version release arch dlsize isize sha256 deps desc
 alsa-lib	1.2.15	1	x86_64	520904	2408448	37aee026cb761b51d0bc1d3cfcb9d76d1006cee7af9b23c4b7587c5c06888d98	glibc	ALSA library
 aom	3.14.1	1	x86_64	5547676	21315584	22a0e99237d8af7a621d039e055ba8fc13ae81af3bfce24fbfe4e4f8c0383af3	glibc	AV1 codec
@@ -89,7 +89,7 @@ wayland	1.25.0	1	x86_64	139416	1011712	039dea36f3d86fdb0322e403e5c6eda119471607c
 wayland-protocols	1.48	1	x86_64	128084	1331200	b19013927a9cc460fbfb0bcaff70dc6ee42f2b60769476fcff5b4a09e6c188e0	wayland	Wayland protocol extensions
 wl-clipboard	2.2.1	1	x86_64	27336	159744	a6b998f3375c7f56703fe0143982a8e6fd06f5761372cc7c124bf4571246d813	wayland	Clipboard tools for Wayland
 wlroots	0.20.0	1	x86_64	490380	2121728	7138079ce4198f3b48b76d6f05a97863004930de604894cbeb2dd2a75a4ebcb0	wayland mesa libinput libxkbcommon pixman seatd libdrm	Wayland compositor library
-xcb-proto	1.17.0	1	x86_64	122024	1204224	cc9c7dbc963748820a247bac05f2dce33592eec5ccbb001cc2571aec09832040	python	XML descriptions of the X protocol, needed to build libxcb
+xcb-proto	1.17.0	2	x86_64	122028	1204224	1ead643726ee81ca2e25a38cbd3af690a55b38d7d32e86ae984fb4e154f6f0ff	glibc	XML descriptions of the X protocol, needed to build libxcb
 xcb-util	0.4.1	1	x86_64	11792	90112	82e0e3d9c8e30adc905281d36cd45687d0ee2bb7d68ce1220d117cc8870a134a	glibc libxcb	XCB utility functions
 xdm	1.1.17	1	x86_64	95000	409600	d73c6f9fbde6d7eb4ad4df898cf5ca54fc2d640a4718bef7c0acd33c77053dd3	glibc libx11 libxaw libxmu libxft xorg-server	X display manager
 xfce4-appfinder	4.20.0	1	x86_64	66472	262144	bac34382b1d1fd95a731a9fd54ca9745207a44995cbc3a2c732e1cdfd0f7390f	gtk3 libxfce4ui garcon	Xfce application finder
