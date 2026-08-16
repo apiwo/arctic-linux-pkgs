@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 22:11:19
+# generated	2026-08-15 22:30:43
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility
@@ -15,7 +15,7 @@ fd	10.4.2	1	x86_64	1235576	4046848	bda4d05e6c7529cf8ec986891a490e9bda81bcd43cfe3
 fontconfig	2.16.0	1	x86_64	173540	970752	7182b8048e8957ec4a3e32d60bdfdd8ea1b8d72f078a4008561c9ffc4ecf619a	glibc freetype expat	Font configuration and matching
 foot	1.24.0	1	x86_64	302820	1306624	b248059ee285d638d60839f2ce72c8e9c4ac016849e26643cff61c779e66b550	glibc wayland fontconfig freetype pixman libxkbcommon fcft	A fast, lightweight Wayland terminal emulator
 freetype	2.14.1	1	x86_64	488048	1839104	7f9988d710949b5d9e62eb5991a491f048134fd228527c2b8d7e811e70d62915	glibc zlib bzip2 libpng brotli	Font rendering engine
-git	2.53.0	1	x86_64	5681284	40423424	8d5b82af46222e714086f39be111acade54d25248ced6e0567964314f8c246f2	glibc zlib openssl curl expat	Distributed version control system
+git	2.53.0	2	x86_64	9080844	678281216	4749f6e4cd73a3ce5b20285a721b092635725e3a6a64a004d8a1f07ab049de25	glibc zlib libressl curl expat	Distributed version control system
 harfbuzz	12.2.0	1	x86_64	1352104	9076736	897fcdcba4c22c57cd4f33242c5964b1ef62beb305601f750a1ac94e71d236f0	glibc freetype glib cairo	Text shaping engine
 htop	3.5.0	1	x86_64	147544	430080	225e689d51d43308fef1c7aae557d7e952d06b9fc807346b1269e4e556564758	glibc netbsd-curses	Interactive process viewer
 hyperfine	1.20.0	1	x86_64	497244	1306624	135802d41d5e0c1d36105b72a964ef730d364f38b4610f9f71e26a653f612c42	glibc	Command-line benchmarking tool
