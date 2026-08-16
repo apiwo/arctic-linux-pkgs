@@ -1,9 +1,9 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 10:37:46
+# generated	2026-08-16 11:32:24
 # fields	name version release arch dlsize isize sha256 deps desc
-alpm	1.2.7	1	x86_64	44944	200704	3218b6b38ac66c9b5a763ce2c1f99f6b69a947044e1540161e36d34551e8d386	busybox	Arctic Linux Package Manager
-arctic-base	1.2.7	1	x86_64	55316	380928	a1ce826a9526cb0baaa0fa43d7904e712a3df2034d23157ffea95cf9440137c4	busybox	Arctic base configuration, init scripts and branding
+alpm	1.2.8	1	x86_64	45252	200704	480ca2e0f3febe0ef0d146724b06af3a3cdcc948856bac6ae4b142d158d4ab33	busybox	Arctic Linux Package Manager
+arctic-base	1.2.8	1	x86_64	56568	389120	e66cdf391eece16181d8e65f863fbd5d4886a1aa1392408dde6d4383e0ce21dd	busybox	Arctic base configuration, init scripts and branding
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
 libressl	4.2.0	4	x86_64	2250432	29106176	ad261935be51c4e71f39ad4fe670b43458fb7df2e2ae39ab4e9153458119e740	glibc	OpenBSD TLS, Arctic's default
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed

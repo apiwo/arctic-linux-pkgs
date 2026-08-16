@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 10:37:24
+# generated	2026-08-16 11:31:59
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.2.7	1	x86_64	44944	200704	3218b6b38ac66c9b5a763ce2c1f99f6b69a947044e1540161e36d34551e8d386	busybox	Arctic Linux Package Manager
-arctic-base	1.2.7	1	x86_64	55316	380928	a1ce826a9526cb0baaa0fa43d7904e712a3df2034d23157ffea95cf9440137c4	busybox	Arctic base configuration, init scripts and branding
+alpm	1.2.8	1	x86_64	45252	200704	480ca2e0f3febe0ef0d146724b06af3a3cdcc948856bac6ae4b142d158d4ab33	busybox	Arctic Linux Package Manager
+arctic-base	1.2.8	1	x86_64	56568	389120	e66cdf391eece16181d8e65f863fbd5d4886a1aa1392408dde6d4383e0ce21dd	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
@@ -37,12 +37,15 @@ glibc	2.44	1	x86_64	25485104	115920896	f4ba4d7e29e4d6524565237ff3241fcf459462686
 gmake	4.4.1	1	x86_64	111880	270336	268091f423caf405471361b8d357f3120be53c8be119ed15e941c07bfe60440b	glibc	GNU make as gmake, for kernel modules; /usr/bin/make is still bmake
 iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac573545415794cb20f459d7a	-	/etc/services and /etc/protocols
 inih	60	1	x86_64	15380	86016	050112ef8000b5b4c562261cf43d9938966d23e7b61b48babc93678fff422d28	glibc	Simple INI file parser
+initialization	0.8.1	1	x86_64	23888	86016	7583d587a8a894c89537735eefa1da99023b962a335c2ceeecbd0fe668f45996	glibc	The Arctic init system and process supervisor
 iproute2	6.19.0	1	x86_64	1004820	5001216	65271e489d27ecb045208f3fb8ea24813a32e06dfbd337e82cdbcf47d6c02cf0	glibc libcap libmnl util-linux-libs	ip, ss, tc and the netlink tools
+iw	6.17	1	x86_64	101052	307200	1a4637db63ce39a976dc4c5cde4bf1b3fca1cdd8e63b2b3b5c8168f14b63109a	glibc libnl	Configure and scan wireless devices through nl80211
 iwd	3.12	1	x86_64	507076	2068480	9116e87664cc88dd3c23e60703a4fc937dccd619e2795ead98ff630731760a16	glibc ell dbus	iNet wireless daemon - this is what provides iwctl
 jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
 json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b2b8052dbd73924665e	glibc	JSON parsing library
 kmod	34.2	1	x86_64	99912	479232	3ef08dfccb48f95fbde2e3595b17f02dc2e4fa3ef8650f537b93582028bc7ed7	glibc zlib xz zstd	Kernel module tools
 libarchive	3.8.9	1	x86_64	792700	5779456	9624f335d902ae5ebfeeb464353ad2f952324edfd5621af4fd97ee5f77a6a68e	glibc zlib xz zstd libmd	Archive library, provides bsdtar
+libclc	22.1.8	1	x86_64	2704748	33914880	39e58ddc585075774faf6b412261071e2cf6fc68327975b5de60fd61e4e78dfe	glibc	OpenCL C library (bitcode) for LLVM
 libedit	20260512	1	x86_64	98448	503808	0fca74b30827dbc3b95dcfa46a8a2edc1b0b1946f35c6c637f4f82af04123016	glibc netbsd-curses	BSD line editing, replacing readline
 libffi	3.5.2	1	x86_64	26104	114688	b1ad8e360b791153cdfa6692e0bc06fe275901a6704e4bb8de4259c97012cc0b	glibc	Foreign function interface
 libglvnd	1.7.0	1	x86_64	102200	1105920	edbd823688dd54e1cb7ce051f9bb5ca1480f9025eed17f1bbaa9d792d88cdab4	glibc	GL vendor dispatch, so mesa and NVIDIA can both provide GL
@@ -85,6 +88,8 @@ samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c5
 seatd	0.9.1	1	x86_64	32616	135168	86b8117c7d8470d9c396968146978532311eec190231eab84e8af951e7e49981	glibc	Seat management, replacing logind
 signify	33	1	x86_64	59848	196608	852e3968bee177417a9a2e1680283e70d2a6a46cf7ac82f50a5f65535d73a217	glibc	Cryptographically sign and verify files (Ed25519)
 skalibs	2.14.4.0	1	x86_64	104308	704512	dbdcbb7fac055a4cb83afc3ab319eeb3a778548c9332a0ce3879f15fd7b8a805	glibc	skarnet base library, needed by s6
+spirv-headers	1.4.357.0	1	x86_64	164928	3866624	524f4127887fd1a53da67d8d3e853c15d5e0713ee1c72af15267291333782b14	glibc	Machine-readable SPIR-V headers
+spirv-llvm-translator	22.1.5	1	x86_64	847208	4620288	7fd19cab9455b9f0ed3252baed1bdd5f0810e270e02690e3d3e65be4d374db25	glibc llvm	LLVM IR to SPIR-V translator
 sqlite	3.52.0	1	x86_64	1164772	3649536	004a22c09e3b98abd1e65806e2eaa7eb5cc4aa85be06a22af9e7ffcf77a06679	glibc netbsd-curses libedit	Embedded SQL database
 sysvinit	3.14	2	x86_64	70860	331776	48a60f12bb78486c7b25c7536697bac10d30d6d32391e71a556eb34ba50152d4	glibc	The traditional System V init
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
