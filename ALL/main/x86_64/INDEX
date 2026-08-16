@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 21:29:22
+# generated	2026-08-15 21:52:01
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.2.4	1	x86_64	42540	192512	4c3d0880bf7ad2ba5360c86a3bf238ef5ce9099c04bd725dc6c63abb76de109e	busybox	Arctic Linux Package Manager
@@ -53,7 +53,7 @@ libndp	1.9	1	x86_64	22576	135168	decb02e0c75a2d331421badfddc09122a19fbcba2c7508c
 libnftnl	1.3.0	1	x86_64	66444	307200	dde4fdae106027322611dcde4e148bc15f90a57c2f05afab17c4b6c77f1b5d0d	glibc libmnl	Low-level nftables library
 libnl	3.12.0	1	x86_64	600192	5070848	4eb1ea477c5e0864d7c68a4e21d545824a22781e2807b518f23f44b6bb1606f2	glibc	Netlink protocol library
 libpsl	0.21.5	1	x86_64	63200	151552	4c406296200133723ea4e13a2f8126e4ab00f4e58db30bf18bf6489fd7f02941	glibc	Public suffix list library
-libressl	4.2.0	3	x86_64	2335088	29446144	4df4327fce86d950b661dfb091ab8270d0084c02cc4888b19a37cd446993d69b	glibc	OpenBSD TLS, Arctic's default
+libressl	4.2.0	4	x86_64	2250432	29106176	ad261935be51c4e71f39ad4fe670b43458fb7df2e2ae39ab4e9153458119e740	glibc	OpenBSD TLS, Arctic's default
 libseccomp	2.6.0	1	x86_64	87888	839680	0163d0e1350b10fe470279c23420e57d15973f0127c8159e6cb1b30299930d3b	glibc	Syscall filtering library
 libudev-zero	1.0.3	1	x86_64	15424	98304	4a90feb2a408444770aa910cd34a9178bfae300eca1fab6e0f8d58254095de21	glibc	libudev without systemd, paired with mdev
 libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
@@ -90,7 +90,7 @@ toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 util-linux	2.41.5	1	x86_64	673684	3039232	c6131ba51208d9c1441077f08bb82788dc944bb592a45d014d7b3433e26d9064	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
 util-linux-libs	2.42.1	2	x86_64	2196208	16343040	cb72dbd20aeca56551de2e3be2c7ec2963479f5c3ce39520fbb5a3797eaf4931	glibc	libblkid, libmount and libuuid only
-wpa_supplicant	2.11	1	x86_64	521276	1556480	7eb012a7aee8195e6c2e2ffa27a48012a2df7add962b00baaee17b857605e10a	glibc openssl libnl dbus	WPA client, NetworkManager's wifi backend
+wpa_supplicant	2.11	2	x86_64	492884	1486848	7458720e3c52ff285eae405d73285589f69bafebf5b5a20ae31b660f8375be29	glibc libressl libnl dbus	WPA client, NetworkManager's wifi backend
 xz	5.8.3	1	x86_64	210452	958464	bbce3d0fdab2aacf51a9c035e970d1e45191661dfadb2d5a40184de4f885fcf7	glibc	liblzma and the xz tools
 zlib	1.3.1	1	x86_64	85788	389120	5224789fc90ab524360b718cf174d471d3fb663076824f0810d0d9e89bd72c0d	glibc	Compression library
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
