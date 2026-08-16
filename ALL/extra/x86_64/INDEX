@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 11:37:48
+# generated	2026-08-16 11:49:21
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility
@@ -20,7 +20,7 @@ git	2.53.0	2	x86_64	9080844	678281216	4749f6e4cd73a3ce5b20285a721b092635725e3a6a
 harfbuzz	12.2.0	1	x86_64	1352104	9076736	897fcdcba4c22c57cd4f33242c5964b1ef62beb305601f750a1ac94e71d236f0	glibc freetype glib cairo	Text shaping engine
 htop	3.5.0	1	x86_64	147544	430080	225e689d51d43308fef1c7aae557d7e952d06b9fc807346b1269e4e556564758	glibc netbsd-curses	Interactive process viewer
 hyperfine	1.20.0	1	x86_64	497244	1306624	135802d41d5e0c1d36105b72a964ef730d364f38b4610f9f71e26a653f612c42	glibc	Command-line benchmarking tool
-jemalloc	5.3.0	1	x86_64	1057772	11001856	49baef41e4b2a06439fc450dee75ccf1e8b2e4f7a4a914c3e133ff9fd947f40a	glibc	General-purpose malloc implementation
+jemalloc	5.3.0	2	x86_64	1036764	10801152	d136f9f02789dfa3c59e53c9258dd507890095558f99c291074b5031b1860fdd	glibc	General-purpose malloc implementation
 jq	1.8.1	1	x86_64	294320	1368064	25110b5944603e92efc79e502f23f68add3eca7e9a6f7977a1485406321d985a	glibc oniguruma	Command-line JSON processor
 lerc	4.2.0	1	x86_64	233324	880640	51fdf8a5a676d7f64362e657dfe7bfd2a7ec9c1d4e4a5933aa566194c78ba6ef	glibc	Limited error raster compression
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
