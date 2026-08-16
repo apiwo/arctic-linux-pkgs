@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 11:59:00
+# generated	2026-08-16 12:07:38
 # fields	name version release arch dlsize isize sha256 deps desc
 alsa-lib	1.2.15	1	x86_64	520904	2408448	37aee026cb761b51d0bc1d3cfcb9d76d1006cee7af9b23c4b7587c5c06888d98	glibc	ALSA library
 aom	3.14.1	1	x86_64	5547676	21315584	22a0e99237d8af7a621d039e055ba8fc13ae81af3bfce24fbfe4e4f8c0383af3	glibc	AV1 codec
@@ -65,6 +65,8 @@ libxrandr	1.5.5	1	x86_64	28536	233472	bc25fc2c0c1176b70014a8fcecc649612887c98932
 libxrender	0.9.12	1	x86_64	30480	184320	dfcf31f575f6534cadda8e1bb58ac091286d22825bcf72b687c3b1d4aeb9a575	glibc libx11	X Render extension library
 libxres	1.2.3	1	x86_64	8448	73728	80b5319237225e6bb09928239ee5aab6431a808e61d3f480f73092e1e9fc85e5	libx11 libxext	X Resource extension library
 libxshmfence	1.3.3	1	x86_64	4436	40960	a026acc073eda95d4d481a32bd82a9e7872b6572722e66d844fab25d693deeee	glibc	Shared-memory fences
+lightdm	1.32.0	1	x86_64	192820	1429504	ac01fc760da31370b062842a367b038a9278f969c9a55a567e19548e21ab8362	glib libxcb libxcrypt	Cross-desktop display manager
+lightdm-gtk-greeter	2.0.9	1	x86_64	53864	278528	5facea250ff6d49cd9a043c0d877fc9382c716b10691d780cbfea6cae6418708	glibc lightdm gtk3	The GTK greeter for LightDM
 mako	1.11.0	1	x86_64	48000	176128	23d945f07a5f3968a4f625db2e7d7bd8f514c4aeb70563baafb1e89a81e977eb	wayland pango cairo libxkbcommon dbus	Notification daemon for Wayland
 mesa	26.0.2	1	x86_64	18684104	113270784	5da6d95af32b11e037ddb805ba096960ea89f035c37694e3d1dfa8df1b587049	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
 mtdev	1.1.7	1	x86_64	17280	106496	784874554f0d7f21bd6027b47bed93eca77e33c24077eac7f3469e4ee0ffa3f2	glibc	Multitouch protocol translation
@@ -93,6 +95,7 @@ xcb-proto	1.17.0	2	x86_64	122028	1204224	1ead643726ee81ca2e25a38cbd3af690a55b38d
 xcb-util	0.4.1	1	x86_64	11792	90112	82e0e3d9c8e30adc905281d36cd45687d0ee2bb7d68ce1220d117cc8870a134a	glibc libxcb	XCB utility functions
 xdm	1.1.17	1	x86_64	95000	409600	d73c6f9fbde6d7eb4ad4df898cf5ca54fc2d640a4718bef7c0acd33c77053dd3	glibc libx11 libxaw libxmu libxft xorg-server	X display manager
 xfce4-appfinder	4.20.0	1	x86_64	66472	262144	bac34382b1d1fd95a731a9fd54ca9745207a44995cbc3a2c732e1cdfd0f7390f	gtk3 libxfce4ui garcon	Xfce application finder
+xfce4-dev-tools	4.20.0	1	x86_64	22548	106496	4ae308775a36278a620275d3bffc52da121204dc095161e4a7f268896aa8c3cb	glibc glib	Build tools for Xfce and its greeters
 xfce4-panel	4.20.8	1	x86_64	525164	5025792	69149b387a93f2c711568aed6e8edf73dc4849fa35263fe917eedc2cbadb73c9	gtk3 libxfce4ui garcon exo	The Xfce panel
 xfce4-session	4.20.4	1	x86_64	191980	712704	9975fb1737714aebd2edff191e933b31882aa8837760ff4b69f7fa0221407e56	gtk3 libxfce4ui libwnck	The Xfce session manager
 xfce4-settings	4.20.5	1	x86_64	446048	3809280	988d3ccaf07ec64433bf312f4696fc4f7764270d26355e1e6541dc3f58e32b7f	gtk3 libxfce4ui libinput xorg-server	Xfce settings manager

@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 11:58:55
+# generated	2026-08-16 12:07:32
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility
@@ -52,7 +52,11 @@ tcpdump	4.99.6	1	x86_64	426844	2625536	79f1630d2a1829d481a87fdaeacb847ba625cd478
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
 tig	2.5.12	1	x86_64	178188	753664	75f08daf8e5a514644d4b7f7bde5cfacaeb93c9247c031a88b0ef1c996764b05	glibc netbsd-curses git	Text-mode interface for git
 tree-sitter	0.26.1	1	x86_64	125532	602112	6c61d2605fdb2ae752d47efbb8ac75fbba9fb20e1fcc73ae6aa222f4e5dd16b8	glibc	Incremental parsing library
+ttf-firacode-nerd	3.4.0	1	x86_64	5040816	47816704	910caa9de434393402505f8112e359782c9bf4c5d9c23d02ba3d43f8f1fb2baa	-	Fira Code patched with Nerd Font glyphs
+ttf-hack-nerd	3.4.0	1	x86_64	2730796	32264192	78edac833729fbe92c0c29327a9beab04fc8c3c4eff61a073f61af11363f488f	-	Hack patched with Nerd Font glyphs
 ttf-jetbrains-mono	2.304	1	x86_64	869824	8482816	fec4624246ce34f428eee68741c79a47a8844cc518411ce44b061668a5197725	-	JetBrains Mono, the Arctic terminal font
+ttf-jetbrains-mono-nerd	3.4.0	1	x86_64	11034716	233504768	b056977f0e5b167d5958fe6b59f48d9dd3ff54a2e9b8cd55cb6bc9a03b1c4084	-	JetBrains Mono patched with Nerd Font glyphs
+ttf-maple-mono	7.9	1	x86_64	2183180	38428672	690865c7a628ee2762a49b347a432aa101eb2df703f0480049924d60d758d423	-	Maple Mono NF, a rounded monospace with Nerd Font glyphs
 ttf-nerd-fonts-symbols	3.4.0	1	x86_64	2259336	5009408	9bd2795174686a9a224fbff748e56d3123bd6de8fc34c729d096f0ac51a91b77	-	Nerd Font icon glyphs
 unibilium	2.1.2	1	x86_64	23292	102400	8bf7cf924e3e66d53869e94f11ed9fece2c6e8cb726b1983ccea9630d2fe02a5	glibc	Terminfo parsing library
 usbutils	019	2	x86_64	69124	278528	89fd359e080bec8eaa5af47ea9e9bb9bcbdda7868f4e3bf5468c4be1873081fa	glibc libusb	lsusb
