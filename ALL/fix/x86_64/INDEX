@@ -1,9 +1,9 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 15:09:19
+# generated	2026-08-16 15:43:09
 # fields	name version release arch dlsize isize sha256 deps desc
-alpm	1.4.0	1	x86_64	45832	200704	738a898563da33068ec3649508f4dcb75e36ee28ac0f809a74301ea9767a8d55	busybox	Arctic Linux Package Manager
-arctic-base	1.4.0	1	x86_64	57436	389120	0b7fdf5318947717ff94894f78da900c2978875e3f022cc798feda2e8ec3a802	busybox	Arctic base configuration, init scripts and branding
+alpm	1.4.1	1	x86_64	45804	200704	280e1b09f6ca2ac8a19b87d6a103ff7053ce2af6f07ed24dbe74ffa0a7e2e234	busybox	Arctic Linux Package Manager
+arctic-base	1.4.1	1	x86_64	57436	389120	160fda90a7d387229b26a04f2362e7c2aabe06f76259f42e3223fb715b51f7cd	busybox	Arctic base configuration, init scripts and branding
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
 libressl	4.2.0	4	x86_64	2250432	29106176	ad261935be51c4e71f39ad4fe670b43458fb7df2e2ae39ab4e9153458119e740	glibc	OpenBSD TLS, Arctic's default
 mesa	26.0.2	2	x86_64	18686204	113270784	4a460db021a2989c641b0fb610a6498115b89b607b38d9d870ab4d930d9be241	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
