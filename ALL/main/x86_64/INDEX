@@ -1,14 +1,14 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 21:52:01
+# generated	2026-08-15 22:03:33
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
-alpm	1.2.4	1	x86_64	42540	192512	4c3d0880bf7ad2ba5360c86a3bf238ef5ce9099c04bd725dc6c63abb76de109e	busybox	Arctic Linux Package Manager
-arctic-base	1.2.4	1	x86_64	52896	364544	a9efe296cf40f1a2eabdf55e2f8702debf1497e94c09350557bb41caceaee842	busybox	Arctic base configuration, init scripts and branding
+alpm	1.2.5	1	x86_64	44584	200704	eafe21c3d1b63fd87f059957c6a85420c19f33955cc269ef6902f3d693e2147c	busybox	Arctic Linux Package Manager
+arctic-base	1.2.5	1	x86_64	52892	364544	4073c9d612166c0fa481b12f6b91d0d3121d07b48351f57493d102a8c137c8dd	busybox	Arctic base configuration, init scripts and branding
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
-base	1.0.0	1	x86_64	636	4096	d21845169d1b822aff7009a366e1f3c8744b5cbc1b04a8316a8308009d21c5b1	glibc busybox toybox zsh doas alpm arctic-base arctic-init libarchive mandoc onetrueawk libxcrypt	A minimal but complete Arctic system
+base	1.0.1	1	x86_64	656	4096	e40bfd199cadcbb8cec2e0476a612821849ab2b4de308462da3657c3f32caa84	glibc busybox toybox zsh doas alpm arctic-base arctic-init curl libarchive mandoc onetrueawk libxcrypt iana-etc tzdata ca-certificates signify	A minimal but complete Arctic system
 base-devel	1.0.0	1	x86_64	596	4096	2b085c5800130cae491b86da5f5f6a093f02e9aece527bc65e061e00c56637da	llvm bmake byacc pkgconf cmake ninja meson git	The toolchain needed to build Arctic packages
 bmake	20260714	1	x86_64	205788	909312	642d9c60f23b9886962e7fb78a43a62cad32988cdb07374bfc014b9cd18bdb8f	glibc	The BSD make, replacing GNU make
 brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a631ddd38c3b3e796de2434	glibc	Brotli compression
@@ -83,6 +83,7 @@ runit	2.2.0	1	x86_64	1264	4096	5824cb96bf547e501836475d153e78f5d8aa0e6d18d4246a4
 s6	2.13.2.0	1	x86_64	137324	1400832	d35cc04559612b6259f86390afa8ab42158ed18e0839665922d4f962d89f62db	glibc skalibs execline	skarnet supervision suite
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 seatd	0.9.1	1	x86_64	32616	135168	86b8117c7d8470d9c396968146978532311eec190231eab84e8af951e7e49981	glibc	Seat management, replacing logind
+signify	33	1	x86_64	59848	196608	852e3968bee177417a9a2e1680283e70d2a6a46cf7ac82f50a5f65535d73a217	glibc	Cryptographically sign and verify files (Ed25519)
 skalibs	2.14.4.0	1	x86_64	104308	704512	dbdcbb7fac055a4cb83afc3ab319eeb3a778548c9332a0ce3879f15fd7b8a805	glibc	skarnet base library, needed by s6
 sqlite	3.52.0	1	x86_64	1164772	3649536	004a22c09e3b98abd1e65806e2eaa7eb5cc4aa85be06a22af9e7ffcf77a06679	glibc netbsd-curses libedit	Embedded SQL database
 sysvinit	3.14	1	x86_64	93420	557056	f2989f3750c682427161f6204adbb56b514fe2024289890841c0e2cecc23a46f	glibc	The traditional System V init

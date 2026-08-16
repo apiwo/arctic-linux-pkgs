@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-15 21:52:30
+# generated	2026-08-15 22:06:55
 # fields	name version release arch dlsize isize sha256 deps desc
 linux-firmware	20260622	1	x86_64	169958564	410079232	c8b72ec202078c9fbe3306196c8d9133507405d026349ff7c2bbafe8d2977df6	-	Wireless and device firmware
 llvm	22.1.8	1	x86_64	155803660	1137061888	42173ec7b7ae7e119876ba94b31196ad92af997d90152cdec49a90c51d245ef3	glibc zlib zstd	The LLVM compiler infrastructure: clang, lld, libc++, lldb
