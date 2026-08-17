@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 18:31:50
+# generated	2026-08-16 20:35:09
 # fields	name version release arch dlsize isize sha256 deps desc
 alsa-lib	1.2.15	1	x86_64	520904	2408448	37aee026cb761b51d0bc1d3cfcb9d76d1006cee7af9b23c4b7587c5c06888d98	glibc	ALSA library
 aom	3.14.1	1	x86_64	5547676	21315584	22a0e99237d8af7a621d039e055ba8fc13ae81af3bfce24fbfe4e4f8c0383af3	glibc	AV1 codec
@@ -10,7 +10,7 @@ dmenu	5.4	1	x86_64	15976	73728	c2765145fe6bb5632e4d7b6c5f97a8b5e52f8c5a21cc8aaf7
 dnsmasq	2.92	1	x86_64	230584	585728	e0745132192cb4a15aa7fd97de4eda9a163e3c912aa0d9db4a1f97d41ed25927	glibc libnetfilter_conntrack	Lightweight DNS and DHCP server
 dunst	1.13.0	1	x86_64	108572	421888	bddd3daa39898b7bb1d2f5882d4c79cefd9aafb8ec9d24e6287289aebd308c5c	libx11 pango cairo libxinerama libxrandr dbus	Notification daemon for X
 dwl	0.8	1	x86_64	28044	102400	b0f9c6820ed265a4137b531873b35107a901a7632222246bdfc0e50cc5c50cf8	glibc wayland wlroots libinput libxkbcommon	Dynamic window manager for Wayland, in the spirit of dwm
-dwm	6.6	1	x86_64	23060	77824	86731b43e71f594212a01d4ccd172442507d095270a56d35e01acecf47b297bf	glibc libx11 libxft libxinerama freetype fontconfig	Dynamic window manager for X
+dwm	6.6	2	x86_64	22284	73728	6f44eed9cee116513b8c658338ae404a3960ec4202bd1f7117a44383b694ea4f	glibc libx11 libxft libxinerama freetype fontconfig harfbuzz	Dynamic window manager for X
 exo	4.20.0	1	x86_64	143016	1466368	f4cf8a4c9753967953cd27c702308e1875f6dd8890cc297c3515cd7c2aecd23b	gtk3 libxfce4util	Xfce extension library
 feh	3.10.3	1	x86_64	166624	520192	6bc7c3fcdd78d362421ac30706f53b91d3c49f158b979442259d0cd9ece8923d	libx11 imlib2 libxt	Lightweight image viewer and wallpaper setter
 fribidi	1.0.16	1	x86_64	42204	421888	94d16de3e7803c60b2698305e6392fb33fe8c464edc50c9e35894ba469fbe704	glibc	Bidirectional text algorithm
