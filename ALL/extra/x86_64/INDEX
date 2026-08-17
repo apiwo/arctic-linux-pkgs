@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 20:35:05
+# generated	2026-08-17 12:02:21
 # fields	name version release arch dlsize isize sha256 deps desc
 alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
 aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3efb08cfb17c80fa2e0501a8f	glibc libressl zlib c-ares sqlite libxml2	Multi-protocol download utility
@@ -12,7 +12,7 @@ eza	0.23.5	1	x86_64	657444	1925120	e2f75dc8ab315330a5c88df9638534bb7ff41eca41250
 fastfetch	2.55.0	1	x86_64	724340	3125248	517ad10b811efdb4f67be470958f6be067254cf10ca0978b749764ca707f4303	glibc	System information tool, configured with the Arctic logo
 fcft	3.3.1	1	x86_64	70064	282624	f2b34b2c7f75b243832386cd4b21f0fe85e5c66990d366cd1259cbaa6097db00	glibc freetype fontconfig pixman harfbuzz utf8proc	Font loading and glyph rasterisation
 fd	10.4.2	1	x86_64	1235576	4046848	bda4d05e6c7529cf8ec986891a490e9bda81bcd43cfe385c927b0e703d063cdf	glibc	A simpler, faster find
-fontconfig	2.16.0	1	x86_64	173540	970752	7182b8048e8957ec4a3e32d60bdfdd8ea1b8d72f078a4008561c9ffc4ecf619a	glibc freetype expat	Font configuration and matching
+fontconfig	2.18.3	1	x86_64	201540	1167360	1d53dfc752f72b7b21a116320e724a43244dcccf10bc3e5e885ee3305a41426e	glibc freetype expat	Font configuration and matching
 foot	1.24.0	1	x86_64	302820	1306624	b248059ee285d638d60839f2ce72c8e9c4ac016849e26643cff61c779e66b550	glibc wayland fontconfig freetype pixman libxkbcommon fcft	A fast, lightweight Wayland terminal emulator
 freetype	2.14.1	1	x86_64	488048	1839104	7f9988d710949b5d9e62eb5991a491f048134fd228527c2b8d7e811e70d62915	glibc zlib bzip2 libpng brotli	Font rendering engine
 fuse3	3.18.1	1	x86_64	135404	593920	9ae1c33af15e5beb5540d34a718dda544b4e87f8a15f34b3d8888aa0b3cf6345	glibc	Filesystem in userspace

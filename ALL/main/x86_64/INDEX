@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-16 20:35:02
+# generated	2026-08-17 12:02:14
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.4.1	1	x86_64	45804	200704	280e1b09f6ca2ac8a19b87d6a103ff7053ce2af6f07ed24dbe74ffa0a7e2e234	busybox	Arctic Linux Package Manager
@@ -79,6 +79,7 @@ onetrueawk	20260426	1	x86_64	66252	200704	6c06313fdbdb013869cacc24126c1e6812b939
 openrc	0.63.2	1	x86_64	203208	2555904	88b1ea66f8c420ae4251a71131aeae082b8db377d68ca6173d10f77b64c27705	glibc util-linux-libs	Dependency-based init system from Gentoo
 openssh	10.3p1	1	x86_64	1081504	7540736	1c73639d7a50ab41439277d3bd87ccc2d19ec2ffcf9fd6858ea6c72f2b4f1976	glibc libressl zlib libedit	OpenBSD secure shell
 openssl	3.6.2	1	x86_64	4611064	25387008	a24eed6f8b9e88ae18d9758442bfe3e3dcbb7dfc6a47343a19a2f06668cd4efe	glibc	TLS toolkit, for software that insists on it
+pam	1.7.2	1	x86_64	256064	1642496	ffb46ecf9e1b31cecef1a8e82f2abecee21be2ac0bbbc1f0c2b614bece35dcae	glibc libxcrypt	Pluggable authentication modules, library and pam_unix only
 parted	3.7	1	x86_64	279228	1585152	ec2de28f35762fc4aabc8619d6c3532e12447fd0814e0332bf0cec7513042727	glibc util-linux-libs	Disk partition editor
 pcre2	10.46	1	x86_64	607516	4206592	97041e46f82f2cc65098dfa0bb3abd03742a8e2be8f4fee7f1c7e2c44cd801b6	glibc zlib bzip2	Perl compatible regular expressions
 pkgconf	3.0.4	1	x86_64	99952	425984	c6208eb41275133d0b6aaa0af69fe5241c9e73d8255c955f1699b1ea28dd7219	glibc	Build flag helper, replacing pkg-config
