@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-17 12:02:39
+# generated	2026-08-17 13:04:01
 # fields	name version release arch dlsize isize sha256 deps desc
 apiwow-dwm	1.0.0	1	x86_64	3072	28672	0b31e8bc6ff367423d8bcad8bdb13985c0481ebfe5bf6bd52421d76c2a2d208d	dwm dmenu st picom slstatus slock foot xorg-server xorg-xinit libx11 libxft libxinerama ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts feh	dwm + picom, calm grey and white, with the Arctic terminal and fonts
 arctic-kde	1.0.0	1	x86_64	1516	20480	6d4736bf3dad79199284fe87aa7b74b64ca7ec5e6f415dfbafd578ae9ae248c2	plasma-meta foot sddm sddm-arctic-theme arctic-plasma-theme dolphin kate ark spectacle gwenview okular pipewire wireplumber ttf-jetbrains-mono noto-fonts noto-fonts-emoji	KDE Plasma with foot and the Arctic colour scheme

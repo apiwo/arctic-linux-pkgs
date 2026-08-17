@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-17 12:02:14
+# generated	2026-08-17 13:03:36
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.4.1	1	x86_64	45804	200704	280e1b09f6ca2ac8a19b87d6a103ff7053ce2af6f07ed24dbe74ffa0a7e2e234	busybox	Arctic Linux Package Manager
@@ -35,6 +35,7 @@ gettext-tiny	0.3.3	1	x86_64	51816	458752	b3f7ca45a7cd6e35e4fa259e7c25580488a7a13
 glib	2.84.4	1	x86_64	2920420	18452480	efcf96f26f418db02c8c11357084b53d99baa400ffe676c0b5b5ab08e77464ff	glibc zlib libffi pcre2	Core GNOME utility library
 glibc	2.44	1	x86_64	25485104	115920896	f4ba4d7e29e4d6524565237ff3241fcf459462686fbbb81934b05702cee9714c	linux-headers	The GNU C library
 gmake	4.4.1	1	x86_64	111880	270336	268091f423caf405471361b8d357f3120be53c8be119ed15e941c07bfe60440b	glibc	GNU make as gmake, for kernel modules; /usr/bin/make is still bmake
+gmp-alt	6.3.0	1	x86_64	313828	1777664	fc7bc2f84ef3a9770a155c129c3ab60d698d9a8fde66088a6d19ca4e0e9ffbd7	glibc	Arbitrary precision arithmetic, for nftables
 iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac573545415794cb20f459d7a	-	/etc/services and /etc/protocols
 inih	60	1	x86_64	15380	86016	050112ef8000b5b4c562261cf43d9938966d23e7b61b48babc93678fff422d28	glibc	Simple INI file parser
 initialization	0.8.1	1	x86_64	23888	86016	7583d587a8a894c89537735eefa1da99023b962a335c2ceeecbd0fe668f45996	glibc	The Arctic init system and process supervisor
