@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-17 13:03:36
+# generated	2026-08-17 15:31:06
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.4.1	1	x86_64	45804	200704	280e1b09f6ca2ac8a19b87d6a103ff7053ce2af6f07ed24dbe74ffa0a7e2e234	busybox	Arctic Linux Package Manager
@@ -70,7 +70,7 @@ lz4	1.10.0	1	x86_64	157928	835584	57f243607cea8767dcb19dc9c2e9f7c79f8f6bb03cac71
 mandoc	1.14.6	1	x86_64	302772	1269760	9d6f49dfb9dab4c7076b70077019ab4bcbaa47299a00bdd076e31a6e1f3bb0b0	glibc zlib	Manual reader, replacing man-db and groff
 musl	1.2.5	1	x86_64	650960	4771840	185a33768f249c5c90f7b3ecfeb7f07b764b7c863d419750bdb4dd46058ea6f6	linux-headers	musl libc, the small alternative to glibc
 netbsd-curses	0.3.2	1	x86_64	184952	847872	97d3db710a7e20817721778fba96862925e40925937e0923563bf3490ec0ccc2	glibc	NetBSD curses, a BSD-licensed replacement for ncurses
-networkmanager	1.50.0	1	x86_64	3324324	16842752	7587e4e88d3a349979cd1d3a284db49057f04a5740aa564bdedfc81282c6dfca	glibc glib dbus libnl wpa_supplicant newt curl libudev-zero libndp	Network configuration daemon, provides nmtui
+networkmanager	1.50.0	2	x86_64	3135180	17010688	2766963e7f6c8a2d46398e58856aebf69e970512d8133fa3838e6c8e3cca7db7	glibc glib dbus libnl wpa_supplicant newt curl libudev-zero libndp	Network configuration daemon, provides nmtui
 newt	0.52.24	1	x86_64	94944	782336	43b8d2fc6fdb4183855a93b8bb529b0a08d820e9237edc326dc126f8949fe464	glibc slang	Text-mode windowing library, used by nmtui
 nftables	1.1.5	1	x86_64	320288	1286144	c67335345fe1399ddaefc56f7ef83d837d3cf52456b47bc5a20be24ce23f47f0	glibc libmnl libnftnl gmp-alt libedit	The Linux packet filter
 nghttp2	1.68.0	3	x86_64	160880	978944	701f3286efa81090241844335dd666949817d97d39c7f94ec589e5001206e6d4	glibc	HTTP/2 library

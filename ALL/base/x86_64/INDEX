@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-17 13:03:49
+# generated	2026-08-17 15:31:19
 # fields	name version release arch dlsize isize sha256 deps desc
 alsa-lib	1.2.15	1	x86_64	520904	2408448	37aee026cb761b51d0bc1d3cfcb9d76d1006cee7af9b23c4b7587c5c06888d98	glibc	ALSA library
 aom	3.14.1	1	x86_64	5547676	21315584	22a0e99237d8af7a621d039e055ba8fc13ae81af3bfce24fbfe4e4f8c0383af3	glibc	AV1 codec
@@ -28,6 +28,7 @@ lcms2	2.17	1	x86_64	174440	593920	756a07f74a30d58a2e104affe9bd79c20f52894dcc7638
 libassuan	3.0.2	1	x86_64	41512	139264	761a4cda6a503f1b59903ee7fda4663bbe671a4afa5fb9317d8f3e21dde3b637	glibc libgpg-error	IPC library for GnuPG
 libdrm	2.4.130	2	x86_64	268676	1294336	150c7fd7722d33570a98f3d7f2754890af1676994d55c7602a20f96d628ac544	glibc libpciaccess	Direct Rendering Manager library
 libev	4.33	2	x86_64	111392	487424	ff67665beebff6ad333c53998bea1d61a647e12f68ab887ab1598874f7d12982	glibc	High performance event loop
+libfm	1.3.2	1	x86_64	645564	4370432	6d1636caddc892d9287386399f458eedca728a83aa9da59cb6d1dfef7ce486a8	glibc glib gtk3 menu-cache	File management library for LXDE
 libfontenc	1.1.8	1	x86_64	17076	102400	2a9c92d55ab28ee9fbd323aaf968ffbe872f9ee1c6abeb4af41a2537a8aedc19	glibc zlib	X font encoding library
 libgcrypt	1.11.2	1	x86_64	578884	1908736	7d86f4721948b624b77e2a2a5225a56f4ae37a437dec593844624b7530923f37	glibc libgpg-error	Cryptographic library
 libgpg-error	1.55	1	x86_64	126608	569344	d9c8ea4ac524b3ea3df5eb6adeec8efdc4cdebedbba0b6ca7afe242311b73780	glibc	Error codes for GnuPG
@@ -68,6 +69,7 @@ libxres	1.2.3	1	x86_64	8448	73728	80b5319237225e6bb09928239ee5aab6431a808e61d3f4
 libxshmfence	1.3.3	1	x86_64	4436	40960	a026acc073eda95d4d481a32bd82a9e7872b6572722e66d844fab25d693deeee	glibc	Shared-memory fences
 lightdm	1.32.0	1	x86_64	192820	1429504	ac01fc760da31370b062842a367b038a9278f969c9a55a567e19548e21ab8362	glib libxcb libxcrypt	Cross-desktop display manager
 lightdm-gtk-greeter	2.0.9	1	x86_64	53864	278528	5facea250ff6d49cd9a043c0d877fc9382c716b10691d780cbfea6cae6418708	glibc lightdm gtk3	The GTK greeter for LightDM
+lxappearance	0.6.3	1	x86_64	72808	532480	1ee1f278317e99c8863ee9cce82525797c17200dfc1ce4196686061780d0de4d	glibc gtk3	LXDE theme switcher
 lxqt-build-tools	2.2.0	1	x86_64	19748	192512	8fec4fee4b8255de8d38947b6e7968490d266b7711a9abe2802c6b5ef36962a8	glibc qt6-base	Build tools for LXQt
 mako	1.11.0	1	x86_64	48000	176128	23d945f07a5f3968a4f625db2e7d7bd8f514c4aeb70563baafb1e89a81e977eb	wayland pango cairo libxkbcommon dbus	Notification daemon for Wayland
 menu-cache	1.1.0	1	x86_64	39488	167936	a94bed9758b15867ad12bb3c3e8daabb5ded90103273f0b3853414818365c339	glibc glib	Menu cache library for LXDE
@@ -78,6 +80,7 @@ openbox	3.6.1	1	x86_64	286344	1499136	1f75d51a477cdca8c54dcd2601a0e82b70ba5a674b
 openexr	3.4.0	1	x86_64	1281988	6836224	e40bf57fa63a80718c01de04fd72df3198969ccc483e51a28d62dca58fa0b86e	glibc imath zlib	High dynamic range image format
 opus	1.6.1	1	x86_64	312416	847872	226059d3a9c4e4112b253c1d2e9305e11d6905dc0e8e0bf337bcc271e3ac170f	glibc	Opus audio codec
 pango	1.58.0	1	x86_64	290768	1245184	60790241b652ca0c6a85978fcea001f68f8caefeed843e05d1c202402efa7f0c	glibc cairo harfbuzz fribidi glib	Text layout and rendering
+pcmanfm	1.3.2	1	x86_64	264488	1552384	3c6c5582a013adb421edc3fd90e2642c7d509f7d1be5e180fdb52127b5a5334d	glibc gtk3 libfm	The LXDE file manager
 picom	12.5	1	x86_64	233548	815104	3914668b4ab431315166e7b2ac89de95fe21858f884e3f7ff67998f5e8c8cc1c	libx11 libxcb mesa libconfig pixman libev	X11 compositor, shadows and fading
 pipewire	1.6.2	1	x86_64	3037064	15908864	0552e0d3da2b03acb683671977a076755a6080d685dc6685d3b20096cb337289	glibc alsa-lib dbus libsndfile libusb	Audio and video server
 pixman	0.46.4	1	x86_64	268140	823296	02c58ed32fb84a5a881152dcd252c587a31d5ad326e5ba1756bce172c5f5fc36	glibc	Low-level pixel manipulation
