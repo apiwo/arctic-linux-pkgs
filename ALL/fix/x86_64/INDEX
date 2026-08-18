@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-17 15:31:32
+# generated	2026-08-18 12:18:20
 # fields	name version release arch dlsize isize sha256 deps desc
 alpm	1.4.1	1	x86_64	45804	200704	280e1b09f6ca2ac8a19b87d6a103ff7053ce2af6f07ed24dbe74ffa0a7e2e234	busybox	Arctic Linux Package Manager
 arctic-base	1.4.1	1	x86_64	57436	389120	160fda90a7d387229b26a04f2362e7c2aabe06f76259f42e3223fb715b51f7cd	busybox	Arctic base configuration, init scripts and branding

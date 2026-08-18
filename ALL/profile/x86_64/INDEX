@@ -1,10 +1,10 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-17 15:31:31
+# generated	2026-08-18 12:18:20
 # fields	name version release arch dlsize isize sha256 deps desc
 apiwow-dwm	1.0.0	1	x86_64	3072	28672	0b31e8bc6ff367423d8bcad8bdb13985c0481ebfe5bf6bd52421d76c2a2d208d	dwm dmenu st picom slstatus slock foot xorg-server xorg-xinit libx11 libxft libxinerama ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts feh	dwm + picom, calm grey and white, with the Arctic terminal and fonts
-arctic-kde	1.0.0	1	x86_64	1516	20480	6d4736bf3dad79199284fe87aa7b74b64ca7ec5e6f415dfbafd578ae9ae248c2	plasma-meta foot sddm sddm-arctic-theme arctic-plasma-theme dolphin kate ark spectacle gwenview okular pipewire wireplumber ttf-jetbrains-mono noto-fonts noto-fonts-emoji	KDE Plasma with foot and the Arctic colour scheme
+arctic-kde	1.0.0	2	x86_64	1520	20480	66453e18b43f577e86cfc7294abe9f4c807c7c774e245f6778566d77ef256bfc	plasma-meta foot sddm sddm-arctic-theme arctic-plasma-theme dolphin kate ark spectacle gwenview okular pipewire wireplumber ttf-jetbrains-mono noto-fonts noto-fonts-emoji	KDE Plasma with foot and the Arctic colour scheme
 arctic-sound	1.0.0	1	x86_64	564	4096	5ee702d6f7707e5a24e671753c79df08858190fcb812b9920e8500111d837a0a	pipewire wireplumber pipewire-pulse alsa-lib alsa-utils	PipeWire, WirePlumber and alsamixer, configured and enabled
-arctic-xfce	1.0.0	1	x86_64	1824	20480	6be351ff851e1d41d4bf670fe815cec415ca9e5e4eb45446ac79f9e071b33e4a	xfce4-meta foot xfce4-notifyd xfce4-screenshooter thunar xorg-server sddm pipewire wireplumber ttf-jetbrains-mono noto-fonts noto-fonts-emoji arctic-plasma-theme	Xfce with the Arctic theme, foot and a neutral panel layout
+arctic-xfce	1.0.0	2	x86_64	1828	20480	49a7b0573d13d817904a9849fc25469cb2f926a2fabd5a426837afaf4b2f0ff4	xfce4-meta foot xfce4-notifyd xfce4-screenshooter thunar xorg-server sddm pipewire wireplumber ttf-jetbrains-mono noto-fonts noto-fonts-emoji arctic-plasma-theme	Xfce with the Arctic theme, foot and a neutral panel layout
 lazyvim	1.0.0	1	x86_64	992	4096	0045e9f6c56812ef3051c9eb4ceb9ff81e0ea8bcd7a25f8cc413b4e091cdef5c	neovim git	Sets up the official LazyVim starter config, on request, per user
-niri-dms	1.0.0	1	x86_64	4124	40960	4331beb4c45ea5a2e325877ac2f736386a3e555df2add6f76cc9978f0a52a598	niri dankmaterialshell foot fuzzel mako swaylock wl-clipboard grim slurp xorg-xwayland pipewire wireplumber ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts noto-fonts-emoji nemo firefox	Niri + DankMaterialShell, with the Arctic neutral rice and keybinds
+niri-dms	1.0.0	2	x86_64	4132	40960	c03719155903ab86a1dc214797c139dd2b9ea49e30706d6367efe8f6a5d853f9	niri dankmaterialshell foot fuzzel mako swaylock wl-clipboard grim slurp xorg-xwayland pipewire wireplumber ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts noto-fonts-emoji nemo firefox	Niri + DankMaterialShell, with the Arctic neutral rice and keybinds
