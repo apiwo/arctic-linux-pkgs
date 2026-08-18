@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-18 13:37:14
+# generated	2026-08-18 13:41:17
 # fields	name version release arch dlsize isize sha256 deps desc
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 alpm	1.4.2	1	x86_64	48672	212992	0719fdc564cc728a0ccc3aa759eeefbb0f0c71801b34fdf450fef2e571f4aa38	busybox	Arctic Linux Package Manager
