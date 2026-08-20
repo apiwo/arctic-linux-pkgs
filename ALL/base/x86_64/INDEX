@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-20 17:13:43
+# generated	2026-08-20 17:36:07
 # fields	name version release arch dlsize isize sha256 deps desc
 xkeyboard-config	2.47	1	x86_64	810252	11628544	13ba704308cb62b9fe710288ff0451b85092e3864cf73795253615582d86822e	-	Keyboard layout database
 xfdesktop	4.20.2	1	x86_64	1076336	3371008	b569e5df9a888f53669ee47f33700304f9fe5cda204e28ffdf9ab213adb319d6	gtk3 libxfce4ui thunar	The Xfce desktop manager

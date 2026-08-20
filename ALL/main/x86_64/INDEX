@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-20 17:13:30
+# generated	2026-08-20 17:35:55
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	137324	1400832	d35cc04559612b6259f86390afa8ab42158ed18e0839665922d4f962d89f62db	glibc skalibs execline	skarnet supervision suite
@@ -40,7 +40,7 @@ initialization	0.8.1	1	x86_64	23888	86016	7583d587a8a894c89537735eefa1da99023b96
 expat	2.8.2	1	x86_64	119076	454656	5e6ac43ae6285432ed36b66f0fb9b512a0447b8898de24735572e2202ca5a6cd	glibc	Stream-oriented XML parser
 zstd	1.5.7	1	x86_64	511136	3280896	95fc9251829895317c31faefd4fa38ca73344cafadb45a3adf272a32048a1d79	glibc zlib	Fast real-time compression
 parted	3.7	1	x86_64	279228	1585152	ec2de28f35762fc4aabc8619d6c3532e12447fd0814e0332bf0cec7513042727	glibc util-linux-libs	Disk partition editor
-openrc	0.63.2	2	x86_64	204500	2170880	3b2ab3b74cdf23ed6396bcf385edf0e7940b2d90e37b839b426b76fdabf109d9	glibc util-linux-libs libcap	Dependency-based init system from Gentoo
+openrc	0.63.2	3	x86_64	204284	2162688	15af728bcaf112c4a24b3561abcef168c16539ca65125f09ad7587e757bc64c7	glibc util-linux-libs libcap	Dependency-based init system from Gentoo
 iproute2	6.19.0	1	x86_64	1004820	5001216	65271e489d27ecb045208f3fb8ea24813a32e06dfbd337e82cdbcf47d6c02cf0	glibc libcap libmnl util-linux-libs	ip, ss, tc and the netlink tools
 inih	60	1	x86_64	15380	86016	050112ef8000b5b4c562261cf43d9938966d23e7b61b48babc93678fff422d28	glibc	Simple INI file parser
 e2fsprogs	1.47.4	3	x86_64	827660	10452992	5dc2a5552526c403401a6335f652afe2c2e75f4fe8770ac8b308bfac9d28ffaa	glibc util-linux-libs	ext2/3/4 filesystem tools
