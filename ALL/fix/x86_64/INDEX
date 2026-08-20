@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-19 16:59:14
+# generated	2026-08-19 20:22:23
 # fields	name version release arch dlsize isize sha256 deps desc
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
 libressl	4.2.0	4	x86_64	2250432	29106176	ad261935be51c4e71f39ad4fe670b43458fb7df2e2ae39ab4e9153458119e740	glibc	OpenBSD TLS, Arctic's default
