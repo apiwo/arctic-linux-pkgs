@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-20 13:19:51
+# generated	2026-08-20 14:18:07
 # fields	name version release arch dlsize isize sha256 deps desc
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
 mesa	26.0.2	2	x86_64	18686204	113270784	4a460db021a2989c641b0fb610a6498115b89b607b38d9d870ab4d930d9be241	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
