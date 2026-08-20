@@ -8,15 +8,12 @@
 </head>
 <body>
 <nav class="topbar">
-  <div class="wrap" style="padding:0;">
-    <a href="https://arctic-linux.apiwow.net">main page</a>
-    <a href="https://pkg-arctic.apiwow.net">pkg</a>
-    <a href="https://ports-arctic.apiwow.net">ports</a>
-    <a href="https://arctic-docs.apiwow.net">docs</a>
-    <a href="https://arctic-releases.apiwow.net">releases</a>
-    <a href="https://github.com/apiwo/arctic-linux">github</a>
-    <a href="https://codeberg.org/apiwo/arctic-linux">codeberg</a>
-  </div>
+  <a href="https://arctic-linux.apiwow.net">main</a>
+  <a href="https://arctic-docs.apiwow.net">docs</a>
+  <a href="https://pkg-arctic.apiwow.net">packages</a>
+  <a href="https://ports-arctic.apiwow.net">ports</a>
+  <a href="https://github.com/apiwo/arctic-linux">github</a>
+  <a href="https://codeberg.org/apiwo/arctic-linux">codeberg</a>
 </nav>
 
 <div class="wrap">
@@ -30,13 +27,11 @@
       <p>Browse</p>
       <ul>
         <li><a href="/ALL/">all packages</a></li>
-        <li><a href="/yo.txt">read this first</a></li>
         <li><a href="https://ports-arctic.apiwow.net">source recipes</a></li>
       </ul>
     </div>
     <div class="art">
-      <pre>
-                   .xx
+      <pre>                   .xx
                    xxxx
                   xxxxxx
                  xxxxxxx
@@ -56,23 +51,22 @@
       xx+                    xxxxxx:
      xxx                      xxxxxx
     xxxx                      xxxxxxx
- xxxxxxxxx;:              :xxxxxxxxxxxxx:
-      </pre>
+ xxxxxxxxx;:              :xxxxxxxxxxxxx:</pre>
     </div>
   </div>
 
   <section>
     <h2>Using this mirror</h2>
     <p>Point a repo entry in <code>/etc/alpm/repos.d/</code> at a folder
-    under <a href="/ALL/">/ALL/</a> and <code>alpm fetch</code> will pick it
-    up. Kernel and firmware packages are too large for this mirror — get
-    those from the ISO or a
-    <a href="https://github.com/apiwo/arctic-linux/releases">GitHub release</a>.</p>
-    <p>Not everything here is compiled. See <a href="/yo.txt">yo.txt</a>.</p>
+    under <a href="/ALL/">/ALL/</a> and <code>alpm fetch</code> picks it
+    up. Kernel and firmware packages are too large for this mirror - see
+    the <code>big</code> repository, or a
+    <a href="https://github.com/apiwo/arctic-linux/releases">GitHub release</a>
+    directly.</p>
   </section>
 
   <footer>
-    <p>Arctic Linux — <a href="https://github.com/apiwo/arctic-linux">source on GitHub</a></p>
+    <p>Arctic Linux - <a href="https://github.com/apiwo/arctic-linux">source on GitHub</a></p>
   </footer>
 </div>
 </body>
