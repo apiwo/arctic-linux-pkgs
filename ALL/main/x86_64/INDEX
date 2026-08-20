@@ -1,12 +1,13 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-20 15:44:15
+# generated	2026-08-20 17:13:30
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	137324	1400832	d35cc04559612b6259f86390afa8ab42158ed18e0839665922d4f962d89f62db	glibc skalibs execline	skarnet supervision suite
 nghttp2	1.68.0	3	x86_64	160880	978944	701f3286efa81090241844335dd666949817d97d39c7f94ec589e5001206e6d4	glibc	HTTP/2 library
 newt	0.52.24	1	x86_64	94944	782336	43b8d2fc6fdb4183855a93b8bb529b0a08d820e9237edc326dc126f8949fe464	glibc slang	Text-mode windowing library, used by nmtui
 libffi	3.5.2	1	x86_64	26104	114688	b1ad8e360b791153cdfa6692e0bc06fe275901a6704e4bb8de4259c97012cc0b	glibc	Foreign function interface
+libcap	2.78	1	x86_64	769760	2584576	afce44e28b59a8b6c3a646d87c3077312c37e0efe4360b3908b115158dc24d62	glibc	POSIX capabilities library
 musl	1.2.5	1	x86_64	650960	4771840	185a33768f249c5c90f7b3ecfeb7f07b764b7c863d419750bdb4dd46058ea6f6	linux-headers	musl libc, the small alternative to glibc
 lvm2	2.03.36	1	x86_64	1238168	4882432	44606583fc6a2955a01194a07e5a0d8a10de1013abc6bb7c4448cc34186da849	glibc util-linux-libs	Logical volume management
 libseccomp	2.6.0	1	x86_64	87888	839680	0163d0e1350b10fe470279c23420e57d15973f0127c8159e6cb1b30299930d3b	glibc	Syscall filtering library
@@ -19,7 +20,7 @@ libarchive	3.8.9	1	x86_64	792700	5779456	9624f335d902ae5ebfeeb464353ad2f952324ed
 glibc	2.44	1	x86_64	25485104	115920896	f4ba4d7e29e4d6524565237ff3241fcf459462686fbbb81934b05702cee9714c	linux-headers	The GNU C library
 ca-certificates	20260601	1	x86_64	103896	196608	3ef5d12aff4955a851d6dde898b59a8e79ad58ef48cbc812b862db1dc8eb1dd1	-	Trusted certificate authority bundle
 byacc	20260426	1	x86_64	72060	208896	74346cff65ef2293114ff4f983a8ac4a80e87ef757565ab582a63698c583352f	glibc	Berkeley yacc, replacing bison
-arctic-base	1.4.10	1	x86_64	61340	434176	92b34d4da1a83b8cf23a947d955f2ad19258316fb0ee9ee03b8f74ed36884914	busybox	Arctic base configuration, init scripts and branding
+arctic-base	1.4.11	1	x86_64	61524	434176	ff8b5fff26a52391538ab45fe0c248d9fce297cdc922b2d1804c95ec350271f3	busybox	Arctic base configuration, init scripts and branding
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
 spirv-llvm-translator	22.1.5	1	x86_64	847208	4620288	7fd19cab9455b9f0ed3252baed1bdd5f0810e270e02690e3d3e65be4d374db25	glibc llvm	LLVM IR to SPIR-V translator
 spirv-headers	1.4.357.0	1	x86_64	164928	3866624	524f4127887fd1a53da67d8d3e853c15d5e0713ee1c72af15267291333782b14	glibc	Machine-readable SPIR-V headers
@@ -39,7 +40,7 @@ initialization	0.8.1	1	x86_64	23888	86016	7583d587a8a894c89537735eefa1da99023b96
 expat	2.8.2	1	x86_64	119076	454656	5e6ac43ae6285432ed36b66f0fb9b512a0447b8898de24735572e2202ca5a6cd	glibc	Stream-oriented XML parser
 zstd	1.5.7	1	x86_64	511136	3280896	95fc9251829895317c31faefd4fa38ca73344cafadb45a3adf272a32048a1d79	glibc zlib	Fast real-time compression
 parted	3.7	1	x86_64	279228	1585152	ec2de28f35762fc4aabc8619d6c3532e12447fd0814e0332bf0cec7513042727	glibc util-linux-libs	Disk partition editor
-openrc	0.63.2	1	x86_64	203208	2555904	88b1ea66f8c420ae4251a71131aeae082b8db377d68ca6173d10f77b64c27705	glibc util-linux-libs	Dependency-based init system from Gentoo
+openrc	0.63.2	2	x86_64	204500	2170880	3b2ab3b74cdf23ed6396bcf385edf0e7940b2d90e37b839b426b76fdabf109d9	glibc util-linux-libs libcap	Dependency-based init system from Gentoo
 iproute2	6.19.0	1	x86_64	1004820	5001216	65271e489d27ecb045208f3fb8ea24813a32e06dfbd337e82cdbcf47d6c02cf0	glibc libcap libmnl util-linux-libs	ip, ss, tc and the netlink tools
 inih	60	1	x86_64	15380	86016	050112ef8000b5b4c562261cf43d9938966d23e7b61b48babc93678fff422d28	glibc	Simple INI file parser
 e2fsprogs	1.47.4	3	x86_64	827660	10452992	5dc2a5552526c403401a6335f652afe2c2e75f4fe8770ac8b308bfac9d28ffaa	glibc util-linux-libs	ext2/3/4 filesystem tools
@@ -59,7 +60,7 @@ dbus	1.16.2	1	x86_64	441064	1794048	5bd983a6e62381f228fee05cd9c4045c28238bdb8969
 bmake	20260714	1	x86_64	205788	909312	642d9c60f23b9886962e7fb78a43a62cad32988cdb07374bfc014b9cd18bdb8f	glibc	The BSD make, replacing GNU make
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
 wireless-regdb	2026.05.30	2	x86_64	17892	118784	05f18b22e43d3e755ce6d43449aa4ac876ee4dbada766bf5468326604274abe3	-	Wireless regulatory database
-util-linux	2.41.5	1	x86_64	673824	3039232	286e82e03350957ebbc05e1e701beb1ef13f763613043c7f8ce4f9a66f7beba2	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
+util-linux	2.41.5	2	x86_64	673896	3039232	241c2a2e8363f8358b51cf6b124706446c5f6691d82cd2058bd4fffa498353a5	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
 sysvinit	3.14	2	x86_64	70860	331776	48a60f12bb78486c7b25c7536697bac10d30d6d32391e71a556eb34ba50152d4	glibc	The traditional System V init
 libmnl	1.0.5	1	x86_64	8908	49152	bda92b7d9f254a2b420b60544f441a4cbe44adb4502c9fe5293ba15ad406f05c	glibc	Minimal netlink library
 glib	2.84.4	1	x86_64	2920420	18452480	efcf96f26f418db02c8c11357084b53d99baa400ffe676c0b5b5ab08e77464ff	glibc zlib libffi pcre2	Core GNOME utility library
@@ -83,7 +84,7 @@ json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b
 jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
 iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac573545415794cb20f459d7a	-	/etc/services and /etc/protocols
 eudev	3.2.14	1	x86_64	1242368	10194944	fbd6a0f28c6129f8a1d8721892a19cfc759f606722310a565a66e3c41fbd773e	glibc libcap	Standalone udev, for desktops that need it
-alpm	1.4.10	1	x86_64	51044	221184	3546d202baf97fce935887937e28f631bd143f2025ce3f9716db290eb9f10e0b	busybox	Arctic Linux Package Manager
+alpm	1.4.11	1	x86_64	51060	221184	a86853a1e831dad3be8131616f5eb58e8306f46cef2c147b4d40face930d7049	busybox	Arctic Linux Package Manager
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
