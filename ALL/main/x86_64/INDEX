@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-20 14:17:41
+# generated	2026-08-20 15:44:15
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	137324	1400832	d35cc04559612b6259f86390afa8ab42158ed18e0839665922d4f962d89f62db	glibc skalibs execline	skarnet supervision suite
@@ -19,7 +19,7 @@ libarchive	3.8.9	1	x86_64	792700	5779456	9624f335d902ae5ebfeeb464353ad2f952324ed
 glibc	2.44	1	x86_64	25485104	115920896	f4ba4d7e29e4d6524565237ff3241fcf459462686fbbb81934b05702cee9714c	linux-headers	The GNU C library
 ca-certificates	20260601	1	x86_64	103896	196608	3ef5d12aff4955a851d6dde898b59a8e79ad58ef48cbc812b862db1dc8eb1dd1	-	Trusted certificate authority bundle
 byacc	20260426	1	x86_64	72060	208896	74346cff65ef2293114ff4f983a8ac4a80e87ef757565ab582a63698c583352f	glibc	Berkeley yacc, replacing bison
-arctic-base	1.4.9	1	x86_64	61204	434176	bf995612cb5ecf459cb991a07cd8c0b9ff324da865fc9a196b59ea623a2bbcd9	busybox	Arctic base configuration, init scripts and branding
+arctic-base	1.4.10	1	x86_64	61340	434176	92b34d4da1a83b8cf23a947d955f2ad19258316fb0ee9ee03b8f74ed36884914	busybox	Arctic base configuration, init scripts and branding
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
 spirv-llvm-translator	22.1.5	1	x86_64	847208	4620288	7fd19cab9455b9f0ed3252baed1bdd5f0810e270e02690e3d3e65be4d374db25	glibc llvm	LLVM IR to SPIR-V translator
 spirv-headers	1.4.357.0	1	x86_64	164928	3866624	524f4127887fd1a53da67d8d3e853c15d5e0713ee1c72af15267291333782b14	glibc	Machine-readable SPIR-V headers
@@ -83,7 +83,7 @@ json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b
 jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
 iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac573545415794cb20f459d7a	-	/etc/services and /etc/protocols
 eudev	3.2.14	1	x86_64	1242368	10194944	fbd6a0f28c6129f8a1d8721892a19cfc759f606722310a565a66e3c41fbd773e	glibc libcap	Standalone udev, for desktops that need it
-alpm	1.4.9	1	x86_64	51048	221184	87779d7387f936c87ad3983bc42911493e626eee8bd46d1e4e83af039cf2f075	busybox	Arctic Linux Package Manager
+alpm	1.4.10	1	x86_64	51044	221184	3546d202baf97fce935887937e28f631bd143f2025ce3f9716db290eb9f10e0b	busybox	Arctic Linux Package Manager
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
