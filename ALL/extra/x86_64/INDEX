@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-20 17:36:02
+# generated	2026-08-21 13:33:58
 # fields	name version release arch dlsize isize sha256 deps desc
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
 lua	5.5.0	1	x86_64	201696	1163264	9496c378f603afd137a9ba17c34ded3540d7128e93b4727cbbbe08796266931f	glibc libedit	The Lua interpreter
@@ -20,6 +20,7 @@ aria2	1.37.0	1	x86_64	1062644	3850240	f045dc85b36ae1cc25e9489d7b846d7e2e453df3ef
 oniguruma	6.9.10	1	x86_64	209340	1572864	6dc3d7a48bfbbc323f19985576e8780ea3dc48ae6d2a7fb83f3f4c24655f7f39	glibc	Regular expression library
 libuv	1.52.0	1	x86_64	149008	880640	51f1a3c3fffe51f711e353e84e3da5868b71a4d9c8e7bf9d2f3e9cca13fc1bfb	glibc	Asynchronous I/O library
 libusb	1.0.30	1	x86_64	66900	237568	a60a2e954da826da730fa9c9ee73c93615426758d97f9697273f1e2a7f776cfd	glibc	USB device access library
+lm-sensors	3.6.2	1	x86_64	118636	634880	9bf193593ac03834ef3b56c027abeb9e60d54bba02ce94af0e93eb3dbd0f47b1	glibc	Hardware monitoring
 libtiff	4.7.1	1	x86_64	1016260	7352320	c23e2324080288dafade034bcf72e22bc9e59c513d11edee034ea6ddac42c4be	glibc zlib libjpeg-turbo xz zstd lerc	TIFF library
 libpng	1.6.51	1	x86_64	212816	811008	94b87ec354ea6e2c4e76284d7a987e6a56df3705e1a120471c650ab71e532d97	glibc zlib	PNG reference library
 dkms	3.4.2	1	x86_64	42824	196608	df6ae92e738adcecfae12ac394bc8160720b169d28defad1e1b4074b222e81c6	glibc kmod bmake	Rebuild kernel modules when the kernel changes

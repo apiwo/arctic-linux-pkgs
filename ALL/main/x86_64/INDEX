@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-20 17:35:55
+# generated	2026-08-21 13:33:50
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	137324	1400832	d35cc04559612b6259f86390afa8ab42158ed18e0839665922d4f962d89f62db	glibc skalibs execline	skarnet supervision suite
@@ -8,10 +8,12 @@ nghttp2	1.68.0	3	x86_64	160880	978944	701f3286efa81090241844335dd666949817d97d39
 newt	0.52.24	1	x86_64	94944	782336	43b8d2fc6fdb4183855a93b8bb529b0a08d820e9237edc326dc126f8949fe464	glibc slang	Text-mode windowing library, used by nmtui
 libffi	3.5.2	1	x86_64	26104	114688	b1ad8e360b791153cdfa6692e0bc06fe275901a6704e4bb8de4259c97012cc0b	glibc	Foreign function interface
 libcap	2.78	1	x86_64	769760	2584576	afce44e28b59a8b6c3a646d87c3077312c37e0efe4360b3908b115158dc24d62	glibc	POSIX capabilities library
+automake	1.18.1	1	x86_64	424444	1777664	a24329bb6d42f2081f5c4adeee6682fadd5c10ed684048c970247b75b5a006a7	glibc autoconf perl	Generates Makefile.in from Makefile.am, needed alongside autoconf
 musl	1.2.5	1	x86_64	650960	4771840	185a33768f249c5c90f7b3ecfeb7f07b764b7c863d419750bdb4dd46058ea6f6	linux-headers	musl libc, the small alternative to glibc
 lvm2	2.03.36	1	x86_64	1238168	4882432	44606583fc6a2955a01194a07e5a0d8a10de1013abc6bb7c4448cc34186da849	glibc util-linux-libs	Logical volume management
 libseccomp	2.6.0	1	x86_64	87888	839680	0163d0e1350b10fe470279c23420e57d15973f0127c8159e6cb1b30299930d3b	glibc	Syscall filtering library
 libpsl	0.21.5	1	x86_64	63200	151552	4c406296200133723ea4e13a2f8126e4ab00f4e58db30bf18bf6489fd7f02941	glibc	Public suffix list library
+libbsd	0.12.2	1	x86_64	112704	1585152	bd1b86331e411674be9053c921a1019df1d2ad4854ce4559eeeed1aaf9d0751c	glibc libmd	BSD compatibility library, needed by Xorg's modesetting driver and libglx
 gmake	4.4.1	1	x86_64	111880	270336	268091f423caf405471361b8d357f3120be53c8be119ed15e941c07bfe60440b	glibc	GNU make as gmake, for kernel modules; /usr/bin/make is still bmake
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 openssh	10.3p1	1	x86_64	1081504	7540736	1c73639d7a50ab41439277d3bd87ccc2d19ec2ffcf9fd6858ea6c72f2b4f1976	glibc libressl zlib libedit	OpenBSD secure shell
@@ -35,12 +37,14 @@ base	1.0.1	1	x86_64	656	4096	e40bfd199cadcbb8cec2e0476a612821849ab2b4de308462da3
 arctic-init	1.0.0	1	x86_64	556	4096	d48bbbc66e35ff8a5ad549fc45aa3fe5db90d5ae5ea287b13eaef3afcbc263b5	busybox arctic-base	Arctic init scripts and the service manager
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 sqlite	3.52.0	1	x86_64	1164772	3649536	004a22c09e3b98abd1e65806e2eaa7eb5cc4aa85be06a22af9e7ffcf77a06679	glibc netbsd-curses libedit	Embedded SQL database
+perl	5.42.1	1	x86_64	13119196	91291648	222ae13b94d85a5c74c64373aeb3f937744e7b1417c3b8bd543c047a2add352f	glibc zlib bzip2	Perl, needed to build openssl and git
 libyaml	0.2.5	1	x86_64	54512	208896	33f4b790cf1393a5b34955e7e96f8c43869345e710bbe3b7f4fc4c306473a094	glibc	YAML parser
 initialization	0.8.1	1	x86_64	23888	86016	7583d587a8a894c89537735eefa1da99023b962a335c2ceeecbd0fe668f45996	glibc	The Arctic init system and process supervisor
 expat	2.8.2	1	x86_64	119076	454656	5e6ac43ae6285432ed36b66f0fb9b512a0447b8898de24735572e2202ca5a6cd	glibc	Stream-oriented XML parser
 zstd	1.5.7	1	x86_64	511136	3280896	95fc9251829895317c31faefd4fa38ca73344cafadb45a3adf272a32048a1d79	glibc zlib	Fast real-time compression
 parted	3.7	1	x86_64	279228	1585152	ec2de28f35762fc4aabc8619d6c3532e12447fd0814e0332bf0cec7513042727	glibc util-linux-libs	Disk partition editor
 openrc	0.63.2	3	x86_64	204284	2162688	15af728bcaf112c4a24b3561abcef168c16539ca65125f09ad7587e757bc64c7	glibc util-linux-libs libcap	Dependency-based init system from Gentoo
+m4	1.4.21	1	x86_64	77228	200704	010cc231149b0d0f9ab731c47d414414902e1314f56d4adefd88850613e5829e	glibc	GNU macro processor, needed by autoconf/automake/libtool
 iproute2	6.19.0	1	x86_64	1004820	5001216	65271e489d27ecb045208f3fb8ea24813a32e06dfbd337e82cdbcf47d6c02cf0	glibc libcap libmnl util-linux-libs	ip, ss, tc and the netlink tools
 inih	60	1	x86_64	15380	86016	050112ef8000b5b4c562261cf43d9938966d23e7b61b48babc93678fff422d28	glibc	Simple INI file parser
 e2fsprogs	1.47.4	3	x86_64	827660	10452992	5dc2a5552526c403401a6335f652afe2c2e75f4fe8770ac8b308bfac9d28ffaa	glibc util-linux-libs	ext2/3/4 filesystem tools
@@ -49,7 +53,7 @@ skalibs	2.14.4.0	1	x86_64	104308	704512	dbdcbb7fac055a4cb83afc3ab319eeb3a778548c
 openssl	3.6.2	1	x86_64	4611064	25387008	a24eed6f8b9e88ae18d9758442bfe3e3dcbb7dfc6a47343a19a2f06668cd4efe	glibc	TLS toolkit, for software that insists on it
 mandoc	1.14.6	1	x86_64	302772	1269760	9d6f49dfb9dab4c7076b70077019ab4bcbaa47299a00bdd076e31a6e1f3bb0b0	glibc zlib	Manual reader, replacing man-db and groff
 libndp	1.9	1	x86_64	22576	135168	decb02e0c75a2d331421badfddc09122a19fbcba2c7508cd9cb868fb92679c21	glibc	IPv6 Neighbor Discovery Protocol library
-libglvnd	1.7.0	1	x86_64	102200	1105920	edbd823688dd54e1cb7ce051f9bb5ca1480f9025eed17f1bbaa9d792d88cdab4	glibc	GL vendor dispatch, so mesa and NVIDIA can both provide GL
+libglvnd	1.7.0	1	x86_64	334040	4100096	4845935f205137e8b36db38238170deb04ddfe69939e49287603a8c9d5d738fe	glibc,libx11,libxext	GL vendor dispatch, so mesa and NVIDIA can both provide GL
 libedit	20260512	1	x86_64	98448	503808	0fca74b30827dbc3b95dcfa46a8a2edc1b0b1946f35c6c637f4f82af04123016	glibc netbsd-curses	BSD line editing, replacing readline
 kmod	34.2	1	x86_64	99912	479232	3ef08dfccb48f95fbde2e3595b17f02dc2e4fa3ef8650f537b93582028bc7ed7	glibc zlib xz zstd	Kernel module tools
 gmp-alt	6.3.0	1	x86_64	313828	1777664	fc7bc2f84ef3a9770a155c129c3ab60d698d9a8fde66088a6d19ca4e0e9ffbd7	glibc	Arbitrary precision arithmetic, for nftables
@@ -64,6 +68,7 @@ util-linux	2.41.5	2	x86_64	673896	3039232	241c2a2e8363f8358b51cf6b124706446c5f66
 sysvinit	3.14	2	x86_64	70860	331776	48a60f12bb78486c7b25c7536697bac10d30d6d32391e71a556eb34ba50152d4	glibc	The traditional System V init
 libmnl	1.0.5	1	x86_64	8908	49152	bda92b7d9f254a2b420b60544f441a4cbe44adb4502c9fe5293ba15ad406f05c	glibc	Minimal netlink library
 glib	2.84.4	1	x86_64	2920420	18452480	efcf96f26f418db02c8c11357084b53d99baa400ffe676c0b5b5ab08e77464ff	glibc zlib libffi pcre2	Core GNOME utility library
+autoconf	2.73	1	x86_64	320664	2183168	663ea35c4d8f6f1564bf266fa69a0ae3fff333757b63603058836915a3b70938	glibc m4 perl	Generates configure scripts from configure.ac, needed for packages that ship raw git-tag tarballs
 xz	5.8.3	1	x86_64	210452	958464	bbce3d0fdab2aacf51a9c035e970d1e45191661dfadb2d5a40184de4f885fcf7	glibc	liblzma and the xz tools
 wpa_supplicant	2.11	2	x86_64	492884	1486848	7458720e3c52ff285eae405d73285589f69bafebf5b5a20ae31b660f8375be29	glibc libressl libnl dbus	WPA client, NetworkManager's wifi backend
 seatd	0.9.1	1	x86_64	32616	135168	86b8117c7d8470d9c396968146978532311eec190231eab84e8af951e7e49981	glibc	Seat management, replacing logind
@@ -88,11 +93,13 @@ alpm	1.4.11	1	x86_64	51060	221184	a86853a1e831dad3be8131616f5eb58e8306f46cef2c14
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
+libtool	2.6.2	1	x86_64	324704	2535424	9dc92d8330d32c22714c46699794772f4fc0e99f73fac3f3fe8ab30af36273ca	glibc m4	Generates portable shared-library build rules, needed by autoreconf
 grub	2.14	1	x86_64	2462536	28741632	455f3e60d89d488a5ea2f83fb3c38d0c95d2579024a187e48a89ffff3af2a09a	glibc	GRUB2 bootloader (BIOS only)
 brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a631ddd38c3b3e796de2434	glibc	Brotli compression
 util-linux-libs	2.42.1	3	x86_64	743296	5763072	4a3324c34ad24c2624ad88ec881eb4af32cba9b0fa54422f5dffc78f5eb88bc7	glibc	libblkid, libmount and libuuid only
-pcre2	10.46	1	x86_64	607516	4206592	97041e46f82f2cc65098dfa0bb3abd03742a8e2be8f4fee7f1c7e2c44cd801b6	glibc zlib bzip2	Perl compatible regular expressions
+pcre2	10.46	1	x86_64	823160	6774784	aa94d04f8e1676daee6adbeb2e8768af8019f08699449b9d9cf4f3b09d627e52	glibc zlib bzip2	Perl compatible regular expressions
 libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
+libepoxy	1.5.10	1	x86_64	283040	2830336	851ba60ad995d632590afa328b1011a606670546e1bf250db018e646b9e5f95e	glibc libx11	GL function pointer dispatch, needed by Xorg's glamor 2D acceleration
 libclc	22.1.8	1	x86_64	2704748	33914880	39e58ddc585075774faf6b412261071e2cf6fc68327975b5de60fd61e4e78dfe	glibc	OpenCL C library (bitcode) for LLVM
 gettext-tiny	0.3.3	1	x86_64	51816	458752	b3f7ca45a7cd6e35e4fa259e7c25580488a7a132ff61a2ead221edb0dda3a397	glibc	Stub gettext, so nothing needs GNU gettext
 gcc-libs	15.3.0	1	x86_64	752104	2764800	fb6190e48f8f896b1a1a088201e0673afe0a212100105e96f2478ebf4f8ff120	glibc	libstdc++ and libgcc_s runtime, required by the NVIDIA driver
