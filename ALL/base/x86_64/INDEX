@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-21 13:34:03
+# generated	2026-08-21 13:54:12
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -53,7 +53,7 @@ gsl	2.8	1	x86_64	1581804	12206080	043c391412a87f725f6aea4b879737c27d44a236208498
 lightdm	1.32.0	1	x86_64	192820	1429504	ac01fc760da31370b062842a367b038a9278f969c9a55a567e19548e21ab8362	glib libxcb libxcrypt	Cross-desktop display manager
 adwaita-icon-theme	50.0	1	x86_64	461472	15785984	e268d4a032500aa0af61a743eb3e8efae22f69f48ba0962798d7066d1831f300	glibc	The Adwaita (GNOME) icon theme, for LXQt and any GTK app on the desktop
 sddm	0.21.0	1	x86_64	3530124	5738496	08afb2ee34e36dfdc827b05ce5ab4d42530c005b05ec059002e6e6a973c8573d	glibc qt6-base qt6-declarative libxcb pam	Qt display manager, Wayland capable
-ncurses	6.5	1	x86_64	1789296	21114880	a64a5b81cada799ce67f09f3beecb1a98b2c0fdaa2605b199af08ec011f53fed	glibc	Terminal UI library, needed by procps-ng (top/watch)
+ncurses	6.5	1	x86_64	1790268	21114880	f5da522fcb2d0110ec10ae4ad638147d784a915c4348d5ce3915a2d390cdc14c	glibc	Terminal UI library, needed by procps-ng (top/watch)
 mtdev	1.1.7	1	x86_64	17280	106496	784874554f0d7f21bd6027b47bed93eca77e33c24077eac7f3469e4ee0ffa3f2	glibc	Multitouch protocol translation
 pango	1.58.0	1	x86_64	290768	1245184	60790241b652ca0c6a85978fcea001f68f8caefeed843e05d1c202402efa7f0c	glibc cairo harfbuzz fribidi glib	Text layout and rendering
 xfce4-dev-tools	4.20.0	1	x86_64	22548	106496	4ae308775a36278a620275d3bffc52da121204dc095161e4a7f268896aa8c3cb	glibc glib	Build tools for Xfce and its greeters
@@ -65,6 +65,7 @@ icu	78.1	1	x86_64	10729936	45817856	af7ee1ebd1d0ed1c7cd6e8c86f81a6a6127b448c72c6
 xfwm4	4.20.0	1	x86_64	272628	3899392	83bcf8dbf85c6a29f6efa360d0f37a8ef3504fdfdfeef1e1447bd8a35deffdf1	gtk3 libwnck libxfce4ui	The Xfce window manager
 libxrender	0.9.12	1	x86_64	30480	184320	dfcf31f575f6534cadda8e1bb58ac091286d22825bcf72b687c3b1d4aeb9a575	glibc libx11	X Render extension library
 libfm-qt	2.4.0	1	x86_64	582340	3354624	ac1db08541f3d87e81fac56739785b7480f95f027e240f5f2beb8f7a628f7d74	glibc qt6-base glib libexif libx11 lxqt-menu-data	Qt6 file management library, needed by pcmanfm-qt
+qt6-wayland	6.10.1	1	x86_64	652916	6307840	7371f8df2a7ff5a18aab579ea795b1479672fa58205e46f3a04d36402102325b	qt6-base wayland	Qt 6 Wayland platform plugin
 libgudev	238	1	x86_64	22236	217088	0d618dc6bec1cf433639423cab0bb7d9d60e61f6c8f0599a3ef4ef305794b1e3	glib libudev-zero	GObject bindings for libudev
 libexif	0.6.26	1	x86_64	254652	1646592	35ca66dc84df4f30a58a01813cbeea4134b63ad6d63ffbab62dd694b7ada89a4	glibc	EXIF metadata library, needed by libfm-qt
 libxfixes	6.0.2	1	x86_64	13232	90112	5da4308a86d18da51cebb14c3ecf3a6735a3471c0849dd864c6c65f64a2c8ac0	glibc libx11	X Fixes extension
@@ -140,6 +141,7 @@ xdg-user-dirs	0.19	1	x86_64	28736	368640	8b980fbb6968d984b27faff7e1e2fc0c7bb56a4
 gnupg	2.5.14	1	x86_64	1820000	7868416	ff4003eebb5e55866cb130d4a80ed18dcb422bbead92995fbd9e3263906f093b	glibc libgcrypt libassuan libksba npth zlib	Encryption and signing
 xfconf	4.20.0	1	x86_64	93216	782336	5ecc685b7ee3cf6f75d3f7f012a0fd948f2804d4b8d099b0737ec1d655fc832a	glib libxfce4util	Xfce configuration storage
 libksba	1.6.7	1	x86_64	111732	344064	95eab1636aad0b455236b02d82aa74636ee4f098d4e1305cabdd673cbcc1e15b	glibc libgpg-error	X.509 and CMS library
+at-spi2-core	2.58.0	1	x86_64	415268	2629632	9f46d63c09a6a662b806f5215adcce9785138c7cf68c3b2119e1cc8c3576091b	glib dbus libx11	Accessibility bus
 wayland	1.25.0	1	x86_64	139416	1011712	039dea36f3d86fdb0322e403e5c6eda119471607cdbeb5afd89018bfcd9901be	glibc expat libffi libxml2	Wayland core protocol
 libwnck	43.3	1	x86_64	347280	2785280	2a10c2d2e6332d10ea92361af3701c8d07d07891a6a5c94379aa4f674a23a2e5	gtk3 libx11 libxres	Window navigator construction kit
 libxfont2	2.0.7	1	x86_64	148664	692224	3a552a173d4a5d9ae55d007888b1a8172c45a53377be77ddded3f8b32c41f2d7	glibc freetype libfontenc	X font library
@@ -163,7 +165,7 @@ xcb-util-wm	0.4.2	1	x86_64	35352	327680	f251aebb87dc18660e13733847174df35f8c8d19
 npth	1.8	1	x86_64	11752	65536	c0fad482c88a2a9cb30cb0340d07bd6b573ca184a985a35ddc42135cb15e05ae	glibc	New portable threads library
 gdk-pixbuf	2.44.4	2	x86_64	6228188	24657920	ed8ebc7199da7fd28d9ad60e1d579b4c14890e4936bc1813f4762bc8f4ae35cf	glib libpng libjpeg-turbo libtiff	Image loading library
 sway	1.11	1	x86_64	5133656	6098944	8f93cecb17ba9282bdf827259d9ebb4089fa76ae3144b531f1d1f9196f8274c5	wlroots wayland libxkbcommon pango cairo json-c	i3-compatible Wayland compositor
-procps-ng	4.0.7	1	x86_64	612224	3371008	02f2fc775942a185a3fa6ceb7ba5deb0016385d66e3428ba0d5128d63f894198	glibc ncurses	Process monitoring utilities (ps, top, free); libproc2, needed by lxqt-session
+procps-ng	4.0.7	1	x86_64	612656	3371008	ff4f1c84b0fbe290ebb7e13193f831a17da249eec1d6aba88b0c2394c96cbac5	glibc ncurses	Process monitoring utilities (ps, top, free); libproc2, needed by lxqt-session
 fribidi	1.0.16	1	x86_64	42204	421888	94d16de3e7803c60b2698305e6392fb33fe8c464edc50c9e35894ba469fbe704	glibc	Bidirectional text algorithm
 pixman	0.46.4	1	x86_64	268140	823296	02c58ed32fb84a5a881152dcd252c587a31d5ad326e5ba1756bce172c5f5fc36	glibc	Low-level pixel manipulation
 duktape	2.7.0	1	x86_64	176048	557056	27403ac49faf3eb7e7f26ce41f8d297b395df6f5e5d482b5c3635e64f6cdaf1e	glibc	Embeddable JavaScript engine
