@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-21 21:39:59
+# generated	2026-08-22 16:52:58
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	137324	1400832	d35cc04559612b6259f86390afa8ab42158ed18e0839665922d4f962d89f62db	glibc skalibs execline	skarnet supervision suite
@@ -77,7 +77,7 @@ popt	1.19	1	x86_64	45424	204800	905347742c991e267647405721185d5c971f6811cd4d7a2b
 pkgconf	3.0.4	1	x86_64	99952	425984	c6208eb41275133d0b6aaa0af69fe5241c9e73d8255c955f1699b1ea28dd7219	glibc	Build flag helper, replacing pkg-config
 nitro	0.8.1	1	x86_64	25092	86016	e3652c468d9ebf4b59658fbc565449751841a633f51439df6f33495d2bed3b58	glibc	Tiny init system and process supervisor
 ninja	1.13.2	2	x86_64	301584	983040	8564a1448db029553987221091e29904ee9d7e5fff889772295d9a094fa28ef4	glibc	Small, fast build system
-libudev-zero	1.0.3	1	x86_64	15424	98304	4a90feb2a408444770aa910cd34a9178bfae300eca1fab6e0f8d58254095de21	glibc	libudev without systemd, paired with mdev
+libudev-zero	1.0.3	2	x86_64	15320	98304	822b96d2061eaae9bb3b16209e6d89a5fcbdcccaa6d7c2012af584621f039a29	glibc	libudev without systemd, paired with mdev
 libressl	4.2.0	4	x86_64	2250432	29106176	ad261935be51c4e71f39ad4fe670b43458fb7df2e2ae39ab4e9153458119e740	glibc	OpenBSD TLS, Arctic's default
 c-ares	1.34.8	1	x86_64	176552	1245184	10deda85bc525865c713a7b8d43d465d531587723eaf34507a813def24b2cf25	glibc	Asynchronous DNS resolver
 bzip2	1.0.8	2	x86_64	61400	503808	fcbff866e0ab2c2d27d6bc97ee7741e56121687acbff1056d172d8d06a8608bd	glibc	Block-sorting file compressor
@@ -88,7 +88,7 @@ libidn2	2.3.7	1	x86_64	102736	802816	079db5c3c119cfa0f7e70b7c20d240d00628c6bd0cb
 json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b2b8052dbd73924665e	glibc	JSON parsing library
 jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
 iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac573545415794cb20f459d7a	-	/etc/services and /etc/protocols
-eudev	3.2.14	1	x86_64	1242368	10194944	fbd6a0f28c6129f8a1d8721892a19cfc759f606722310a565a66e3c41fbd773e	glibc libcap	Standalone udev, for desktops that need it
+eudev	3.2.14	2	x86_64	1244348	10194944	5b359a2583e86e0a4a160f42733b14eaa8c07ebcae054dcedfff740ab76727ef	glibc libcap	Standalone udev, for desktops that need it
 alpm	1.4.13	1	x86_64	51036	221184	3e41abf72e0491ea5aeb51118605064a830f4851edecac53f46808cd48241c80	busybox	Arctic Linux Package Manager
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
