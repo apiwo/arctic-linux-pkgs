@@ -1,7 +1,11 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-22 18:20:09
+# generated	2026-08-23 15:17:17
 # fields	name version release arch dlsize isize sha256 deps desc
 vscodium	1.126.04524	1	x86_64	146841168	652537856	28e108aeb7cd3783749bec811a24c1d104353ffad4852f271dd3cb34d83e96ad	glibc gtk3 nss libx11 libxcb libxkbcommon alsa-lib libdrm mesa	VS Code without Microsoft's telemetry or branding
+noto-fonts	2026.08.01	1	x86_64	29345224	98897920	df82a6141174d8f124d31e1e9f93d267eef349af7b922363fd94071272c5e1e6	-	Google Noto fonts
 linux-firmware	20260622	1	x86_64	169958312	410079232	178b3a9bcd9c750e0f2348eecc650663621f6d3a13dd7687918b3b7f24ebbb26	-	Wireless and device firmware
+rust	1.94.0	1	x86_64	73104404	390566112	b2e21f6362cdaa16d97ff0c11d97f092d514df3bd6a41dc03d8de94f70e0f47a	glibc	The Rust compiler and standard library
 llvm	22.1.8	3	x86_64	164477256	1195442176	e79bbd7f90bfd455a424a26f73332f0fa317be3a1f4111ea75a60266a21e738d	glibc zlib zstd	The LLVM compiler infrastructure: clang, lld, libc++, lldb
+arctic-kernel	6.12.100	1	x86_64	90946360	538689536	6f5b7b0d1d18e708eb78f7c3b7682af76e96fd53631a5f11262cf1ad53c20aa0	glibc	ZEN patchset on the 6.12 LTS line - PDS/BMQ, ACS override, ntsync, vhba
+arctic-base-kernel	7.1.3	1	x86_64	99730612	598478848	64a27ed77694229afd487cd7d9114652378e61faea3d34d215f3a7a8097b2795	glibc	Arctic Linux kernel, broad hardware support
