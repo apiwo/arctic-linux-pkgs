@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-22 18:38:26
+# generated	2026-08-23 13:54:32
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -86,7 +86,7 @@ startup-notification	0.12	1	x86_64	21572	139264	2ee3fafde98b237a5d92d8c46ea1317d
 qtermwidget	2.4.0	1	x86_64	212020	1036288	d8ceed12467296f5dec7e95b7b0b4a215f027b6c6eae21a02a25ed2d1b077c15	glibc qt6-base	The terminal emulator widget behind qterminal
 sddm-arctic-theme	1.0.0	1	x86_64	1396	16384	28cbaa910e4c73bcf121b92cb4e73ca53b741752014727faf8c982ed7c676a88	sddm qt6-declarative	Arctic Linux theme for the SDDM login screen
 solid	6.20.0	1	x86_64	356396	2400256	806a79c6fb12694d667c46aad7d750725fc7bb33ae4a748f504ecfdac9e043a6	qt6-base eudev extra-cmake-modules	KF6Solid, hardware/device detection, needed by lxqt-panel's mount plugin
-libinput	1.30.0	2	x86_64	263568	1490944	27e9094e9eb2fb7d8d76224061c563bf42fc9aa94cc1047993f837c1d13812d9	glibc libevdev mtdev libudev-zero	Input device handling
+libinput	1.30.0	3	x86_64	263632	1490944	0c94358b71e5932236800ef4ebf930421e6402191acbb1aea35ddbbb7907bf36	glibc libevdev mtdev eudev	Input device handling
 opus	1.6.1	1	x86_64	312416	847872	226059d3a9c4e4112b253c1d2e9305e11d6905dc0e8e0bf337bcc271e3ac170f	glibc	Opus audio codec
 zsh-autosuggestions	0.7.1	1	x86_64	8716	86016	f317db814bc36c6a9a6a4d3d4d2bc07a972bc5d7672bd2a89a6b3fab1fb7f26a	zsh	Fish-like autosuggestions for zsh
 exo	4.20.0	1	x86_64	143016	1466368	f4cf8a4c9753967953cd27c702308e1875f6dd8890cc297c3515cd7c2aecd23b	gtk3 libxfce4util	Xfce extension library
