@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-23 17:25:31
+# generated	2026-08-23 18:20:58
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -13,7 +13,7 @@ dmenu	5.4	1	x86_64	15976	73728	c2765145fe6bb5632e4d7b6c5f97a8b5e52f8c5a21cc8aaf7
 libxshmfence	1.3.3	1	x86_64	4436	40960	a026acc073eda95d4d481a32bd82a9e7872b6572722e66d844fab25d693deeee	glibc	Shared-memory fences
 mesa	26.0.2	2	x86_64	18686204	113270784	4a460db021a2989c641b0fb610a6498115b89b607b38d9d870ab4d930d9be241	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
 vulkan-loader	1.4.330	1	x86_64	134356	598016	3a10f2d9797584a835727e09267b873be9e68c1ed27f88bfb8420f6b042783fe	glibc wayland libx11	Vulkan ICD loader
-libxaw	1.0.16	1	x86_64	447488	3403776	e1d8a506bbc0c6e6610921a182df8a0ad3679cedb6dde84e361066aa5907abf0	glibc libx11 libxext libxmu	X Athena widget set
+libxaw	1.0.16	2	x86_64	448092	3403776	7879f7a477997597146a874e2d3bf8507d8e57e70963733bfcffa32134b3465f	glibc libx11 libxext libxmu libxt	X Athena widget set
 xfce4-panel	4.20.8	1	x86_64	525164	5025792	69149b387a93f2c711568aed6e8edf73dc4849fa35263fe917eedc2cbadb73c9	gtk3 libxfce4ui garcon exo	The Xfce panel
 xf86-input-libinput	1.5.0	1	x86_64	35260	126976	3becbd487410ee388132640bbb18bbb0cb3647d3b61766928b2a7041dfccd50a	glibc xorg-server libinput mtdev	Xorg input driver backed by libinput - without this, X has no keyboard/mouse driver at all
 libb2	0.98.1	1	x86_64	15728	98304	19939bf85bc27bfdf379139d8818b4d6b731157dddfbc0982037f98cc5443d4a	glibc	BLAKE2 hash library
@@ -45,6 +45,7 @@ libev	4.33	2	x86_64	111392	487424	ff67665beebff6ad333c53998bea1d61a647e12f68ab88
 libnfnetlink	1.0.2	1	x86_64	14656	69632	02d4256ae1539fdbdf944bf9bd832a45e05ebb05c65e9f091047b7c98018cd08	glibc	Low-level netfilter netlink library
 xfce4-session	4.20.4	1	x86_64	191980	712704	9975fb1737714aebd2edff191e933b31882aa8837760ff4b69f7fa0221407e56	gtk3 libxfce4ui libwnck	The Xfce session manager
 libxkbfile	1.1.3	1	x86_64	90404	479232	fef10271093df74df038d50480b02a3c34a6565e3886512d40211a35dd9ef38d	glibc libx11	X keyboard file library, needed by xkbcomp
+libxt	1.3.1	1	x86_64	428760	3973120	4a257b5e432773d461e6195470a6c7af8d0e528494999fe47ca79ed4694b3632	libx11 libsm	X Toolkit Intrinsics
 xorgproto	2025.1	1	x86_64	224196	1888256	5cf01b2711ebb09ffd605ecc93597ac5ff79b5ac672f124f9cc56a114f3d8a99	-	X11 protocol headers
 lcms2	2.17	1	x86_64	174440	593920	756a07f74a30d58a2e104affe9bd79c20f52894dcc7638acc06328ffd825a8f4	glibc libjpeg-turbo libtiff	Colour management engine
 xorg-xwayland	24.1.9	1	x86_64	933164	2469888	849bcfaaa4b678416e644fd8c54a477ece9f061ad87f1a4aa421d454e5167d7c	glibc mesa wayland libdrm pixman libxkbcommon	X server running on Wayland
@@ -73,6 +74,7 @@ libxfixes	6.0.2	1	x86_64	13232	90112	5da4308a86d18da51cebb14c3ecf3a6735a3471c084
 openexr	3.4.0	1	x86_64	1281988	6836224	e40bf57fa63a80718c01de04fd72df3198969ccc483e51a28d62dca58fa0b86e	glibc imath zlib	High dynamic range image format
 dbusmenu-lxqt	0.4.0	1	x86_64	79580	315392	6991f228de6728ca9e4f3c5181ca779da35765a945bd9ab8ed6565825869eb43	qt6-base	Qt6 DBus menu protocol implementation, needed by lxqt-panel's status notifier plugin
 libxmu	1.2.1	1	x86_64	96548	679936	914c7bd40d82c0ec26e4ef49d69d587bfe48ab75e003687d66b4e251f2504fe8	glibc libx11 libxext	X miscellaneous utility library
+util-macros	1.20.2	1	x86_64	21068	94208	934adc4698c626393097a670eeccde95d114dde8f2bc16cb55dbd6f5cddec2a3	-	Autoconf macros used by every other Xorg autotools build
 libxcvt	0.1.3	1	x86_64	7328	49152	3e47ad953e2c4761b4a9fdee7b675e0385076ae594159d0ce8984847bf3cbfd5	glibc	VESA CVT mode-line generator, needed by xorg-server
 lxqt-panel	2.4.1	1	x86_64	1085376	9244672	b48fc41cfd95e1f444671a388cd95045a3957e191d9e1124f882d36365cd1bef	glibc liblxqt qt6-base libxcomposite libwnck lxqt-globalkeys libstatgrab solid lm-sensors libsysstat dbusmenu-lxqt xcb-util-image libxtst pulseaudio	The LXQt panel
 dash	0.5.13	1	x86_64	77680	204800	f0793f6a13ba51a1c1fd32eed0e95bfd61cf8588d39ab23dbc0429296235b8f5	glibc	POSIX-compliant minimal shell
@@ -110,7 +112,9 @@ slurp	1.5.0	1	x86_64	15008	57344	f46196505abd321f7c438bf285b568a5df406275fc58ce2
 extra-cmake-modules	6.20.0	1	x86_64	410804	3301376	9013253d82bb7f17d7761d7f6b312feeb790cd7f797dde98e694ea7985aabd42	glibc	KDE's shared CMake modules, needed to build any KDE Frameworks component
 md4c	0.5.2	1	x86_64	67052	274432	2f0402c2519b79e2d5083eaa6159ec90a67e0e7f064c6f03a729cb1d7db61456	glibc	Markdown parser, used by Qt6 tooling (qtpaths, qsb)
 feh	3.10.3	1	x86_64	166624	520192	6bc7c3fcdd78d362421ac30706f53b91d3c49f158b979442259d0cd9ece8923d	libx11 imlib2 libxt	Lightweight image viewer and wallpaper setter
+xauth	1.1.3	1	x86_64	20088	61440	a1d88f64b2a486026152f59950856169cc9d86a6c4279c301f6a8e2fc9df3928	glibc libx11 libxau libxext libxmu	X11 authority file utility, needed by xinit/startx to set up display access
 libxinerama	1.1.6	1	x86_64	7516	69632	123ad804493d76bf60b16eb9f679175985c5c8e49c7b26e77aebf5890a7a4b5b	glibc libx11 libxext	Xinerama extension library
+xterm	400	1	x86_64	375056	1396736	014eeb1321c5d7d70cf86643b62f3f3636631015aa9442185defb1f9ad5628cd	glibc libx11 libxt libxaw libxft ncurses	Terminal emulator for X11 - the fallback every xinitrc needs a real one of
 xorg-server	21.1.20	1	x86_64	2114596	9170944	1bedd551b680a0619abe33b9d01bba25b5392530eebf6694dc2f86d346286364	glibc mesa libdrm pixman libxkbcommon libxfont2	The X.Org display server
 qt6-shadertools	6.10.1	1	x86_64	1397580	6139904	4e573aae00fa53c432476e057bb0d8fcdc58106ca7e29295eddde93e2c5a07a5	qt6-base	Qt 6 shader baking tools, needed by qtdeclarative
 libfm	1.3.2	1	x86_64	645564	4370432	6d1636caddc892d9287386399f458eedca728a83aa9da59cb6d1dfef7ce486a8	glibc glib gtk3 menu-cache	File management library for LXDE
