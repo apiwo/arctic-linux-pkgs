@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-23 20:50:27
+# generated	2026-08-26 16:26:41
 # fields	name version release arch dlsize isize sha256 deps desc
 apiwow-dwm	1.0.0	1	x86_64	3088	28672	dfb0872bef56e03177ae893cd151b3a20adb65b79a60b24a4237c9e296c5932e	dwm dmenu st picom slstatus slock foot xorg-server xorg-xinit xauth xterm libx11 libxft libxinerama ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts feh	dwm + picom, calm grey and white, with the Arctic terminal and fonts
 niri-dms	1.0.0	2	x86_64	4132	40960	c03719155903ab86a1dc214797c139dd2b9ea49e30706d6367efe8f6a5d853f9	niri dankmaterialshell foot fuzzel mako swaylock wl-clipboard grim slurp xorg-xwayland pipewire wireplumber ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts noto-fonts-emoji nemo firefox	Niri + DankMaterialShell, with the Arctic neutral rice and keybinds
