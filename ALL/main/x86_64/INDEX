@@ -1,6 +1,6 @@
 # Arctic Linux repository index
 # format	2
-# generated	2026-08-26 16:26:23
+# generated	2026-08-26 17:28:00
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	137324	1400832	d35cc04559612b6259f86390afa8ab42158ed18e0839665922d4f962d89f62db	glibc skalibs execline	skarnet supervision suite
@@ -94,6 +94,7 @@ zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb0
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
 libtool	2.6.2	1	x86_64	324704	2535424	9dc92d8330d32c22714c46699794772f4fc0e99f73fac3f3fe8ab30af36273ca	glibc m4	Generates portable shared-library build rules, needed by autoreconf
+json-glib	1.10.8	1	x86_64	125976	819200	3e0dd9edeec9bc802aa6c4c45a70108886afdcc4026b139f44c2964c69bd8328	glibc glib	JSON parser/generator built on GLib, used by lxqt-archiver
 grub	2.14	1	x86_64	2462536	28741632	455f3e60d89d488a5ea2f83fb3c38d0c95d2579024a187e48a89ffff3af2a09a	glibc	GRUB2 bootloader (BIOS only)
 brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a631ddd38c3b3e796de2434	glibc	Brotli compression
 util-linux-libs	2.42.1	3	x86_64	743296	5763072	4a3324c34ad24c2624ad88ec881eb4af32cba9b0fa54422f5dffc78f5eb88bc7	glibc	libblkid, libmount and libuuid only
@@ -109,9 +110,11 @@ pam	1.7.2	2	x86_64	256396	1642496	20f4f5f2d87efd1d0965823079b2c6447053ef2a0e6017
 nftables	1.1.5	1	x86_64	320288	1286144	c67335345fe1399ddaefc56f7ef83d837d3cf52456b47bc5a20be24ce23f47f0	glibc libmnl libnftnl gmp-alt libedit	The Linux packet filter
 networkmanager	1.50.0	2	x86_64	3135180	17010688	2766963e7f6c8a2d46398e58856aebf69e970512d8133fa3838e6c8e3cca7db7	glibc glib dbus libnl wpa_supplicant newt curl libudev-zero libndp	Network configuration daemon, provides nmtui
 netbsd-curses	0.3.2	1	x86_64	184952	847872	97d3db710a7e20817721778fba96862925e40925937e0923563bf3490ec0ccc2	glibc	NetBSD curses, a BSD-licensed replacement for ncurses
+muparser	2.3.5	1	x86_64	141420	643072	299d2a0068277a6af75bcaf6230a9a6e15a12399e0be45ce9ef77e11376206b1	glibc	Fast math expression parser library, used by lxqt-runner's calculator feature
 lz4	1.10.0	1	x86_64	157928	835584	57f243607cea8767dcb19dc9c2e9f7c79f8f6bb03cac71a5ea5475a830b6e25b	glibc	Extremely fast compression
 libnl	3.12.0	1	x86_64	600192	5070848	4eb1ea477c5e0864d7c68a4e21d545824a22781e2807b518f23f44b6bb1606f2	glibc	Netlink protocol library
 libnftnl	1.3.0	1	x86_64	66444	307200	dde4fdae106027322611dcde4e148bc15f90a57c2f05afab17c4b6c77f1b5d0d	glibc libmnl	Low-level nftables library
 genfstab	1.0.0	1	x86_64	1816	4096	ca467649606d87994870cbcfc70e2f2bc3d13f2dd236300e5101d59e3a2cf66a	busybox util-linux	Write /etc/fstab from the live mount table
 exfatprogs	1.2.9	1	x86_64	61628	364544	1ee3556dd3918bc16a152ff8fb0d77d996af9bdfd4121cd660e652b56cc85185	glibc	exFAT filesystem tools
 doas	6.8.2	1	x86_64	17284	65536	1cd8e727c0fd7d67f67de2046831f3601f48e2a187f51d3c9fe08a09054506c0	glibc libxcrypt	Execute commands as another user
+cmake	4.2.1	2	x86_64	18139496	85118976	3a9f7dd82d5567ac8448cd77318950d12ce197f91a0f3f0c695e3dec01a00b6c	glibc libressl curl expat zlib libarchive netbsd-curses	Cross-platform build generator
