@@ -1,11 +1,11 @@
-# arctic-linux-pkgs
+# scraplinux-pkgs
 
-Binary package mirror for Arctic Linux. Point an alpm repo config at a
+Binary package mirror for ScrapLinux. Point an scraps repo config at a
 folder under `ALL/` to use it:
 
 ```
 name = main
-url = https://raw.githubusercontent.com/apiwo/arctic-linux-pkgs/main/ALL/main
+url = https://raw.githubusercontent.com/apiwo/scraplinux-pkgs/main/ALL/main
 enabled = yes
 priority = 10
 sig = optional
@@ -13,7 +13,7 @@ sig = optional
 
 Every `INDEX` here is signed with [signify](https://man.openbsd.org/signify)
 and the signature is the `INDEX.sig` beside it. The public key ships in the
-`arctic-base` package, at `/etc/alpm/keys`, so a machine has it before its
+`scraplinux-base` package, at `/etc/scraps/keys`, so a machine has it before its
 first fetch. `INDEX.sha256` says only that the file arrived intact — anyone
 who can replace the index can replace the checksum next to it — which is
 what the signature is for.
