@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-02 11:51:37
+# generated	2026-09-02 13:58:29
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56852	1449984	1f9ab50842b55bde4124636ea7c150d5024f71524ef38ee55cdccdc53614c655	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
@@ -19,7 +19,7 @@ argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6
 openssh	10.3p1	1	x86_64	1232772	7835648	2f66927e23b9bae0e65f159e91a2fe40c0060db11babe15fe149b899d41dbd28	glibc libressl zlib libedit	OpenBSD secure shell
 onetrueawk	20260426	1	x86_64	66268	200704	a7393e1d417aa6c5f84dfe26c8cda19e1dfa730e44d413b0e9a68906a773f69b	glibc	The one true awk
 libarchive	3.8.9	1	x86_64	792648	5779456	5a98bf7b76679990ff76b3ddb447d8a03438fd4147a3309d269bd4432cbac889	glibc zlib xz zstd libmd	Archive library, provides bsdtar
-glibc	2.44	1	x86_64	25487308	115920896	d73f36c6ddc4e30582b78228e467602a2d7f03471b7491fabd2ea682d8f0d649	linux-headers	The GNU C library
+glibc	2.44	1	x86_64	25487320	115920896	59fbc712fb45fb7b4607106551efbca02b172595f057c1aef015f330f5e8a40a	linux-headers	The GNU C library, the standard C library implementation for Linux
 ca-certificates	20260601	1	x86_64	103900	196608	05fffd667323dca7290b26e7b2345dca18ec52da12051b85f1170fc692766ccc	-	Trusted certificate authority bundle
 byacc	20260426	1	x86_64	72004	208896	feb155f7a2569bf4af25cf5d30c217e01746179ce5d366972019ca6afacc0864	glibc	Berkeley yacc, replacing bison
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
@@ -79,22 +79,22 @@ pkgconf	3.0.4	2	x86_64	100232	425984	b9a79e321565b484b18bf623741c9cf55ba7dde8c1c
 nitro	0.8.1	1	x86_64	25092	86016	e3652c468d9ebf4b59658fbc565449751841a633f51439df6f33495d2bed3b58	glibc	Tiny init system and process supervisor
 ninja	1.13.2	2	x86_64	301584	983040	8564a1448db029553987221091e29904ee9d7e5fff889772295d9a094fa28ef4	glibc	Small, fast build system
 libudev-zero	1.0.3	2	x86_64	15320	98304	822b96d2061eaae9bb3b16209e6d89a5fcbdcccaa6d7c2012af584621f039a29	glibc	libudev without systemd, paired with mdev
-libressl	4.2.0	4	x86_64	2238908	29106176	7c465b7f1fc18e3d19aa80c6b0b921f40819018c5da6c846bd9c3ee93dc782bb	glibc	OpenBSD TLS, ScrapLinux's default
+libressl	4.2.0	4	x86_64	2238920	29106176	c21eaa32fe86901428847a0a4cca8804b867467947b948e7c930091a262d67c9	glibc	A TLS/SSL and crypto library forked from OpenSSL by the OpenBSD project
 c-ares	1.34.8	1	x86_64	176552	1245184	10deda85bc525865c713a7b8d43d465d531587723eaf34507a813def24b2cf25	glibc	Asynchronous DNS resolver
 bzip2	1.0.8	2	x86_64	61400	503808	fcbff866e0ab2c2d27d6bc97ee7741e56121687acbff1056d172d8d06a8608bd	glibc	Block-sorting file compressor
 btrfs-progs	6.19	1	x86_64	982568	6811648	124b5498a384c841dc0b701227a5cbe41ae6e47ece5b6adff4911059d43ded75	glibc zlib zstd lz4 util-linux-libs	Btrfs filesystem tools
 zlib	1.3.1	1	x86_64	85760	389120	e1333faee7a9a2c097af0e0a190ce1550ec49b7b83f4a49e3b3e987f6871a6ed	glibc	Compression library
 libxcrypt	4.5.2	1	x86_64	88468	311296	b9dd8d105d471d8360056656f9fd583095107c06d2012047394db9c8175484c2	glibc	crypt(), which glibc no longer provides
 libidn2	2.3.7	1	x86_64	102736	802816	079db5c3c119cfa0f7e70b7c20d240d00628c6bd0cb44557c30bc48208c978fc	glibc libunistring	Internationalised domain names, which curl resolves hostnames with
-json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b2b8052dbd73924665e	glibc	JSON parsing library
-jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
+json-c	0.19	1	x86_64	70300	421888	e7244366ff2a4d66b74e49000a76523f2ad156503cda3e835b9f7f02613f0627	glibc	A C library for JSON, commonly used by low-level system tools
+jansson	2.14	1	x86_64	41860	212992	9517ff3695d49eacaba5dd813f67bffc45a8c2bf65c4cb843860aeacdbc4e80f	glibc	A C library for encoding, decoding and manipulating JSON
 iana-etc	20260601	1	x86_64	14772	45056	e5ff875829013c71fe95c92434d129964f15db076219c3d5fe46557bdd1e7874	-	/etc/services and /etc/protocols
 gperf	3.1	1	x86_64	63084	208896	c0f844ecc7a11c96c3ae6ef8bfbca72d843285a085673cb11553c8dd05b9cf9a	glibc	Perfect hash function generator
 eudev	3.2.14	2	x86_64	1244348	10194944	5b359a2583e86e0a4a160f42733b14eaa8c07ebcae054dcedfff740ab76727ef	glibc libcap	Standalone udev, for desktops that need it
-zsh	5.9.2	1	x86_64	2132980	11673600	b96172c9702790e2ee1bfa522ef4fb669543ec65a688571f5863619fdaec3e87	glibc netbsd-curses	The Z shell, ScrapLinux's login shell
+zsh	5.9.2	1	x86_64	2132992	11673600	2d4228f7f1c73d7e356ffd93fc74b869cb921829f7f4e0bd60e9878da152c749	glibc netbsd-curses	A powerful interactive shell with extensive scripting features, ScrapLinux's login shell
 scraplinux-base	1.4.30	1	x86_64	67164	471040	1691487fc5f2182d500773e8f22f34008fc5c6094a188bcb456e92144a52205e	busybox iw wpa_supplicant	ScrapLinux base configuration, init scripts and branding
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
-limine	12.5.2	1	x86_64	629984	3387392	d1767296da17f28067c92dba6c17779bf6d99a28b53dbf38d2e8bad0593b4b2d	glibc	The ScrapLinux bootloader, BIOS and UEFI
+limine	12.5.2	1	x86_64	630000	3387392	4b79e45ac8b45c39cfb5d8210611bc1fdbf66f3920ea4cc171ccbc5a0249ac14	glibc	A modern, fast bootloader supporting both BIOS and UEFI
 libtool	2.6.2	1	x86_64	324704	2535424	9dc92d8330d32c22714c46699794772f4fc0e99f73fac3f3fe8ab30af36273ca	glibc m4	Generates portable shared-library build rules, needed by autoreconf
 json-glib	1.10.8	1	x86_64	125976	819200	3e0dd9edeec9bc802aa6c4c45a70108886afdcc4026b139f44c2964c69bd8328	glibc glib	JSON parser/generator built on GLib, used by lxqt-archiver
 grub	2.14	1	x86_64	2462536	28741632	455f3e60d89d488a5ea2f83fb3c38d0c95d2579024a187e48a89ffff3af2a09a	glibc	GRUB2 bootloader (BIOS only)

@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-02 11:51:02
+# generated	2026-09-02 13:58:40
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -107,7 +107,7 @@ opus	1.6.1	1	x86_64	312416	847872	226059d3a9c4e4112b253c1d2e9305e11d6905dc0e8e0b
 zsh-autosuggestions	0.7.1	1	x86_64	8716	86016	f317db814bc36c6a9a6a4d3d4d2bc07a972bc5d7672bd2a89a6b3fab1fb7f26a	zsh	Fish-like autosuggestions for zsh
 exo	4.20.0	1	x86_64	143016	1466368	f4cf8a4c9753967953cd27c702308e1875f6dd8890cc297c3515cd7c2aecd23b	gtk3 libxfce4util	Xfce extension library
 labwc	0.20.2	1	x86_64	243928	937984	286f71af8358c4d5a740715e946c9ca82ebb623cfc777e0edd5a6d59b4fe07e9	wlroots wayland cairo pango libxkbcommon wayland-protocols	Stacking Wayland compositor with an Openbox look and feel
-dms	1.0.0	1	x86_64	1192	12288	fb077f389c46c49003125e161dcd9d26f8bb4d1e7a04a766574de2c286262e22	dwl foot wofi waybar mako swaybg wl-clipboard cliphist scraplinux-base	Dynamic Minimal Session, the ScrapLinux lightweight desktop shell
+dms	1.0.0	1	x86_64	1188	12288	29f35b8925b00ecec3f5873abfaae170d46d6fc3f96b5b82029cbf14b1a0e15d	dwl foot wofi waybar mako swaybg wl-clipboard cliphist scraplinux-base	Dynamic Minimal Session, the ScrapLinux desktop shell
 libgcrypt	1.11.2	1	x86_64	578884	1908736	7d86f4721948b624b77e2a2a5225a56f4ae37a437dec593844624b7530923f37	glibc libgpg-error	Cryptographic library
 lxqt-config	2.4.0	1	x86_64	404576	3026944	fe2be4b4205f8bcf8c266bc01d9a348734bdc2dedde90ad808bc4a98b9374926	glibc liblxqt qt6-base kwindowsystem solid libxcursor libxi libxrandr xkeyboard-config libkscreen	LXQt system settings - appearance, desktop, monitors, keyboard, locale
 libpciaccess	0.18.1	1	x86_64	18076	73728	bea7862a413af29120e85389478b6eececef8df8928002ac41a9f1141953e62c	glibc	PCI access library
@@ -188,7 +188,7 @@ xf86-video-amdgpu	23.0.0	1	x86_64	56812	204800	2b1d65d02a08e080b3c3ac26f81720fe3
 libvdpau	1.5	1	x86_64	58980	327680	f30bb42ef0b748b78c8cba37e200dc5d05ea615f622d234207c53946453e157a	glibc libx11	Video Decode and Presentation API
 garcon	4.20.0	1	x86_64	121040	1175552	e1af920386ff158f5f3f695e21b27eef7568804da2876628cd63a758078730eb	glib libxfce4util	Freedesktop menu library
 wayland-protocols	1.48	1	x86_64	128084	1331200	b19013927a9cc460fbfb0bcaff70dc6ee42f2b60769476fcff5b4a09e6c188e0	wayland	Wayland protocol extensions
-screengrab	3.2.0	1	x86_64	179052	1024000	f14d4930280d32843a7840388181d8e085718bd13c5593a1497578ed4cdf4031	glibc qt6-base libqtxdg	Screenshot tool
+screengrab	3.2.0	1	x86_64	178964	1024000	d97295c1cede708c5587561e17ea6e3d238999c43adcf49ac157d9d88195a0b7	glibc qt6-base libqtxdg	A cross-platform Qt-based screenshot tool
 libxext	1.3.7	1	x86_64	76484	733184	e8e1579a613cf0924b8952d5feb8dd91c62834c33071b8296f99642f1e4db93f	glibc libx11	X miscellaneous extensions
 imath	3.2.2	1	x86_64	110716	995328	caf9ecb499a3c46723d3da5cfd56bd29ee140dbacc30bd9b307eeffb7e9279f1	glibc	Maths library for graphics
 libxpm	3.5.17	1	x86_64	65284	495616	e49e879c43551da48834d0ec5dc7a78a5cf15b83a27b3a566e8f51d07f8c20ea	glibc libx11 libxext libxt	X11 pixmap library
