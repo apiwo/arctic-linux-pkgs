@@ -6,6 +6,6 @@ vscodium	1.126.04524	1	x86_64	146841168	652537856	28e108aeb7cd3783749bec811a24c1
 rust	1.94.0	2	x86_64	73108852	390131712	dd103365b21a3af8d2a29921a2d96b68e784d35d4ced2ae12243952f00e9a3ed	glibc gcc-libs	The Rust compiler and standard library
 linux-firmware	20260622	1	x86_64	169958604	410079232	e786c6ac8f7094429b68a928d8df6e699acde84283fa17b100ca7b441c164df8	-	Wireless and device firmware
 scraplinux-kernel	6.12.100	1	x86_64	91424784	538689536	0ddaa36c301cf7ab662368ec86822d9c3becc60881e87177bdfa00cc86e09476	glibc	ZEN patchset on the 6.12 LTS line - PDS/BMQ, ACS override, ntsync, vhba
-scraplinux-base-kernel	7.1.3	1	x86_64	100165364	598478848	bd7b75ab2cfcab486fd1c01d22c6db00dda7a7fd559cd219e500e3b12a2e8cf1	glibc	ScrapLinux kernel, broad hardware support
+scraplinux-base-kernel	7.1.3	1	x86_64	65310720	334250149	d9dad29f2e8ed4276d029a8c5d6f77fcfdcab7500c862b6323c2bb77ded172c7	glibc	ScrapLinux kernel, broad hardware support
 llvm	22.1.8	4	x86_64	164477848	1195442176	a8b63d6621fb3416d50c1cbb762d1f5df58d1836e1a5dfd2d84cc1deced56db7	glibc zlib zstd libxml2	The LLVM compiler infrastructure: clang, lld, libc++, lldb
 steam-runtime	latest-public-stable	1	x86_64	63323056	236830720	c6aaf4d81ea39e98c9710e0d741de0e7abee33727422d54017c0c8564979d2e0	steam	The Steam runtime libraries
