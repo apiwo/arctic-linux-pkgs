@@ -107,6 +107,22 @@ section li{margin:4px 0;}
 section table{width:100%;border-collapse:collapse;font-size:14px;margin:0 0 12px;}
 section table th{text-align:left;padding:5px 8px;border-bottom:1px solid var(--rule);color:var(--fg-dim);font-weight:600;}
 section table td{padding:5px 8px;border-bottom:1px solid var(--rule);vertical-align:top;}
+
+.search-box{
+  width:100%;
+  font:15px Arial,Helvetica,"Helvetica Neue",sans-serif;
+  padding:9px 12px;
+  margin:0 0 6px;
+  background:var(--bg-alt);
+  color:var(--fg);
+  border:1px solid var(--rule);
+  border-radius:4px;
+}
+.search-box:focus{outline:2px solid var(--accent);outline-offset:-1px;}
+.search-status{color:var(--fg-dim);font-size:13px;margin:0 0 14px;}
+.search-results td.pkg-name{color:var(--accent);font-family:ui-monospace,"JetBrains Mono","Fira Code",Menlo,Consolas,monospace;white-space:nowrap;}
+.search-results td.pkg-repo{color:var(--fg-dim);white-space:nowrap;}
+.search-results mark{background:var(--accent-dim);color:var(--fg);padding:0 1px;border-radius:2px;}
 section code{
   font-family:ui-monospace,"JetBrains Mono","Fira Code",Menlo,Consolas,monospace;
   background:var(--bg-alt);

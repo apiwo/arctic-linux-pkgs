@@ -1,6 +1,6 @@
-# Arctic Linux repository index
+# ScrapLinux repository index
 # format	2
-# generated	2026-08-26 17:28:26
+# generated	2026-09-02 11:51:53
 # fields	name version release arch dlsize isize sha256 deps desc
 intel-ucode	20260812	1	x86_64	25883336	35631104	dc0f2fa3b14c5fc5d9f63ebf457d30c589c5c96b59ced51c00d13386d8b6c26a	-	Microcode update image for Intel CPUs
 amd-ucode	20260701	1	x86_64	249864	655360	b025f15be97e50c70b9b315e27ae8edd39c4330e0c895fc57fa4ca4c896a81ac	-	Microcode update image for AMD CPUs

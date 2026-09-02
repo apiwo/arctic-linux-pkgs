@@ -1,8 +1,9 @@
-# Arctic Linux repository index
+# ScrapLinux repository index
 # format	2
-# generated	2026-08-26 17:28:08
+# generated	2026-09-02 11:51:17
 # fields	name version release arch dlsize isize sha256 deps desc
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
+noto-fonts	2026.08.01	1	x86_64	29345224	98897920	df82a6141174d8f124d31e1e9f93d267eef349af7b922363fd94071272c5e1e6	-	Google Noto fonts
 lua	5.5.0	1	x86_64	201696	1163264	9496c378f603afd137a9ba17c34ded3540d7128e93b4727cbbbe08796266931f	glibc libedit	The Lua interpreter
 libwebp	1.6.0	1	x86_64	386464	2035712	1ffe02de9dd10de4d94aabb8c5d9f6d1137d94d02a518e088bdba45953934197	glibc libpng libjpeg-turbo libtiff	WebP codec
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
@@ -11,7 +12,7 @@ tcpdump	4.99.6	1	x86_64	426844	2625536	79f1630d2a1829d481a87fdaeacb847ba625cd478
 nmap	7.99	1	x86_64	5192644	28667904	06ebd98f0ce1570852b6b846793041211b889865fb437947c808bc6837d057d0	glibc libressl pcre2 libpcap lua	Network exploration and security auditing
 libevent	2.1.12	1	x86_64	250320	1327104	7b768699d341cf75907222a15a666bc40260a2d625ca57fcf6f9e601de5b98d2	glibc libressl	Event notification library
 fcft	3.3.1	1	x86_64	70064	282624	f2b34b2c7f75b243832386cd4b21f0fe85e5c66990d366cd1259cbaa6097db00	glibc freetype fontconfig pixman harfbuzz utf8proc	Font loading and glyph rasterisation
-bat	0.26.0	1	x86_64	2486816	5951488	861026947bc80e99f2d8bbc72999f3ddb0c1b76a4e898b5318b7bf58af39c941	glibc	cat with syntax highlighting
+bat	0.26.0	2	x86_64	2748288	6619136	0a750a6258e072c0e1e6bcdc7506474bc52072e5e8c6c5109f48bd5161c4b900	glibc	cat with syntax highlighting
 unibilium	2.1.2	1	x86_64	23292	102400	8bf7cf924e3e66d53869e94f11ed9fece2c6e8cb726b1983ccea9630d2fe02a5	glibc	Terminfo parsing library
 ttf-nerd-fonts-symbols	3.4.0	1	x86_64	2259336	5009408	9bd2795174686a9a224fbff748e56d3123bd6de8fc34c729d096f0ac51a91b77	-	Nerd Font icon glyphs
 ripgrep	15.1.0	1	x86_64	1321940	4943872	81e1cf23902bdd528183e86890b97377722cede173fac4bf0c58411e2c5274e3	glibc pcre2	Very fast recursive grep
@@ -31,11 +32,11 @@ btop	1.4.7	1	x86_64	1001588	4153344	7684936b5a9480af5fa6a16f52aa630e9e2814537e21
 ttf-jetbrains-mono-nerd	3.4.0	1	x86_64	11034716	233504768	b056977f0e5b167d5958fe6b59f48d9dd3ff54a2e9b8cd55cb6bc9a03b1c4084	-	JetBrains Mono patched with Nerd Font glyphs
 lzo	2.10	2	x86_64	89796	720896	9a4e0664460e15505ae39e06d8816ea5f1307ca7cef523848c60dd5b73a3e8ef	glibc	Real-time compression library
 libpcap	1.10.6	1	x86_64	233568	1552384	e71243a652ab3a1f68900ad3657a6585bb091c07e279ea386f85bd6060666bd1	glibc	Packet capture library
-cargo	1.94.0	1	x86_64	9220868	40146286	fc0e519f8694460c485c863a8d5eb640ef0a476298eac19ff858d2a18a3b9a96	glibc rust	Rust package manager and build tool
+cargo	1.94.0	2	x86_64	8269780	30019584	4276f60089faab6b12a1e6b96e35d5de067983a6e55ca3ab779f34b057975c2a	glibc rust gcc-libs	Rust package manager and build tool
 xdg-utils	1.1.3	1	x86_64	37912	360448	a23c84321415a562d92a5358b112431a1445306db1331969447ef673423ed78c	glibc	Desktop integration helpers
 hyperfine	1.20.0	1	x86_64	497244	1306624	135802d41d5e0c1d36105b72a964ef730d364f38b4610f9f71e26a653f612c42	glibc	Command-line benchmarking tool
 fd	10.4.2	1	x86_64	1235576	4046848	bda4d05e6c7529cf8ec986891a490e9bda81bcd43cfe385c927b0e703d063cdf	glibc	A simpler, faster find
-alacritty	0.16.0	1	x86_64	2377492	8802304	093c3d1415922db41ab627f7392b62c47bbc43eec270415c1c5bbe2069643302	glibc wayland libxkbcommon fontconfig	GPU-accelerated terminal
+alacritty	0.16.0	2	x86_64	2376652	8802304	13a8640f0dcbefd5c63f992c01ed305ed52b352cf2ffaedc9c86dd0db1e03773	glibc wayland libxkbcommon fontconfig harfbuzz	GPU-accelerated terminal
 tig	2.5.12	1	x86_64	178188	753664	75f08daf8e5a514644d4b7f7bde5cfacaeb93c9247c031a88b0ef1c996764b05	glibc netbsd-curses git	Text-mode interface for git
 starship	1.24.0	1	x86_64	3411208	11710464	232867f91201e63d9a21385ef8ae5334ae7251e615d5f0ccf0cc929a5bd6dea7	glibc	Cross-shell prompt
 rsync	3.4.4	1	x86_64	337280	921600	77d41577c0c957e3a39fedccdfc898c0b2690d0445588a5a886fd910e88e5cad	glibc zstd xz lz4 libressl	Fast incremental file transfer
@@ -44,14 +45,14 @@ htop	3.5.0	1	x86_64	147544	430080	225e689d51d43308fef1c7aae557d7e952d06b9fc80734
 harfbuzz	12.2.0	1	x86_64	1352104	9076736	897fcdcba4c22c57cd4f33242c5964b1ef62beb305601f750a1ac94e71d236f0	glibc freetype glib cairo	Text shaping engine
 git	2.53.0	2	x86_64	9080844	678281216	4749f6e4cd73a3ce5b20285a721b092635725e3a6a64a004d8a1f07ab049de25	glibc zlib libressl curl expat	Distributed version control system
 fontconfig	2.18.3	1	x86_64	201540	1167360	1d53dfc752f72b7b21a116320e724a43244dcccf10bc3e5e885ee3305a41426e	glibc freetype expat	Font configuration and matching
-fastfetch	2.55.0	1	x86_64	724340	3125248	517ad10b811efdb4f67be470958f6be067254cf10ca0978b749764ca707f4303	glibc	System information tool, configured with the Arctic logo
+fastfetch	2.55.0	1	x86_64	724492	3125248	bec0819b156e89fc7ec722819d9e6aa265e8ea079d14b51451cb2139314791cf	glibc	System information tool, configured with the ScrapLinux logo
 utf8proc	2.11.0	1	x86_64	61420	425984	d0794060d144dc5e0daea69a667a893a546015346b283b0ae1603e6d33c08a11	glibc	Unicode processing library
 usbutils	019	2	x86_64	69124	278528	89fd359e080bec8eaa5af47ea9e9bb9bcbdda7868f4e3bf5468c4be1873081fa	glibc libusb	lsusb
 pciutils	3.14.0	2	x86_64	459788	770048	ad3e16bf3361dd0ee2d66254e7b812b807df8043d487cf938c74aaa2e1ab6b99	glibc zlib	lspci and setpci
 neofetch	7.1.0	1	x86_64	76292	356352	29b321787440822d58922cb9cbf5503e35ba5f7838d4ca03f846cefad0080bc2	glibc	System information script
 lerc	4.2.0	1	x86_64	233324	880640	51fdf8a5a676d7f64362e657dfe7bfd2a7ec9c1d4e4a5933aa566194c78ba6ef	glibc	Limited error raster compression
 freetype	2.14.1	1	x86_64	488048	1839104	7f9988d710949b5d9e62eb5991a491f048134fd228527c2b8d7e811e70d62915	glibc zlib bzip2 libpng brotli	Font rendering engine
-eza	0.23.5	1	x86_64	657444	1925120	e2f75dc8ab315330a5c88df9638534bb7ff41eca41250d8eb304ca220340d37f	glibc	A modern ls
+eza	0.23.5	2	x86_64	928260	2617344	af582e1e595c63d819258a34231cbb4a34cc45086371265daa104cf6fdec4f3a	glibc	A modern ls
 difftastic	0.65.0	1	x86_64	6594360	112205824	ebb402b7227e12cb123b3ed8bd9cc980666e039aa4a2ab20d2468c0fa161f1bc	glibc	A diff that understands syntax
 zellij	0.44.0	1	x86_64	9727940	49606656	c9f2294fb12c89b3e865cd696dc582d58f83044fb933a70d370778248c1fdb13	glibc	Terminal workspace multiplexer
 ttf-firacode-nerd	3.4.0	1	x86_64	5040816	47816704	910caa9de434393402505f8112e359782c9bf4c5d9c23d02ba3d43f8f1fb2baa	-	Fira Code patched with Nerd Font glyphs
@@ -61,7 +62,7 @@ p7zip	17.06	1	x86_64	408	0	57640d6d7ecf5d8840a644c7c45413e214309b14492d4dee05f83
 fuse3	3.18.1	1	x86_64	135404	593920	9ae1c33af15e5beb5540d34a718dda544b4e87f8a15f34b3d8888aa0b3cf6345	glibc	Filesystem in userspace
 zoxide	0.9.9	1	x86_64	402900	1105920	c0ed1db6f222882604fa86b2c80f7d8befd132315890605f00bdaabd4d35b844	glibc	A smarter cd
 vim	9.2.0100	2	x86_64	7585444	38522880	60fe41ac2b05e50fdc76af56f8ab1dbcc23db43bec2a097be888e1a2f38f0f05	glibc netbsd-curses libxcrypt	Vi improved
-ttf-jetbrains-mono	2.304	1	x86_64	869824	8482816	fec4624246ce34f428eee68741c79a47a8844cc518411ce44b061668a5197725	-	JetBrains Mono, the Arctic terminal font
+ttf-jetbrains-mono	2.304	1	x86_64	870552	8482816	ca70a615de24460294baf502c34186e2f4f230f60e42dae7f63b5ab5131a15f6	-	JetBrains Mono, the ScrapLinux terminal font
 tree-sitter	0.26.1	1	x86_64	125532	602112	6c61d2605fdb2ae752d47efbb8ac75fbba9fb20e1fcc73ae6aa222f4e5dd16b8	glibc	Incremental parsing library
 neovim	0.12.2	1	x86_64	6876872	33931264	8ecc99fbfb698c181c1ba563c21c6b023410a010018de3b636defd49895103df	glibc libuv msgpack-c libvterm luajit unibilium tree-sitter	Hyperextensible Vim-based editor
 libjpeg-turbo	3.1.3	1	x86_64	544264	5615616	3d925155f601403997d1affe0a8e6bfd24d31e9e9c38e73b87b507a1a310bc7d	glibc	JPEG codec with SIMD

@@ -1,4 +1,14 @@
-# Arctic Linux multilib repository index
+# ScrapLinux repository index
 # format	2
-# generated	2026-08-26 17:28:27
+# generated	2026-09-02 11:51:52
 # fields	name version release arch dlsize isize sha256 deps desc
+libgl-32	26.0.2	1	x86_64	500	4096	44a751fee21efc07ded8f7e0e9c1561852715e7d2d4c1bc8acfebf9c79d3c108	mesa-32	32-bit OpenGL, for Steam and Wine
+openrc-32	0.63.2	1	x86_64	222220	2453504	b7830fd92f790e71a789a95713ece0c50f30c1d63c7e05ba1e51890e3857464f	glibc-32 util-linux-libs libcap	Dependency-based init system from Gentoo, 32-bit
+mesa-32	26.0.2	1	x86_64	3723088	21237760	1a78ddb044336b4e8e42106531c453cfe834759447614ec477d1824d489b05e3	mesa glibc-32 libglvnd-32	OpenGL and Vulkan, 32-bit
+vulkan-loader-32	1.4.330	1	x86_64	134632	602112	a6a1e6d5424b84d470e05aebe0b90c86c1551ba478103c119599635c3fd26885	vulkan-loader glibc-32	Vulkan loader, 32-bit
+steam-deps-32	1.0.0	1	x86_64	572	4096	43f758b770d2d1acd1ea4b149089c0a207ac75cd7bbf21b4132f47de90016d1d	glibc-32 mesa-32 libx11-32 alsa-lib-32 vulkan-loader-32 libgl-32	Everything 32-bit that Steam needs
+glibc-32	2.44	1	i686	16880876	59752448	08bd5cef0241eff44383a3e1b130e23f68f78a0905e48b745b6b2f46218e954b	glibc	The C library, 32-bit
+busybox-32	1.38.0	1	x86_64	582260	1105920	92f37bf51396bc8581c9d622306ca7665fdb6508f17ed27445013ce824e75c2c	glibc-32	Init, getty, device manager and network tools, 32-bit
+alsa-lib-32	1.2.15	1	x86_64	432976	1474560	797ecd5370a82e0bcfe3e660652d6b336f6664513b34eb5a01295a9dae265f74	alsa-lib glibc-32	ALSA library, 32-bit
+libx11-32	1.8.13	1	x86_64	3049920	18722816	84c66fbd25bf3fbc87a73e4199b78b2b5abac03de2860b5bb7146cd68ed61b35	libx11 glibc-32	X11 client library, 32-bit
+libglvnd-32	1.7.0	1	x86_64	189580	1503232	5b734a8d8a3bf366b28d07e80512a0d97d6b74475ff47d2d8583bd59e90201df	glibc-32 libx11-32	GL vendor dispatch, 32-bit
