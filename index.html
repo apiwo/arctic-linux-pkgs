@@ -60,6 +60,22 @@
     </table>
   </section>
 
+  <div class="pkg-modal-backdrop" id="pkg-modal-backdrop">
+    <div class="pkg-modal" role="dialog" aria-modal="true">
+      <button type="button" class="pkg-modal-close" id="pkg-modal-close" aria-label="Close">&times;</button>
+      <h2 id="pkg-modal-name"></h2>
+      <p class="pkg-modal-desc" id="pkg-modal-desc"></p>
+      <table class="pkg-modal-fields">
+        <tr><th>version</th><td id="pkg-modal-version"></td></tr>
+        <tr><th>repo</th><td id="pkg-modal-repo"></td></tr>
+        <tr><th>size</th><td id="pkg-modal-size"></td></tr>
+        <tr><th>depends</th><td id="pkg-modal-deps"></td></tr>
+        <tr><th>sha256</th><td id="pkg-modal-sha"></td></tr>
+      </table>
+      <a class="pkg-modal-download" id="pkg-modal-download" href="#">Download binary</a>
+    </div>
+  </div>
+
   <section>
     <h2>Using this mirror</h2>
     <p>Point a repo entry in <code>/etc/scraps/repos.d/</code> at a folder
@@ -97,7 +113,10 @@
       if (!line || line.charAt(0) === "#") continue;
       var f = line.split("\t");
       if (f.length < 9) continue;
-      out.push({ repo: repo, name: f[0], version: f[1], release: f[2], desc: f[8] });
+      out.push({
+        repo: repo, name: f[0], version: f[1], release: f[2],
+        dlsize: parseInt(f[4], 10) || 0, sha256: f[6], deps: f[7], desc: f[8]
+      });
     }
     return out;
   }
@@ -105,6 +124,44 @@
   function escapeHtml(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
+
+  function humanSize(bytes) {
+    if (!bytes) return "unknown";
+    var units = ["B", "KiB", "MiB", "GiB"];
+    var i = 0;
+    while (bytes >= 1024 && i < units.length - 1) { bytes /= 1024; i++; }
+    return bytes.toFixed(bytes < 10 && i > 0 ? 1 : 0) + " " + units[i];
+  }
+
+  // big-repo packages don't ship in the git-tracked tree (GitHub's 100MB file
+  // limit) - they're flat GitHub Release assets instead. Everything else is a
+  // normal path under /ALL/.
+  function downloadUrl(p) {
+    var file = p.name + "-" + p.version + "-" + p.release + "." + ARCH + ".spz";
+    if (p.repo === "big") {
+      return "https://github.com/apiwo/scraplinux-pkgs/releases/download/pkgs-" + ARCH + "/" + file;
+    }
+    return "/ALL/" + p.repo + "/" + ARCH + "/" + file;
+  }
+
+  var modalBackdrop = document.getElementById("pkg-modal-backdrop");
+  function openModal(p) {
+    document.getElementById("pkg-modal-name").textContent = p.name;
+    document.getElementById("pkg-modal-desc").textContent = p.desc;
+    document.getElementById("pkg-modal-version").textContent = p.version + "-" + p.release;
+    document.getElementById("pkg-modal-repo").textContent = p.repo;
+    document.getElementById("pkg-modal-size").textContent = humanSize(p.dlsize);
+    document.getElementById("pkg-modal-deps").textContent = (p.deps && p.deps !== "-") ? p.deps : "none";
+    var sha = document.getElementById("pkg-modal-sha");
+    sha.textContent = p.sha256 && p.sha256 !== "-" ? p.sha256 : "not recorded";
+    sha.className = "mono";
+    document.getElementById("pkg-modal-download").href = downloadUrl(p);
+    modalBackdrop.classList.add("open");
+  }
+  function closeModal() { modalBackdrop.classList.remove("open"); }
+  document.getElementById("pkg-modal-close").addEventListener("click", closeModal);
+  modalBackdrop.addEventListener("click", function (e) { if (e.target === modalBackdrop) closeModal(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeModal(); });
 
   // Wraps every case-insensitive occurrence of q in <mark>, on already-escaped text.
   function highlight(text, q) {
@@ -144,6 +201,7 @@
         "<td>" + escapeHtml(p.version) + "-" + escapeHtml(p.release) + "</td>" +
         '<td class="pkg-repo">' + escapeHtml(p.repo) + "</td>" +
         "<td>" + highlight(escapeHtml(p.desc), q) + "</td>";
+      tr.addEventListener("click", (function (pkg) { return function () { openModal(pkg); }; })(p));
       frag.appendChild(tr);
     }
     body.appendChild(frag);
