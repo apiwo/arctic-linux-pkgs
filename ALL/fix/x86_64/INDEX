@@ -1,9 +1,9 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-02 13:59:02
+# generated	2026-09-04 19:02:50
 # fields	name version release arch dlsize isize sha256 deps desc
 less	679	2	x86_64	134712	421888	27b45488a8dc853e3791105c5439c0a66c0b54d4d9fdc74edea7a0260318abfc	glibc netbsd-curses	Terminal pager
 mesa	26.0.2	2	x86_64	18686204	113270784	4a460db021a2989c641b0fb610a6498115b89b607b38d9d870ab4d930d9be241	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
 wpa_supplicant	2.11	2	x86_64	492884	1486848	7458720e3c52ff285eae405d73285589f69bafebf5b5a20ae31b660f8375be29	glibc libressl libnl dbus	WPA client, NetworkManager's wifi backend
-libressl	4.2.0	4	x86_64	2241424	29106176	3ee68c860f035b977a1e4e6093b7315c525b64fa2a70584d696f1a9e4df48c49	glibc	A TLS/SSL and crypto library forked from OpenSSL by the OpenBSD project
+libressl	4.2.0	4	x86_64	2250432	29106176	ad261935be51c4e71f39ad4fe670b43458fb7df2e2ae39ab4e9153458119e740	glibc	OpenBSD TLS, Arctic's default

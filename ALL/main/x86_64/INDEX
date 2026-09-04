@@ -1,8 +1,8 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-02 13:58:29
+# generated	2026-09-04 19:02:16
 # fields	name version release arch dlsize isize sha256 deps desc
-tzdata	2026b	1	x86_64	56852	1449984	1f9ab50842b55bde4124636ea7c150d5024f71524ef38ee55cdccdc53614c655	-	Time zone database
+tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
 nghttp2	1.68.0	3	x86_64	160880	978944	701f3286efa81090241844335dd666949817d97d39c7f94ec589e5001206e6d4	glibc	HTTP/2 library
 newt	0.52.24	1	x86_64	94944	782336	43b8d2fc6fdb4183855a93b8bb529b0a08d820e9237edc326dc126f8949fe464	glibc slang	Text-mode windowing library, used by nmtui
@@ -14,34 +14,34 @@ lvm2	2.03.36	1	x86_64	1238168	4882432	44606583fc6a2955a01194a07e5a0d8a10de1013ab
 libseccomp	2.6.0	1	x86_64	87888	839680	0163d0e1350b10fe470279c23420e57d15973f0127c8159e6cb1b30299930d3b	glibc	Syscall filtering library
 libpsl	0.21.5	1	x86_64	63200	151552	4c406296200133723ea4e13a2f8126e4ab00f4e58db30bf18bf6489fd7f02941	glibc	Public suffix list library
 libbsd	0.12.2	1	x86_64	112704	1585152	bd1b86331e411674be9053c921a1019df1d2ad4854ce4559eeeed1aaf9d0751c	glibc libmd	BSD compatibility library, needed by Xorg's modesetting driver and libglx
-gmake	4.4.1	1	x86_64	112188	270336	18c3b6471631f0d36cae3ce1a029d2a377f49e4ecbd5db6eb9343149c75d9944	glibc	GNU make as gmake, for kernel modules; /usr/bin/make is still bmake
+gmake	4.4.1	1	x86_64	111880	270336	268091f423caf405471361b8d357f3120be53c8be119ed15e941c07bfe60440b	glibc	GNU make as gmake, for kernel modules; /usr/bin/make is still bmake
 argon2	20190702	1	x86_64	140568	475136	97e54dd6ef5814b2d50bdc2875ed43cbade7b4ad6416b3fdf390f340e2094725	glibc	Argon2 password hashing
 openssh	10.3p1	1	x86_64	1232772	7835648	2f66927e23b9bae0e65f159e91a2fe40c0060db11babe15fe149b899d41dbd28	glibc libressl zlib libedit	OpenBSD secure shell
-onetrueawk	20260426	1	x86_64	66268	200704	a7393e1d417aa6c5f84dfe26c8cda19e1dfa730e44d413b0e9a68906a773f69b	glibc	The one true awk
-libarchive	3.8.9	1	x86_64	792648	5779456	5a98bf7b76679990ff76b3ddb447d8a03438fd4147a3309d269bd4432cbac889	glibc zlib xz zstd libmd	Archive library, provides bsdtar
-glibc	2.44	1	x86_64	25487320	115920896	59fbc712fb45fb7b4607106551efbca02b172595f057c1aef015f330f5e8a40a	linux-headers	The GNU C library, the standard C library implementation for Linux
-ca-certificates	20260601	1	x86_64	103900	196608	05fffd667323dca7290b26e7b2345dca18ec52da12051b85f1170fc692766ccc	-	Trusted certificate authority bundle
-byacc	20260426	1	x86_64	72004	208896	feb155f7a2569bf4af25cf5d30c217e01746179ce5d366972019ca6afacc0864	glibc	Berkeley yacc, replacing bison
+onetrueawk	20260426	1	x86_64	66252	200704	6c06313fdbdb013869cacc24126c1e6812b93940741e38c04149c75c62d82ccc	glibc	The one true awk
+libarchive	3.8.9	1	x86_64	792700	5779456	9624f335d902ae5ebfeeb464353ad2f952324edfd5621af4fd97ee5f77a6a68e	glibc zlib xz zstd libmd	Archive library, provides bsdtar
+glibc	2.44	1	x86_64	25485104	115920896	f4ba4d7e29e4d6524565237ff3241fcf459462686fbbb81934b05702cee9714c	linux-headers	The GNU C library
+ca-certificates	20260601	1	x86_64	103896	196608	3ef5d12aff4955a851d6dde898b59a8e79ad58ef48cbc812b862db1dc8eb1dd1	-	Trusted certificate authority bundle
+byacc	20260426	1	x86_64	72060	208896	74346cff65ef2293114ff4f983a8ac4a80e87ef757565ab582a63698c583352f	glibc	Berkeley yacc, replacing bison
 toybox	0.8.14	3	x86_64	258680	1396736	aec76ceb9408dc696d8b42ab5c50404fd323bb306e4957931f7c7a8b23b1399c	glibc	The classic Unix commands, 0BSD licensed
 spirv-llvm-translator	22.1.5	1	x86_64	847208	4620288	7fd19cab9455b9f0ed3252baed1bdd5f0810e270e02690e3d3e65be4d374db25	glibc llvm	LLVM IR to SPIR-V translator
 spirv-headers	1.4.357.0	1	x86_64	164928	3866624	524f4127887fd1a53da67d8d3e853c15d5e0713ee1c72af15267291333782b14	glibc	Machine-readable SPIR-V headers
 libxml2	2.15.2	1	x86_64	571352	1929216	54118a06761f5f965ab92b04c2e674055726065f7fd9da1434bc20a06bd72bc1	glibc zlib xz libressl	XML parsing library
-libmd	1.1.0	1	x86_64	34080	475136	41084ab950d39abf450ef594210f7c5a7d7000677dcc0083312ef1aed7a108c6	glibc	BSD message digest functions
+libmd	1.1.0	1	x86_64	34092	475136	da69112a6d5b08d4681be43f603e179c9cdacaadfa7ae356dc937376ab40e1ef	glibc	BSD message digest functions
 iw	6.17	1	x86_64	101052	307200	1a4637db63ce39a976dc4c5cde4bf1b3fca1cdd8e63b2b3b5c8168f14b63109a	glibc libnl	Configure and scan wireless devices through nl80211
-iwd	3.12	1	x86_64	506908	2068480	311981fb7cb0454dc732b5b1e9fd0b36dfab0b4800cd504970735360aee246ac	glibc ell dbus	iNet wireless daemon - this is what provides iwctl
+iwd	3.12	1	x86_64	507076	2068480	9116e87664cc88dd3c23e60703a4fc937dccd619e2795ead98ff630731760a16	glibc ell dbus	iNet wireless daemon - this is what provides iwctl
 execline	2.9.7.0	1	x86_64	94608	909312	d97d6f03a030960f582a17798517f951faaea0c46dba452b8249ac57167df39d	glibc skalibs	Non-interactive scripting language for s6
 cryptsetup	2.8.1	1	x86_64	387400	1552384	ab109dd27e4bd2f3a6a05e058226c2849be26827866283bed9b4fef9af75d4ba	glibc libressl util-linux-libs json-c argon2 popt	LUKS disk encryption
-base-devel	1.0.0	1	x86_64	596	4096	9a23f6f5e5b31a52d658932e8115e4f13eea578806417f62a3c5d68982d8c89c	llvm bmake byacc pkgconf cmake ninja meson git	The toolchain needed to build ScrapLinux packages
-base	1.0.1	1	x86_64	712	4096	5ed9b6574a776a4cbc06c58ea5e6dde79accf2ce63cfa6282fb3d76804c36362	glibc busybox toybox zsh doas alpm scraplinux-base scraplinux-init curl libarchive mandoc onetrueawk libxcrypt iana-etc tzdata ca-certificates signify	A minimal but complete ScrapLinux system
+base-devel	1.0.0	1	x86_64	596	4096	2b085c5800130cae491b86da5f5f6a093f02e9aece527bc65e061e00c56637da	llvm bmake byacc pkgconf cmake ninja meson git	The toolchain needed to build Arctic packages
+base	1.0.1	1	x86_64	656	4096	e40bfd199cadcbb8cec2e0476a612821849ab2b4de308462da3657c3f32caa84	glibc busybox toybox zsh doas alpm arctic-base arctic-init curl libarchive mandoc onetrueawk libxcrypt iana-etc tzdata ca-certificates signify	A minimal but complete Arctic system
 acl	2.4.0	1	x86_64	87136	638976	b059b3424b1fa1e17096d0ca384bb09e21e9de68a69ca31f630d2a0ea66d54da	glibc attr	Access control list tools
 sqlite	3.52.0	1	x86_64	1164772	3649536	004a22c09e3b98abd1e65806e2eaa7eb5cc4aa85be06a22af9e7ffcf77a06679	glibc netbsd-curses libedit	Embedded SQL database
 perl	5.42.1	1	x86_64	13119196	91291648	222ae13b94d85a5c74c64373aeb3f937744e7b1417c3b8bd543c047a2add352f	glibc zlib bzip2	Perl, needed to build openssl and git
 libyaml	0.2.5	1	x86_64	54512	208896	33f4b790cf1393a5b34955e7e96f8c43869345e710bbe3b7f4fc4c306473a094	glibc	YAML parser
-initialization	0.8.1	1	x86_64	24048	86016	dc1d0d1ceace413f7e2d12d0b2553a10e1a1018e54591907c1777b5578709608	glibc	The ScrapLinux init system and process supervisor
+initialization	0.8.1	1	x86_64	23888	86016	7583d587a8a894c89537735eefa1da99023b962a335c2ceeecbd0fe668f45996	glibc	The Arctic init system and process supervisor
 expat	2.8.2	1	x86_64	119076	454656	5e6ac43ae6285432ed36b66f0fb9b512a0447b8898de24735572e2202ca5a6cd	glibc	Stream-oriented XML parser
-zstd	1.5.7	1	x86_64	511096	3280896	c789be2df96ec20ccf73bb9e810ee8a19ed759874477f638a8b97922067f8aee	glibc zlib	Fast real-time compression
+zstd	1.5.7	1	x86_64	511136	3280896	95fc9251829895317c31faefd4fa38ca73344cafadb45a3adf272a32048a1d79	glibc zlib	Fast real-time compression
 parted	3.7	1	x86_64	279228	1585152	ec2de28f35762fc4aabc8619d6c3532e12447fd0814e0332bf0cec7513042727	glibc util-linux-libs	Disk partition editor
-openrc	0.63.2	3	x86_64	204284	2162688	15af728bcaf112c4a24b3561abcef168c16539ca65125f09ad7587e757bc64c7	glibc util-linux-libs libcap	Dependency-based init system from Gentoo
+openrc	0.63.2	3	x86_64	204232	2158592	e5f4a0173739387ae6eab95f54cd83eae4cdcf9b9080e33e868032effc477505	glibc util-linux-libs libcap libxcrypt pam	Dependency-based init system from Gentoo
 m4	1.4.21	1	x86_64	77228	200704	010cc231149b0d0f9ab731c47d414414902e1314f56d4adefd88850613e5829e	glibc	GNU macro processor, needed by autoconf/automake/libtool
 iproute2	6.19.0	1	x86_64	1004820	5001216	65271e489d27ecb045208f3fb8ea24813a32e06dfbd337e82cdbcf47d6c02cf0	glibc libcap libmnl util-linux-libs	ip, ss, tc and the netlink tools
 inih	60	1	x86_64	15380	86016	050112ef8000b5b4c562261cf43d9938966d23e7b61b48babc93678fff422d28	glibc	Simple INI file parser
@@ -50,27 +50,27 @@ busybox	1.38.0	2	x86_64	571532	2351104	1acb21327b401001905039deb0e364b5d2d8a341f
 skalibs	2.14.4.0	1	x86_64	167276	1789952	73800c23c770cff8fd6ccf272c2f83fec978500c006e02c2bd59e23aec168211	glibc	skarnet base library, needed by s6
 openssl	3.6.2	1	x86_64	4611064	25387008	a24eed6f8b9e88ae18d9758442bfe3e3dcbb7dfc6a47343a19a2f06668cd4efe	glibc	TLS toolkit, for software that insists on it
 oblibs	0.4.0.1	1	x86_64	179920	774144	6c356ed8c7813b2b2157f1cc18e5f7dd151e17f1575889af727ed066ebf2530c	glibc	Obarun's base C library - what 66 links against
-mandoc	1.14.6	1	x86_64	302732	1269760	dc98b26c0b118d73398f3d75eb147af2add738963922bfbd79ee350c95a8434b	glibc zlib	Manual reader, replacing man-db and groff
+mandoc	1.14.6	1	x86_64	302772	1269760	9d6f49dfb9dab4c7076b70077019ab4bcbaa47299a00bdd076e31a6e1f3bb0b0	glibc zlib	Manual reader, replacing man-db and groff
 libndp	1.9	1	x86_64	22576	135168	decb02e0c75a2d331421badfddc09122a19fbcba2c7508cd9cb868fb92679c21	glibc	IPv6 Neighbor Discovery Protocol library
 libglvnd	1.7.0	2	x86_64	336636	4100096	30922a5967fc394bcd433f2fceea3cb5259cd57f5bcdf1c3a1fdc1ffab7931a7	glibc libx11 libxext	GL vendor dispatch, so mesa and NVIDIA can both provide GL
 libedit	20260512	1	x86_64	98448	503808	0fca74b30827dbc3b95dcfa46a8a2edc1b0b1946f35c6c637f4f82af04123016	glibc netbsd-curses	BSD line editing, replacing readline
 kmod	34.2	1	x86_64	99912	479232	3ef08dfccb48f95fbde2e3595b17f02dc2e4fa3ef8650f537b93582028bc7ed7	glibc zlib xz zstd	Kernel module tools
 gmp-alt	6.3.0	1	x86_64	313828	1777664	fc7bc2f84ef3a9770a155c129c3ab60d698d9a8fde66088a6d19ca4e0e9ffbd7	glibc	Arbitrary precision arithmetic, for nftables
-ell	0.83	1	x86_64	217672	593920	096e8e6763e2e7cb9f3cbef88c5367cc32373a3849abf2717023ffa14657c46e	glibc	Embedded Linux library, used by iwd
-dosfstools	4.2	1	x86_64	56304	229376	ddefd5ecbd35b303d7e778e0b3cecf1d1e995ff259bef61d02f6ad54fc8421cf	glibc	FAT filesystem tools, for the EFI partition
+ell	0.83	1	x86_64	216820	593920	a319be68a07b6c036794afaff11332f527ae1e240d6611ddb68c6389f2ac27d3	glibc	Embedded Linux library, used by iwd
+dosfstools	4.2	1	x86_64	56320	229376	6436a8de3177c04d158fec87c5a2a577c2f0ea2f42aebd2f6e89887950f84ea0	glibc	FAT filesystem tools, for the EFI partition
 dinit	0.19.4	1	x86_64	174352	614400	6ae7f9b4fc87524e0b3decffd56c28f8494e332fe3341d1403e411de8f85eb5b	glibc	Service manager and init with dependency handling
 dbus	1.16.2	1	x86_64	441064	1794048	5bd983a6e62381f228fee05cd9c4045c28238bdb8969c387763865c18a10d35d	glibc expat	Desktop message bus
-bmake	20260714	1	x86_64	205900	909312	f5f79b16bc53f3eab7ee1afd54e07c2267b6f3838ec1835a30b99c9b816ec9d3	glibc	The BSD make, replacing GNU make
+bmake	20260714	1	x86_64	205788	909312	642d9c60f23b9886962e7fb78a43a62cad32988cdb07374bfc014b9cd18bdb8f	glibc	The BSD make, replacing GNU make
 attr	2.6.0	1	x86_64	48244	282624	c4532b7e3f0cb1dcb6af78c85a292c6502127d98312c2d28d7e95db3d5243642	glibc	Extended attribute tools
 wireless-regdb	2026.05.30	2	x86_64	17892	118784	05f18b22e43d3e755ce6d43449aa4ac876ee4dbada766bf5468326604274abe3	-	Wireless regulatory database
-util-linux	2.41.5	2	x86_64	674180	3039232	9e752618d2a777ad97e0f2a9d9ee0dc1e36b10a322f66b723b42e56987d6b997	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
+util-linux	2.41.5	2	x86_64	673896	3039232	241c2a2e8363f8358b51cf6b124706446c5f6691d82cd2058bd4fffa498353a5	glibc	Partitioning and block device tools: cfdisk, sfdisk, wipefs, lsblk
 sysvinit	3.14	2	x86_64	70860	331776	48a60f12bb78486c7b25c7536697bac10d30d6d32391e71a556eb34ba50152d4	glibc	The traditional System V init
-scraplinux-init	1.0.0	1	x86_64	560	4096	4a7e136dc7c536531052b2ec872609b9b4f79938be2176e8ddd693d7434267ea	busybox scraplinux-base	ScrapLinux init scripts and the service manager
+scraplinux-init	1.0.0	1	x86_64	560	4096	aabc2ce8314152ec32a8dce53a4ce808ef189b8fe676011ebc9500d61229ea2a	busybox arctic-base	Arctic init scripts and the service manager
 linux-headers	7.1.3	1	x86_64	1475392	9846784	9a9b9eeeb2371d5beda02f24c93242d330e8b45a74217476037041d39c47a991	-	Kernel headers for userspace
 libmnl	1.0.5	1	x86_64	8908	49152	bda92b7d9f254a2b420b60544f441a4cbe44adb4502c9fe5293ba15ad406f05c	glibc	Minimal netlink library
 glib	2.84.4	1	x86_64	2920420	18452480	efcf96f26f418db02c8c11357084b53d99baa400ffe676c0b5b5ab08e77464ff	glibc zlib libffi pcre2	Core GNOME utility library
 autoconf	2.73	1	x86_64	320664	2183168	663ea35c4d8f6f1564bf266fa69a0ae3fff333757b63603058836915a3b70938	glibc m4 perl	Generates configure scripts from configure.ac, needed for packages that ship raw git-tag tarballs
-xz	5.8.3	1	x86_64	210640	958464	58d31210c7fc337b02ed92902956443ee5b91167036b8b082ef0e30d3a76afbc	glibc	liblzma and the xz tools
+xz	5.8.3	1	x86_64	210452	958464	bbce3d0fdab2aacf51a9c035e970d1e45191661dfadb2d5a40184de4f885fcf7	glibc	liblzma and the xz tools
 wpa_supplicant	2.11	2	x86_64	492884	1486848	7458720e3c52ff285eae405d73285589f69bafebf5b5a20ae31b660f8375be29	glibc libressl libnl dbus	WPA client, NetworkManager's wifi backend
 seatd	0.9.1	1	x86_64	32616	135168	86b8117c7d8470d9c396968146978532311eec190231eab84e8af951e7e49981	glibc	Seat management, replacing logind
 runit	2.2.0	1	x86_64	1264	4096	5824cb96bf547e501836475d153e78f5d8aa0e6d18d4246a41ce2aa895aa2484	glibc	Small init and service supervision
@@ -79,48 +79,47 @@ pkgconf	3.0.4	2	x86_64	100232	425984	b9a79e321565b484b18bf623741c9cf55ba7dde8c1c
 nitro	0.8.1	1	x86_64	25092	86016	e3652c468d9ebf4b59658fbc565449751841a633f51439df6f33495d2bed3b58	glibc	Tiny init system and process supervisor
 ninja	1.13.2	2	x86_64	301584	983040	8564a1448db029553987221091e29904ee9d7e5fff889772295d9a094fa28ef4	glibc	Small, fast build system
 libudev-zero	1.0.3	2	x86_64	15320	98304	822b96d2061eaae9bb3b16209e6d89a5fcbdcccaa6d7c2012af584621f039a29	glibc	libudev without systemd, paired with mdev
-libressl	4.2.0	4	x86_64	2238920	29106176	c21eaa32fe86901428847a0a4cca8804b867467947b948e7c930091a262d67c9	glibc	A TLS/SSL and crypto library forked from OpenSSL by the OpenBSD project
+libressl	4.2.0	4	x86_64	2250432	29106176	ad261935be51c4e71f39ad4fe670b43458fb7df2e2ae39ab4e9153458119e740	glibc	OpenBSD TLS, Arctic's default
 c-ares	1.34.8	1	x86_64	176552	1245184	10deda85bc525865c713a7b8d43d465d531587723eaf34507a813def24b2cf25	glibc	Asynchronous DNS resolver
 bzip2	1.0.8	2	x86_64	61400	503808	fcbff866e0ab2c2d27d6bc97ee7741e56121687acbff1056d172d8d06a8608bd	glibc	Block-sorting file compressor
 btrfs-progs	6.19	1	x86_64	982568	6811648	124b5498a384c841dc0b701227a5cbe41ae6e47ece5b6adff4911059d43ded75	glibc zlib zstd lz4 util-linux-libs	Btrfs filesystem tools
-zlib	1.3.1	1	x86_64	85760	389120	e1333faee7a9a2c097af0e0a190ce1550ec49b7b83f4a49e3b3e987f6871a6ed	glibc	Compression library
-libxcrypt	4.5.2	1	x86_64	88468	311296	b9dd8d105d471d8360056656f9fd583095107c06d2012047394db9c8175484c2	glibc	crypt(), which glibc no longer provides
+zlib	1.3.1	1	x86_64	85788	389120	5224789fc90ab524360b718cf174d471d3fb663076824f0810d0d9e89bd72c0d	glibc	Compression library
+libxcrypt	4.5.2	1	x86_64	88496	311296	071654e2d0cd3ab24b46b30fc0fc0958d908378866cb76ec4dc24a9987768bd7	glibc	crypt(), which glibc no longer provides
 libidn2	2.3.7	1	x86_64	102736	802816	079db5c3c119cfa0f7e70b7c20d240d00628c6bd0cb44557c30bc48208c978fc	glibc libunistring	Internationalised domain names, which curl resolves hostnames with
-json-c	0.19	1	x86_64	70300	421888	e7244366ff2a4d66b74e49000a76523f2ad156503cda3e835b9f7f02613f0627	glibc	A C library for JSON, commonly used by low-level system tools
-jansson	2.14	1	x86_64	41860	212992	9517ff3695d49eacaba5dd813f67bffc45a8c2bf65c4cb843860aeacdbc4e80f	glibc	A C library for encoding, decoding and manipulating JSON
-iana-etc	20260601	1	x86_64	14772	45056	e5ff875829013c71fe95c92434d129964f15db076219c3d5fe46557bdd1e7874	-	/etc/services and /etc/protocols
+json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b2b8052dbd73924665e	glibc	JSON parsing library
+jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
+iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac573545415794cb20f459d7a	-	/etc/services and /etc/protocols
 gperf	3.1	1	x86_64	63084	208896	c0f844ecc7a11c96c3ae6ef8bfbca72d843285a085673cb11553c8dd05b9cf9a	glibc	Perfect hash function generator
 eudev	3.2.14	2	x86_64	1244348	10194944	5b359a2583e86e0a4a160f42733b14eaa8c07ebcae054dcedfff740ab76727ef	glibc libcap	Standalone udev, for desktops that need it
-zsh	5.9.2	1	x86_64	2132992	11673600	2d4228f7f1c73d7e356ffd93fc74b869cb921829f7f4e0bd60e9878da152c749	glibc netbsd-curses	A powerful interactive shell with extensive scripting features, ScrapLinux's login shell
-scraplinux-base	1.4.30	1	x86_64	67164	471040	1691487fc5f2182d500773e8f22f34008fc5c6094a188bcb456e92144a52205e	busybox iw wpa_supplicant	ScrapLinux base configuration, init scripts and branding
+zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
+scraplinux-base	1.4.34	1	x86_64	1059588	2007040	11623e0f893156a69a7b1793899d6c38e91124edc975b3e290783a0cf2e49500	busybox toybox zsh doas scraps libxcrypt	ScrapLinux base configuration, init scripts and branding
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
-limine	12.5.2	1	x86_64	630000	3387392	4b79e45ac8b45c39cfb5d8210611bc1fdbf66f3920ea4cc171ccbc5a0249ac14	glibc	A modern, fast bootloader supporting both BIOS and UEFI
+limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
 libtool	2.6.2	1	x86_64	324704	2535424	9dc92d8330d32c22714c46699794772f4fc0e99f73fac3f3fe8ab30af36273ca	glibc m4	Generates portable shared-library build rules, needed by autoreconf
 json-glib	1.10.8	1	x86_64	125976	819200	3e0dd9edeec9bc802aa6c4c45a70108886afdcc4026b139f44c2964c69bd8328	glibc glib	JSON parser/generator built on GLib, used by lxqt-archiver
 grub	2.14	1	x86_64	2462536	28741632	455f3e60d89d488a5ea2f83fb3c38d0c95d2579024a187e48a89ffff3af2a09a	glibc	GRUB2 bootloader (BIOS only)
 brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a631ddd38c3b3e796de2434	glibc	Brotli compression
 util-linux-libs	2.42.1	3	x86_64	743296	5763072	4a3324c34ad24c2624ad88ec881eb4af32cba9b0fa54422f5dffc78f5eb88bc7	glibc	libblkid, libmount and libuuid only
-scraps	1.4.30	1	x86_64	54440	233472	da31e222bca0c0ff6acc0d1c95847fdd06c4b4b5b77ecc046c5d1f619d58c791	busybox	ScrapLinux Package Manager
-python	3.14.7	1	x86_64	42564336	335298560	feabfb0ebc3385b85f4abfe87fe0f3036b0b8375d36d4a95ec6f71676bbf9616	glibc libffi sqlite libressl zlib xz bzip2 libedit	The Python interpreter
+scraps	1.4.34	1	x86_64	56252	241664	60d5136e307df707d5b204cbf55b39c71c0e0a006c4c6456ffa114d2fd8a9a56	busybox	ScrapLinux Package Manager
 pcre2	10.46	1	x86_64	823160	6774784	aa94d04f8e1676daee6adbeb2e8768af8019f08699449b9d9cf4f3b09d627e52	glibc zlib bzip2	Perl compatible regular expressions
 libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
 libepoxy	1.5.10	1	x86_64	283040	2830336	851ba60ad995d632590afa328b1011a606670546e1bf250db018e646b9e5f95e	glibc libx11	GL function pointer dispatch, needed by Xorg's glamor 2D acceleration
 libclc	22.1.8	1	x86_64	2704748	33914880	39e58ddc585075774faf6b412261071e2cf6fc68327975b5de60fd61e4e78dfe	glibc	OpenCL C library (bitcode) for LLVM
 hwdata	0.410	1	x86_64	1703072	10522624	66bbe19cf7e99352ee57615bad8a331c72e55346770da2d38b53fddd62b24e76	-	Hardware identification and configuration data (pci.ids, pnp.ids, usb.ids, ...)
 gettext-tiny	0.3.3	1	x86_64	51816	458752	b3f7ca45a7cd6e35e4fa259e7c25580488a7a132ff61a2ead221edb0dda3a397	glibc	Stub gettext, so nothing needs GNU gettext
-gcc-libs	15.3.0	1	x86_64	752572	2772992	851e0c55a4aa51a484a4b83a2c999361569397ad97347e306b42d22394ec99e1	glibc	libstdc++ and libgcc_s runtime, required by the NVIDIA driver and by rustc/cargo (both link against libgcc_s.so.1 for unwinding)
+gcc-libs	15.3.0	1	x86_64	752356	2772992	8d53b202c155b85ce847428ead94772beea1dd07172163bf8525cc250948adff	glibc	libstdc++ and libgcc_s runtime, required by the NVIDIA driver and by rustc/cargo (both link against libgcc_s.so.1 for unwinding)
 curl	8.19.0	2	x86_64	988844	6221824	16aa007d1ff4a4152ba6a480407e2e6174270467cf90898068b07b400a8f07d0	glibc libressl zlib nghttp2 brotli zstd	Transfer data over any protocol
 signify	33	1	x86_64	59848	196608	852e3968bee177417a9a2e1680283e70d2a6a46cf7ac82f50a5f65535d73a217	glibc	Cryptographically sign and verify files (Ed25519)
 pam	1.7.2	2	x86_64	256396	1642496	20f4f5f2d87efd1d0965823079b2c6447053ef2a0e60179acbcb8ce30e84a229	glibc libxcrypt	Pluggable authentication modules, library and pam_unix only
 nftables	1.1.5	1	x86_64	320288	1286144	c67335345fe1399ddaefc56f7ef83d837d3cf52456b47bc5a20be24ce23f47f0	glibc libmnl libnftnl gmp-alt libedit	The Linux packet filter
 networkmanager	1.50.0	2	x86_64	3135180	17010688	2766963e7f6c8a2d46398e58856aebf69e970512d8133fa3838e6c8e3cca7db7	glibc glib dbus libnl wpa_supplicant newt curl libudev-zero libndp	Network configuration daemon, provides nmtui
-netbsd-curses	0.3.2	1	x86_64	184996	847872	327bb97f2fd1ebb525d9a69bf90a6b745ed26d03d5fc2ed54282e05192e81ea9	glibc	NetBSD curses, a BSD-licensed replacement for ncurses
+netbsd-curses	0.3.2	1	x86_64	184952	847872	97d3db710a7e20817721778fba96862925e40925937e0923563bf3490ec0ccc2	glibc	NetBSD curses, a BSD-licensed replacement for ncurses
 muparser	2.3.5	1	x86_64	141420	643072	299d2a0068277a6af75bcaf6230a9a6e15a12399e0be45ce9ef77e11376206b1	glibc	Fast math expression parser library, used by lxqt-runner's calculator feature
 lz4	1.10.0	1	x86_64	157928	835584	57f243607cea8767dcb19dc9c2e9f7c79f8f6bb03cac71a5ea5475a830b6e25b	glibc	Extremely fast compression
 libnl	3.12.0	1	x86_64	600192	5070848	4eb1ea477c5e0864d7c68a4e21d545824a22781e2807b518f23f44b6bb1606f2	glibc	Netlink protocol library
 libnftnl	1.3.0	1	x86_64	66444	307200	dde4fdae106027322611dcde4e148bc15f90a57c2f05afab17c4b6c77f1b5d0d	glibc libmnl	Low-level nftables library
-genfstab	1.0.0	1	x86_64	1856	4096	c4812c0cd70bb796667cea72331115c4019389412c270366257391cb1638a8c2	busybox util-linux	Write /etc/fstab from the live mount table
+genfstab	1.0.0	1	x86_64	1816	4096	ca467649606d87994870cbcfc70e2f2bc3d13f2dd236300e5101d59e3a2cf66a	busybox util-linux	Write /etc/fstab from the live mount table
 exfatprogs	1.2.9	1	x86_64	61628	364544	1ee3556dd3918bc16a152ff8fb0d77d996af9bdfd4121cd660e652b56cc85185	glibc	exFAT filesystem tools
 doas	6.8.2	1	x86_64	14948	45056	2d6f66967eabc51ece382124ec5ee63a6d4c3572351704703a7907f2eb6311a0	glibc	Execute commands as another user (OpenBSD doas)
 cmake	4.2.1	2	x86_64	18139496	85118976	3a9f7dd82d5567ac8448cd77318950d12ce197f91a0f3f0c695e3dec01a00b6c	glibc libressl curl expat zlib libarchive netbsd-curses	Cross-platform build generator
-66	0.9.1.2	1	x86_64	407048	1888256	dd8383a0ea143b6b2c8135aae7417f76673b922fbb5a554f7cfaabbbe8fe1c47	glibc oblibs execline s6	Obarun's service manager and init - s6 supervision with 66's own scandir/boot layer instead of s6-rc/s6-linux-init
+66	0.9.1.2	1	x86_64	406816	1888256	287944a7c46eb9a0ac12d007cc1ca84f27b4060b6ecaad3a679b2bd61dfbb522	glibc oblibs execline s6	Obarun's service manager and init - s6 supervision with 66's own scandir/boot layer instead of s6-rc/s6-linux-init

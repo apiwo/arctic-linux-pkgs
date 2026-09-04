@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-03 12:01:01
+# generated	2026-09-04 18:53:06
 # fields	name version release arch dlsize isize sha256 deps desc
 vscodium	1.126.04524	1	x86_64	146841168	652537856	28e108aeb7cd3783749bec811a24c1d104353ffad4852f271dd3cb34d83e96ad	glibc gtk3 nss libx11 libxcb libxkbcommon alsa-lib libdrm mesa	VS Code without Microsoft's telemetry or branding
 noto-fonts	2026.08.01	1	x86_64	29345224	98897920	df82a6141174d8f124d31e1e9f93d267eef349af7b922363fd94071272c5e1e6	-	Google Noto fonts
