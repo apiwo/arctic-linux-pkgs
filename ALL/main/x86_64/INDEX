@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-04 19:02:16
+# generated	2026-09-05 11:33:21
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
@@ -90,9 +90,9 @@ json-c	0.19	1	x86_64	70076	421888	a6f9dac1d394e71c917d42e5ccf93c618ec21967ac274b
 jansson	2.14	1	x86_64	41664	212992	99351ca9711670c8cd27cadcfe8ecebcb6caa6b565e50f71b37b27fc879cb8f5	glibc	JSON parsing library
 iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac573545415794cb20f459d7a	-	/etc/services and /etc/protocols
 gperf	3.1	1	x86_64	63084	208896	c0f844ecc7a11c96c3ae6ef8bfbca72d843285a085673cb11553c8dd05b9cf9a	glibc	Perfect hash function generator
-eudev	3.2.14	2	x86_64	1244348	10194944	5b359a2583e86e0a4a160f42733b14eaa8c07ebcae054dcedfff740ab76727ef	glibc libcap	Standalone udev, for desktops that need it
+eudev	3.2.14	3	x86_64	1251596	10285056	a5fd5d994fc64d42a98fe4a2ab30e23a30b25067b69d867c501f3d6969025297	glibc libcap	Standalone udev, for desktops that need it
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
-scraplinux-base	1.4.34	1	x86_64	1059588	2007040	11623e0f893156a69a7b1793899d6c38e91124edc975b3e290783a0cf2e49500	busybox toybox zsh doas scraps libxcrypt	ScrapLinux base configuration, init scripts and branding
+scraplinux-base	1.4.35	1	x86_64	62768	458752	f0bb3e07831d20d647f558585dec6ad30ac52832310de938aacbffb75ec18097	busybox wpa_supplicant	ScrapLinux base configuration, init scripts and branding
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
 libtool	2.6.2	1	x86_64	324704	2535424	9dc92d8330d32c22714c46699794772f4fc0e99f73fac3f3fe8ab30af36273ca	glibc m4	Generates portable shared-library build rules, needed by autoreconf
@@ -100,7 +100,7 @@ json-glib	1.10.8	1	x86_64	125976	819200	3e0dd9edeec9bc802aa6c4c45a70108886afdcc4
 grub	2.14	1	x86_64	2462536	28741632	455f3e60d89d488a5ea2f83fb3c38d0c95d2579024a187e48a89ffff3af2a09a	glibc	GRUB2 bootloader (BIOS only)
 brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a631ddd38c3b3e796de2434	glibc	Brotli compression
 util-linux-libs	2.42.1	3	x86_64	743296	5763072	4a3324c34ad24c2624ad88ec881eb4af32cba9b0fa54422f5dffc78f5eb88bc7	glibc	libblkid, libmount and libuuid only
-scraps	1.4.34	1	x86_64	56252	241664	60d5136e307df707d5b204cbf55b39c71c0e0a006c4c6456ffa114d2fd8a9a56	busybox	ScrapLinux Package Manager
+scraps	1.4.35	1	x86_64	56208	241664	8acf7efd566aedd1acd378c64ddceb0bfb1fecd45e83b78b4f48a885ae1d0b01	busybox	ScrapLinux Package Manager
 pcre2	10.46	1	x86_64	823160	6774784	aa94d04f8e1676daee6adbeb2e8768af8019f08699449b9d9cf4f3b09d627e52	glibc zlib bzip2	Perl compatible regular expressions
 libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
 libepoxy	1.5.10	1	x86_64	283040	2830336	851ba60ad995d632590afa328b1011a606670546e1bf250db018e646b9e5f95e	glibc libx11	GL function pointer dispatch, needed by Xorg's glamor 2D acceleration
@@ -113,7 +113,7 @@ signify	33	1	x86_64	59848	196608	852e3968bee177417a9a2e1680283e70d2a6a46cf7ac82f
 pam	1.7.2	2	x86_64	256396	1642496	20f4f5f2d87efd1d0965823079b2c6447053ef2a0e60179acbcb8ce30e84a229	glibc libxcrypt	Pluggable authentication modules, library and pam_unix only
 nftables	1.1.5	1	x86_64	320288	1286144	c67335345fe1399ddaefc56f7ef83d837d3cf52456b47bc5a20be24ce23f47f0	glibc libmnl libnftnl gmp-alt libedit	The Linux packet filter
 networkmanager	1.50.0	2	x86_64	3135180	17010688	2766963e7f6c8a2d46398e58856aebf69e970512d8133fa3838e6c8e3cca7db7	glibc glib dbus libnl wpa_supplicant newt curl libudev-zero libndp	Network configuration daemon, provides nmtui
-netbsd-curses	0.3.2	1	x86_64	184952	847872	97d3db710a7e20817721778fba96862925e40925937e0923563bf3490ec0ccc2	glibc	NetBSD curses, a BSD-licensed replacement for ncurses
+netbsd-curses	0.3.2	2	x86_64	296588	2351104	8ad6aa017843556093ec46dc96410391390c77db08a7dd5f043f13683f2b27fb	glibc	NetBSD curses, a BSD-licensed replacement for ncurses
 muparser	2.3.5	1	x86_64	141420	643072	299d2a0068277a6af75bcaf6230a9a6e15a12399e0be45ce9ef77e11376206b1	glibc	Fast math expression parser library, used by lxqt-runner's calculator feature
 lz4	1.10.0	1	x86_64	157928	835584	57f243607cea8767dcb19dc9c2e9f7c79f8f6bb03cac71a5ea5475a830b6e25b	glibc	Extremely fast compression
 libnl	3.12.0	1	x86_64	600192	5070848	4eb1ea477c5e0864d7c68a4e21d545824a22781e2807b518f23f44b6bb1606f2	glibc	Netlink protocol library

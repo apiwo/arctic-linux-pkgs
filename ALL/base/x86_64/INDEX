@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-04 19:02:31
+# generated	2026-09-05 11:33:29
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -146,6 +146,7 @@ qt6-shadertools	6.10.1	1	x86_64	1397580	6139904	4e573aae00fa53c432476e057bb0d8fc
 libfm	1.3.2	1	x86_64	645564	4370432	6d1636caddc892d9287386399f458eedca728a83aa9da59cb6d1dfef7ce486a8	glibc glib gtk3 menu-cache	File management library for LXDE
 gtk3	3.24.43	2	x86_64	9286356	60477440	885a4687ea96cb8469e161c8107c0fcf0da31ea52f52d21ed8af5b04fea96ca7	glib cairo pango gdk-pixbuf wayland libx11 at-spi2-core	GTK 3 toolkit
 pcmanfm	1.3.2	1	x86_64	264488	1552384	3c6c5582a013adb421edc3fd90e2642c7d509f7d1be5e180fdb52127b5a5334d	glibc gtk3 libfm	The LXDE file manager
+tllist	1.1.0	1	x86_64	2552	20480	85a5495a4a96c941b62719d4d409d2e3899187145e85e4afdbaba9c42f261639	glibc	Typed linked list, header-only C library
 qt6-svg	6.10.1	1	x86_64	223384	1224704	5360070f684761041dd9c73edcfb84e43a290b30d3653c0e482cf2d1f627f5b2	qt6-base	Qt 6 SVG support
 libice	1.1.2	1	x86_64	86684	552960	12e7142bb43abf4d2848858a7333b433adedbc62f69c1ab82e5740f0599b94d1	glibc	X Inter-Client Exchange library
 libxfce4windowing	4.20.7	1	x86_64	134320	1376256	2afb93b8f99f4ff474623176af2b0f425adb2285b7ce62b4d582f9d55b8f9f02	glibc gtk3 libx11 libwnck wayland	Windowing abstraction for Xfce
