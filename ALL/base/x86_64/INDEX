@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 12:16:41
+# generated	2026-09-06 12:37:55
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -173,6 +173,7 @@ qt6-base	6.10.1	1	x86_64	13615232	84869120	f9eff3cc3222b5abf0beaa3e6d6585f12aa49
 xfdesktop	4.20.2	1	x86_64	1076336	3371008	b569e5df9a888f53669ee47f33700304f9fe5cda204e28ffdf9ab213adb319d6	gtk3 libxfce4ui thunar	The Xfce desktop manager
 xdg-user-dirs	0.19	1	x86_64	28736	368640	8b980fbb6968d984b27faff7e1e2fc0c7bb56a4dbaf61e41221aa69222df1b86	glibc	Manages ~/Desktop, ~/Documents etc per the XDG spec, needed by lxqt-session
 gnupg	2.5.14	1	x86_64	1820000	7868416	ff4003eebb5e55866cb130d4a80ed18dcb422bbead92995fbd9e3263906f093b	glibc libgcrypt libassuan libksba npth zlib	Encryption and signing
+i3wl	1.0.0	1	x86_64	47008	167936	9469148cd0c4bb5b231b032e3a4cddb807ec8ab78917fb14a0f385fdd3ef4c3a	glibc wayland wlroots libinput libxkbcommon dbus fcft pixman	dwl fork with i3-style binary-tree tiling, tray and status bar
 xfconf	4.20.0	1	x86_64	93216	782336	5ecc685b7ee3cf6f75d3f7f012a0fd948f2804d4b8d099b0737ec1d655fc832a	glib libxfce4util	Xfce configuration storage
 bdftopcf	1.1	1	x86_64	21300	73728	72259da7673423a5c5c571913a7694239cfb3221c61142406bb67cd79e5c307e	glibc libxfont2 libfontenc	Convert X font from Bitmap Distribution Format to Portable Compiled Format
 libksba	1.6.7	1	x86_64	111732	344064	95eab1636aad0b455236b02d82aa74636ee4f098d4e1305cabdd673cbcc1e15b	glibc libgpg-error	X.509 and CMS library
@@ -188,7 +189,7 @@ wl-clipboard	2.2.1	1	x86_64	27336	159744	a6b998f3375c7f56703fe0143982a8e6fd06f57
 xf86-video-amdgpu	23.0.0	1	x86_64	56812	204800	2b1d65d02a08e080b3c3ac26f81720fe33ee3e921d1d656daeb1de65b76b6cac	glibc xorg-server libdrm libpciaccess	X.Org driver for AMD GPUs (AMDGPU kernel driver)
 libvdpau	1.5	1	x86_64	58980	327680	f30bb42ef0b748b78c8cba37e200dc5d05ea615f622d234207c53946453e157a	glibc libx11	Video Decode and Presentation API
 garcon	4.20.0	1	x86_64	121040	1175552	e1af920386ff158f5f3f695e21b27eef7568804da2876628cd63a758078730eb	glib libxfce4util	Freedesktop menu library
-wayland-protocols	1.48	1	x86_64	128084	1331200	b19013927a9cc460fbfb0bcaff70dc6ee42f2b60769476fcff5b4a09e6c188e0	wayland	Wayland protocol extensions
+wayland-protocols	1.48	2	x86_64	128076	1335296	980b4280ee50ec64e23cf03c5301ba0df4bff2a6cfdad51514e6835b8fc979bc	wayland	Wayland protocol extensions
 screengrab	3.2.0	1	x86_64	179052	1024000	f14d4930280d32843a7840388181d8e085718bd13c5593a1497578ed4cdf4031	glibc qt6-base libqtxdg	Screenshot tool
 libxext	1.3.7	1	x86_64	76484	733184	e8e1579a613cf0924b8952d5feb8dd91c62834c33071b8296f99642f1e4db93f	glibc libx11	X miscellaneous extensions
 imath	3.2.2	1	x86_64	110716	995328	caf9ecb499a3c46723d3da5cfd56bd29ee140dbacc30bd9b307eeffb7e9279f1	glibc	Maths library for graphics

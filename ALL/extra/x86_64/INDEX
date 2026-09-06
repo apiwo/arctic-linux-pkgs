@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 12:16:35
+# generated	2026-09-06 12:37:49
 # fields	name version release arch dlsize isize sha256 deps desc
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
 lua	5.5.0	1	x86_64	201696	1163264	9496c378f603afd137a9ba17c34ded3540d7128e93b4727cbbbe08796266931f	glibc libedit	The Lua interpreter
@@ -10,7 +10,7 @@ wget	1.25.0	2	x86_64	210888	573440	60527b450dc3225424fb6536f49a283b03deb0dc47269
 tcpdump	4.99.6	1	x86_64	426844	2625536	79f1630d2a1829d481a87fdaeacb847ba625cd478c28fc54268a6e8961f230b1	glibc libpcap libressl	Command-line packet analyser
 nmap	7.99	1	x86_64	5192644	28667904	06ebd98f0ce1570852b6b846793041211b889865fb437947c808bc6837d057d0	glibc libressl pcre2 libpcap lua	Network exploration and security auditing
 libevent	2.1.12	1	x86_64	250320	1327104	7b768699d341cf75907222a15a666bc40260a2d625ca57fcf6f9e601de5b98d2	glibc libressl	Event notification library
-fcft	3.3.1	1	x86_64	70064	282624	f2b34b2c7f75b243832386cd4b21f0fe85e5c66990d366cd1259cbaa6097db00	glibc freetype fontconfig pixman harfbuzz utf8proc	Font loading and glyph rasterisation
+fcft	3.3.1	2	x86_64	54896	167936	4442f2d10bd95d246c48a5ed0276c7eaa657aeb5be0724b21875254e57fab368	glibc freetype fontconfig pixman harfbuzz utf8proc tllist	Font loading and glyph rasterisation
 bat	0.26.0	2	x86_64	2748288	6619136	0a750a6258e072c0e1e6bcdc7506474bc52072e5e8c6c5109f48bd5161c4b900	glibc	cat with syntax highlighting
 unibilium	2.1.2	1	x86_64	23292	102400	8bf7cf924e3e66d53869e94f11ed9fece2c6e8cb726b1983ccea9630d2fe02a5	glibc	Terminfo parsing library
 ttf-nerd-fonts-symbols	3.4.0	1	x86_64	2259336	5009408	9bd2795174686a9a224fbff748e56d3123bd6de8fc34c729d096f0ac51a91b77	-	Nerd Font icon glyphs
