@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-04 18:53:06
+# generated	2026-09-05 22:11:36
 # fields	name version release arch dlsize isize sha256 deps desc
 vscodium	1.126.04524	1	x86_64	146841168	652537856	28e108aeb7cd3783749bec811a24c1d104353ffad4852f271dd3cb34d83e96ad	glibc gtk3 nss libx11 libxcb libxkbcommon alsa-lib libdrm mesa	VS Code without Microsoft's telemetry or branding
 noto-fonts	2026.08.01	1	x86_64	29345224	98897920	df82a6141174d8f124d31e1e9f93d267eef349af7b922363fd94071272c5e1e6	-	Google Noto fonts
@@ -11,3 +11,4 @@ steam-runtime	latest-public-stable	1	x86_64	63323056	236830720	c6aaf4d81ea39e98c
 rust	1.94.0	2	x86_64	73108852	390131712	dd103365b21a3af8d2a29921a2d96b68e784d35d4ced2ae12243952f00e9a3ed	glibc gcc-libs	The Rust compiler and standard library
 llvm	22.1.8	4	x86_64	164477848	1195442176	a8b63d6621fb3416d50c1cbb762d1f5df58d1836e1a5dfd2d84cc1deced56db7	glibc zlib zstd libxml2	The LLVM compiler infrastructure: clang, lld, libc++, lldb
 python	3.14.7	1	x86_64	42564336	335298560	feabfb0ebc3385b85f4abfe87fe0f3036b0b8375d36d4a95ec6f71676bbf9616	glibc libffi sqlite libressl zlib xz bzip2 libedit	The Python interpreter
+nvidia-drivers	595.99.02	1	x86_64	81804284	148500480	3dfdcea1faf7c814bf40defb8be4cc288cbe6f6a3d396be20b08c233a6170851	glibc gcc-libs libglvnd libx11 libxext libxxf86vm libdrm wayland mesa libpciaccess	NVIDIA proprietary graphics driver and kernel module

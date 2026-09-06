@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-05 11:33:36
+# generated	2026-09-05 22:23:35
 # fields	name version release arch dlsize isize sha256 deps desc
 scraplinux-xfce	1.0.0	2	x86_64	1896	20480	6d47f841d901170787b3a8e10c05e381b95f1a1103fd8f8d4d8e1a11abf2c403	xfce4-meta foot xfce4-notifyd xfce4-screenshooter thunar xorg-server xorg-xinit xauth xterm sddm pipewire wireplumber ttf-jetbrains-mono noto-fonts noto-fonts-emoji arctic-plasma-theme	Xfce with the Arctic theme, foot and a neutral panel layout
 tinywl-dms	1.0.0	1	x86_64	1116	12288	52e7ff9a411057660d2f8e2a39826acda594d023388718c49290d978c0b8d4f0	tinywl foot mako wl-clipboard cliphist ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts adwaita-icon-theme	tinywl with a starting terminal, notifications and clipboard history
