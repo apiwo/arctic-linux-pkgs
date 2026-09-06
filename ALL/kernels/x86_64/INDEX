@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 12:38:12
+# generated	2026-09-06 19:17:21
 # fields	name version release arch dlsize isize sha256 deps desc
 ScrapLinux-base-kernel-devel	7.1.3	1	x86_64	20630460	145489920	8363d4f4cf09421c6ee5fad525bf969f49994f7943cb1f782b45d13fa93ad9eb	ScrapLinux-base-kernel	Kernel build tree for ScrapLinux-base-kernel, for out-of-tree modules
 linux-headers	7.1.3	1	x86_64	1475712	9846784	3df484b9d826bcf2c33de05677cdceefb325621c7a6eda2c414e07ca1455fc4f	-	Kernel headers for userspace

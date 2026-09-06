@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 12:37:55
+# generated	2026-09-06 19:17:10
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh

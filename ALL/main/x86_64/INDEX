@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 12:37:40
+# generated	2026-09-06 19:16:56
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
