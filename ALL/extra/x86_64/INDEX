@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-05 22:23:12
+# generated	2026-09-06 12:16:35
 # fields	name version release arch dlsize isize sha256 deps desc
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
 lua	5.5.0	1	x86_64	201696	1163264	9496c378f603afd137a9ba17c34ded3540d7128e93b4727cbbbe08796266931f	glibc libedit	The Lua interpreter

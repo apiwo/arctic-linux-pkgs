@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-05 22:23:36
+# generated	2026-09-06 12:16:59
 # fields	name version release arch dlsize isize sha256 deps desc
 libgl-32	26.0.2	1	x86_64	500	4096	44a751fee21efc07ded8f7e0e9c1561852715e7d2d4c1bc8acfebf9c79d3c108	mesa-32	32-bit OpenGL, for Steam and Wine
 openrc-32	0.63.2	1	x86_64	222220	2453504	b7830fd92f790e71a789a95713ece0c50f30c1d63c7e05ba1e51890e3857464f	glibc-32 util-linux-libs libcap	Dependency-based init system from Gentoo, 32-bit

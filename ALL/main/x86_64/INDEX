@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-05 22:23:03
+# generated	2026-09-06 12:16:26
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
@@ -122,4 +122,4 @@ genfstab	1.0.0	1	x86_64	1816	4096	ca467649606d87994870cbcfc70e2f2bc3d13f2dd23630
 exfatprogs	1.2.9	1	x86_64	61628	364544	1ee3556dd3918bc16a152ff8fb0d77d996af9bdfd4121cd660e652b56cc85185	glibc	exFAT filesystem tools
 doas	6.8.2	1	x86_64	14948	45056	2d6f66967eabc51ece382124ec5ee63a6d4c3572351704703a7907f2eb6311a0	glibc	Execute commands as another user (OpenBSD doas)
 cmake	4.2.1	2	x86_64	18139496	85118976	3a9f7dd82d5567ac8448cd77318950d12ce197f91a0f3f0c695e3dec01a00b6c	glibc libressl curl expat zlib libarchive netbsd-curses	Cross-platform build generator
-66	0.9.1.2	1	x86_64	406816	1888256	287944a7c46eb9a0ac12d007cc1ca84f27b4060b6ecaad3a679b2bd61dfbb522	glibc oblibs execline s6	Obarun's service manager and init - s6 supervision with 66's own scandir/boot layer instead of s6-rc/s6-linux-init
+66	0.9.1.2	2	x86_64	406796	1888256	792d768843adbfb210b0567276211f226b9f32cba45381d954e30e5b3f976191	glibc oblibs execline s6	Obarun's service manager and init - s6 supervision with 66's own scandir/boot layer instead of s6-rc/s6-linux-init
